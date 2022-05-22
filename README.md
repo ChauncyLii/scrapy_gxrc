@@ -1,6 +1,9 @@
 # scrapy_gxrc
 scrapy获取gxrc的招聘信息
 
+# Keyword
+#scrapy #代理池 #xpath #MySQL
+
 # 运行环境
 python3.7
 MySQL5.7
