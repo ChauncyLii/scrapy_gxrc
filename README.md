@@ -2,7 +2,7 @@
 scrapy获取gxrc的招聘信息
 
 # Keyword
-#scrapy #代理池 #xpath #MySQL
+#scrapy #代理池 #xpath #MySQL #JS逆向
 
 # 运行环境
 python3.7
