@@ -1,0 +1,4805 @@
+var _position = [{
+    "id": 5467,
+    "name": "计算机/互联网/通信/电子",
+    "pid": 0,
+    "py": "JSJHLWTXDZ|JISUANJIHULIANWANGTONGXINDIANZI"
+}, {
+    "id": 5468,
+    "name": "市场营销/销售/客服/技术支持",
+    "pid": 0,
+    "py": "SCYXXSKFJSZC|SHICHANGYINGXIAOXIAOSHOUKEFUJISHUZHICHI"
+}, {
+    "id": 5469,
+    "name": "财务/金融/银行/保险/信托",
+    "pid": 0,
+    "py": "CWJRYXBXXT|CAIWUJINRONGYINXINGBAOXIANXINTUO"
+}, {
+    "id": 5470,
+    "name": "高级管理/人力资源/行政",
+    "pid": 0,
+    "py": "GJGLRLZYXZ|GAOJIGUANLIRENLIZIYUANXINGZHENG"
+}, {
+    "id": 5471,
+    "name": "生产/工艺/能源/机械",
+    "pid": 0,
+    "py": "SCGYNYJX|SHENGCHANGONGYINENGYUANJIXIE"
+}, {
+    "id": 5472,
+    "name": "建筑/房地产/物业",
+    "pid": 0,
+    "py": "JZFDCWY|JIANZHUFANGDICHANWUYE"
+}, {
+    "id": 5473,
+    "name": "贸易/物流/采购/运输",
+    "pid": 0,
+    "py": "MYWLCGYY|MAOYIWULIUCAIGOUYUNYING"
+}, {
+    "id": 5474,
+    "name": "化工/生物/制药/医疗/护理",
+    "pid": 0,
+    "py": "HGSWZYYLHL|HUAGONGSHENGWUZHIYAOYILIAOHULI"
+}, {
+    "id": 5475,
+    "name": "广告/媒体/艺术/会展",
+    "pid": 0,
+    "py": "GGMTYSHZ|GUANGGAOMEITIYISHUHUIZHAN"
+}, {
+    "id": 5476,
+    "name": "咨询/法律/教育/培训/翻译",
+    "pid": 0,
+    "py": "ZXFLJYPXFY|ZIXUNFALVJIAOYUPEIXUNFANYI"
+}, {
+    "id": 5477,
+    "name": "服务业",
+    "pid": 0,
+    "py": "FWY|FUWUYE"
+}, {
+    "id": 5478,
+    "name": "环保/家政/其他",
+    "pid": 0,
+    "py": "HBJZQS|HUANBAOJIAZHENGQITA"
+}, {
+    "id": 5479,
+    "name": "计算机硬件开发类",
+    "pid": 5467,
+    "py": "JSJYJKFL|JISUANJIYINGJIANKAIFALEI"
+}, {
+    "id": 5480,
+    "name": "计算机软件开发类",
+    "pid": 5467,
+    "py": "JSJRJKFL|JISUANJIRUANJIANKAIFALEI"
+}, {
+    "id": 5481,
+    "name": "IT管理/项目协调类",
+    "pid": 5467,
+    "py": "ITGLXMXDL|ITGUANLIXIANGMUXIEDIAOLEI"
+}, {
+    "id": 5482,
+    "name": "IT质量管理/测试/配置管理类",
+    "pid": 5467,
+    "py": "ITZLGLCSPZGLL|ITZHILIANGGUANLICESHIPEIZHIGUANLILEI"
+}, {
+    "id": 5483,
+    "name": "IT运维/技术支持/系统集成类",
+    "pid": 5467,
+    "py": "ITYWJSZCXTJCL|ITYUNWEIJISHUZHICHIXITONGJICHENGLEI"
+}, {
+    "id": 5484,
+    "name": "互联网/移动互联网开发/设计类",
+    "pid": 5467,
+    "py": "HLWYDHLWKFSJL|HULIANWANGYIDONGHULIANWANGKAIFASHEJILEI"
+}, {
+    "id": 5485,
+    "name": "互联网产品/运营管理/电子商务类",
+    "pid": 5467,
+    "py": "HLWCPYYGLDZSWL|HULIANWANGCHANPINYUNYINGGUANLIDIANZISHANGWULEI"
+}, {
+    "id": 5486,
+    "name": "手机/通信技术类",
+    "pid": 5467,
+    "py": "SJTXJSL|SHOUJITONGXINJISHULEI"
+}, {
+    "id": 5487,
+    "name": "电子/电器类",
+    "pid": 5467,
+    "py": "DZDQL|DIANZIDIANQILEI"
+}, {
+    "id": 5488,
+    "name": "市场/营销/策划/推广类",
+    "pid": 5468,
+    "py": "SCYXCHTGL|SHICHANGYINGXIAOCEHUATUIGUANGLEI"
+}, {
+    "id": 5489,
+    "name": "销售管理",
+    "pid": 5468,
+    "py": "XSGL|XIAOSHOUGUANLI"
+}, {
+    "id": 5490,
+    "name": "销售业务",
+    "pid": 5468,
+    "py": "XSYW|XIAOSHOUYEWU"
+}, {
+    "id": 5491,
+    "name": "销售行政/商务",
+    "pid": 5468,
+    "py": "XSXZSW|XIAOSHOUXINGZHENGSHANGWU"
+}, {
+    "id": 5492,
+    "name": "客服/技术支持类",
+    "pid": 5468,
+    "py": "KFJSZCL|KEFUJISHUZHICHILEI"
+}, {
+    "id": 5493,
+    "name": "财务/税务/审计/统计类",
+    "pid": 5469,
+    "py": "CWSWSJTJL|CAIWUSHUIWUSHENJITONGJILEI"
+}, {
+    "id": 5494,
+    "name": "证券/期货/投资管理/服务类",
+    "pid": 5469,
+    "py": "ZQQHTZGLFWL|ZHENGQUANQIHUOTOUZIGUANLIFUWULEI"
+}, {
+    "id": 5495,
+    "name": "银行类",
+    "pid": 5469,
+    "py": "YXL|YINXINGLEI"
+}, {
+    "id": 5496,
+    "name": "保险类",
+    "pid": 5469,
+    "py": "BXL|BAOXIANLEI"
+}, {
+    "id": 5497,
+    "name": "信托/担保/拍卖/典当",
+    "pid": 5469,
+    "py": "XTDBPMDD|XINTUODANBAOPAIMAIDIANDANG"
+}, {
+    "id": 5498,
+    "name": "高级管理类",
+    "pid": 5470,
+    "py": "GJGLL|GAOJIGUANLILEI"
+}, {
+    "id": 5499,
+    "name": "人力资源/人事类",
+    "pid": 5470,
+    "py": "RLZYRSL|RENLIZIYUANRENSHILEI"
+}, {
+    "id": 5500,
+    "name": "行政/文职/后勤类",
+    "pid": 5470,
+    "py": "XZWZHQL|XINGZHENGWENZHIHOUQINLEI"
+}, {
+    "id": 5501,
+    "name": "生产制造/工厂管理类",
+    "pid": 5471,
+    "py": "SCZZGCGLL|SHENGCHANZHIZAOGONGCHANGGUANLILEI"
+}, {
+    "id": 5502,
+    "name": "质量保证/品质管理类",
+    "pid": 5471,
+    "py": "ZLBZPZGLL|ZHILIANGBAOZHENGPINZHIGUANLILEI"
+}, {
+    "id": 5503,
+    "name": "电力/能源/矿产/测绘",
+    "pid": 5471,
+    "py": "DLNYKCCH|DIANLINENGYUANKUANGCHANCEHUI"
+}, {
+    "id": 5504,
+    "name": "机械/机器设备/仪器仪表类",
+    "pid": 5471,
+    "py": "JXJQSBYQYBL|JIXIEJIQISHEBEIYIQIYIBIAOLEI"
+}, {
+    "id": 5505,
+    "name": "汽车制造类",
+    "pid": 5471,
+    "py": "QCZZL|QICHEZHIZAOLEI"
+}, {
+    "id": 5506,
+    "name": "汽车4S/维修/驾培类",
+    "pid": 5471,
+    "py": "QC4SWXJPL|QICHE4SWEIXIUJIAPEILEI"
+}, {
+    "id": 5507,
+    "name": "技工类",
+    "pid": 5471,
+    "py": "JGL|JIGONGLEI"
+}, {
+    "id": 5508,
+    "name": "建筑/工程类",
+    "pid": 5472,
+    "py": "JZGCL|JIANZHUGONGCHENGLEI"
+}, {
+    "id": 5509,
+    "name": "房地产开发/经纪/中介类",
+    "pid": 5472,
+    "py": "FDCKFJJZJL|FANGDICHANKAIFAJINGJIZHONGJIELEI"
+}, {
+    "id": 5510,
+    "name": "物业管理类",
+    "pid": 5472,
+    "py": "WYGLL|WUYEGUANLILEI"
+}, {
+    "id": 5511,
+    "name": "贸易/进出口类",
+    "pid": 5473,
+    "py": "MYJCKL|MAOYIJINCHUKOULEI"
+}, {
+    "id": 5512,
+    "name": "物流/仓储类",
+    "pid": 5473,
+    "py": "WLCCL|WULIUCANGCHULEI"
+}, {
+    "id": 5513,
+    "name": "采购类",
+    "pid": 5473,
+    "py": "CGL|CAIGOULEI"
+}, {
+    "id": 5514,
+    "name": "交通运输服务",
+    "pid": 5473,
+    "py": "JTYSFW|JIAOTONGYUNSHUFUWU"
+}, {
+    "id": 5515,
+    "name": "化工类",
+    "pid": 5474,
+    "py": "HGL|HUAGONGLEI"
+}, {
+    "id": 5516,
+    "name": "轻工/食品/工艺品",
+    "pid": 5474,
+    "py": "QGSPGYP|QINGGONGSHIPINGONGYIPIN"
+}, {
+    "id": 5517,
+    "name": "服装/纺织/皮革类",
+    "pid": 5474,
+    "py": "FZFZPGL|FUZHUANGFANGZHIPIGELEI"
+}, {
+    "id": 5518,
+    "name": "生物/医药/医疗器械类",
+    "pid": 5474,
+    "py": "SWYYYLQXL|SHENGWUYIYAOYILIAOQIXIELEI"
+}, {
+    "id": 5519,
+    "name": "医院/医疗/护理类",
+    "pid": 5474,
+    "py": "YYYLHLL|YIYUANYILIAOHULILEI"
+}, {
+    "id": 5520,
+    "name": "广告类",
+    "pid": 5475,
+    "py": "GGL|GUANGGAOLEI"
+}, {
+    "id": 5521,
+    "name": "文字媒体/写作类",
+    "pid": 5475,
+    "py": "WZMTXZL|WENZIMEITIXIEZUOLEI"
+}, {
+    "id": 5522,
+    "name": "出版/印刷类",
+    "pid": 5475,
+    "py": "CBYSL|CHUBANYINSHUALEI"
+}, {
+    "id": 5523,
+    "name": "影视类",
+    "pid": 5475,
+    "py": "YSL|YINGSHILEI"
+}, {
+    "id": 5524,
+    "name": "艺术/设计类",
+    "pid": 5475,
+    "py": "YSSJL|YISHUSHEJILEI"
+}, {
+    "id": 5525,
+    "name": "会展/公关/活动类",
+    "pid": 5475,
+    "py": "HZGGHDL|HUIZHANGONGGUANHUODONGLEI"
+}, {
+    "id": 5526,
+    "name": "咨询/顾问/中介类",
+    "pid": 5476,
+    "py": "ZXGWZJL|ZIXUNGUWENZHONGJIELEI"
+}, {
+    "id": 5527,
+    "name": "法律/法务/合规类",
+    "pid": 5476,
+    "py": "FLFWHGL|FALVFAWUHEGUILEI"
+}, {
+    "id": 5528,
+    "name": "文教/科研类",
+    "pid": 5476,
+    "py": "WJKYL|WENJIAOKEYANLEI"
+}, {
+    "id": 5529,
+    "name": "培训类",
+    "pid": 5476,
+    "py": "PXL|PEIXUNLEI"
+}, {
+    "id": 5530,
+    "name": "翻译类",
+    "pid": 5476,
+    "py": "FYL|FANYILEI"
+}, {
+    "id": 5531,
+    "name": "百货/超市/零售类",
+    "pid": 5477,
+    "py": "BHCSLSL|BAIHUOCHAOSHILINGSHOULEI"
+}, {
+    "id": 5532,
+    "name": "餐饮/娱乐类",
+    "pid": 5477,
+    "py": "CYYLL|CANYINYULELEI"
+}, {
+    "id": 5533,
+    "name": "酒店/旅游类",
+    "pid": 5477,
+    "py": "JDLYL|JIUDIANLVYOULEI"
+}, {
+    "id": 5534,
+    "name": "美容/保健类",
+    "pid": 5477,
+    "py": "MRBJL|MEIRONGBAOJIANLEI"
+}, {
+    "id": 5535,
+    "name": "环境保护类",
+    "pid": 5478,
+    "py": "HJBHL|HUANJINGBAOHULEI"
+}, {
+    "id": 5536,
+    "name": "保安/家政服务类",
+    "pid": 5478,
+    "py": "BAJZFWL|BAOANJIAZHENGFUWULEI"
+}, {
+    "id": 5537,
+    "name": "农林渔牧类",
+    "pid": 5478,
+    "py": "NLYML|NONGLINYUMULEI"
+}, {
+    "id": 5538,
+    "name": "其他职位",
+    "pid": 5478,
+    "py": "QSZW|QITAZHIWEI"
+}, {
+    "id": 5539,
+    "name": "场长",
+    "pid": 5537,
+    "py": "CC|CHANGCHANG"
+}, {
+    "id": 5540,
+    "name": "养殖部经理/主管",
+    "pid": 5537,
+    "py": "YZBJLZG|YANGZHIBUJINGLIZHUGUAN"
+}, {
+    "id": 5541,
+    "name": "农艺师",
+    "pid": 5537,
+    "py": "NYS|NONGYISHI"
+}, {
+    "id": 5542,
+    "name": "园艺师",
+    "pid": 5537,
+    "py": "YYS|YUANYISHI"
+}, {
+    "id": 5543,
+    "name": "畜牧师",
+    "pid": 5537,
+    "py": "XMS|XUMUSHI"
+}, {
+    "id": 5544,
+    "name": "林业技术人员",
+    "pid": 5537,
+    "py": "LYJSRY|LINYEJISHURENYUAN"
+}, {
+    "id": 5545,
+    "name": "饲养员",
+    "pid": 5537,
+    "py": "SYY|SIYANGYUAN"
+}, {
+    "id": 5546,
+    "name": "饲料研发/销售",
+    "pid": 5537,
+    "py": "SLYFXS|SILIAOYANFAXIAOSHOU"
+}, {
+    "id": 5547,
+    "name": "其他农林渔牧类",
+    "pid": 5537,
+    "py": "QSNLYML|QITANONGLINYUMULEI"
+}, {
+    "id": 5548,
+    "name": "首席执行官CEO/总裁/总经理",
+    "pid": 5498,
+    "py": "SXZXGCEOZCZJL|SHOUXIZHIXINGGUANCEOZONGCAIZONGJINGLI"
+}, {
+    "id": 5549,
+    "name": "首席运营官COO/副总经理/副总裁",
+    "pid": 5498,
+    "py": "SXYYGCOOFZJLFZC|SHOUXIYUNYINGGUANCOOFUZONGJINGLIFUZONGCAI"
+}, {
+    "id": 5550,
+    "name": "董事会秘书/总裁助理/总经理助理",
+    "pid": 5498,
+    "py": "DSHMSZCZLZJLZL|DONGSHIHUIMISHUZONGCAIZHULIZONGJINGLIZHULI"
+}, {
+    "id": 5551,
+    "name": "运营总监/企管部经理/企业管理顾问",
+    "pid": 5498,
+    "py": "YYZJQGBJLQYGLGW|YUNYINGZONGJIANQIGUANBUJINGLIQIYEGUANLIGUWEN"
+}, {
+    "id": 5552,
+    "name": "企业发展战略规划部经理/主管/专员",
+    "pid": 5498,
+    "py": "QYFZZLGHBJLZGZY|QIYEFAZHANZHANLUEGUIHUABUJINGLIZHUGUANZHUANYUAN"
+}, {
+    "id": 5553,
+    "name": "分公司/办事处/分支机构经理",
+    "pid": 5498,
+    "py": "FGSBSCFZJGJL|FENGONGSIBANSHICHUFENZHIJIGOUJINGLI"
+}, {
+    "id": 5554,
+    "name": "合伙人",
+    "pid": 5498,
+    "py": "HHR|HEHUOREN"
+}, {
+    "id": 5555,
+    "name": "其他高级管理类",
+    "pid": 5498,
+    "py": "QSGJGLL|QITAGAOJIGUANLILEI"
+}, {
+    "id": 5556,
+    "name": "人力资源/人事总监",
+    "pid": 5499,
+    "py": "RLZYRSZJ|RENLIZIYUANRENSHIZONGJIAN"
+}, {
+    "id": 5557,
+    "name": "人力资源/人事经理/主管",
+    "pid": 5499,
+    "py": "RLZYRSJLZG|RENLIZIYUANRENSHIJINGLIZHUGUAN"
+}, {
+    "id": 5558,
+    "name": "人力资源/人事专员/助理",
+    "pid": 5499,
+    "py": "RLZYRSZYZL|RENLIZIYUANRENSHIZHUANYUANZHULI"
+}, {
+    "id": 5559,
+    "name": "招聘经理/主管",
+    "pid": 5499,
+    "py": "ZPJLZG|ZHAOPINJINGLIZHUGUAN"
+}, {
+    "id": 5560,
+    "name": "招聘专员/助理",
+    "pid": 5499,
+    "py": "ZPZYZL|ZHAOPINZHUANYUANZHULI"
+}, {
+    "id": 5561,
+    "name": "薪资福利经理/主管",
+    "pid": 5499,
+    "py": "XZFLJLZG|XINZIFULIJINGLIZHUGUAN"
+}, {
+    "id": 5562,
+    "name": "薪资福利专员/助理",
+    "pid": 5499,
+    "py": "XZFLZYZL|XINZIFULIZHUANYUANZHULI"
+}, {
+    "id": 5563,
+    "name": "培训经理/主管",
+    "pid": 5499,
+    "py": "PXJLZG|PEIXUNJINGLIZHUGUAN"
+}, {
+    "id": 5564,
+    "name": "培训专员/助理",
+    "pid": 5499,
+    "py": "PXZYZL|PEIXUNZHUANYUANZHULI"
+}, {
+    "id": 5565,
+    "name": "培训师",
+    "pid": 5499,
+    "py": "PXS|PEIXUNSHI"
+}, {
+    "id": 5566,
+    "name": "企业文化经理/主管/专员",
+    "pid": 5499,
+    "py": "QYWHJLZGZY|QIYEWENHUAJINGLIZHUGUANZHUANYUAN"
+}, {
+    "id": 5567,
+    "name": "绩效考核经理/主管",
+    "pid": 5499,
+    "py": "JXKHJLZG|JIXIAOKAOHEJINGLIZHUGUAN"
+}, {
+    "id": 5568,
+    "name": "绩效考核专员/助理",
+    "pid": 5499,
+    "py": "JXKHZYZL|JIXIAOKAOHEZHUANYUANZHULI"
+}, {
+    "id": 5569,
+    "name": "其他人力资源/人事类",
+    "pid": 5499,
+    "py": "QSRLZYRSL|QITARENLIZIYUANRENSHILEI"
+}, {
+    "id": 5570,
+    "name": "行政总监",
+    "pid": 5500,
+    "py": "XZZJ|XINGZHENGZONGJIAN"
+}, {
+    "id": 5571,
+    "name": "行政经理/主管/办公室主任/副主任",
+    "pid": 5500,
+    "py": "XZJLZGBGSZRFZR|XINGZHENGJINGLIZHUGUANBANGONGSHIZHURENFUZHUREN"
+}, {
+    "id": 5572,
+    "name": "行政专员/助理",
+    "pid": 5500,
+    "py": "XZZYZL|XINGZHENGZHUANYUANZHULI"
+}, {
+    "id": 5573,
+    "name": "经理助理/秘书/高级文员",
+    "pid": 5500,
+    "py": "JLZLMSGJWY|JINGLIZHULIMISHUGAOJIWENYUAN"
+}, {
+    "id": 5574,
+    "name": "文档/资料管理员",
+    "pid": 5500,
+    "py": "WDZLGLY|WENDANGZILIAOGUANLIYUAN"
+}, {
+    "id": 5575,
+    "name": "前台/接待/礼仪",
+    "pid": 5500,
+    "py": "QTJDLY|QIANTAIJIEDAILIYI"
+}, {
+    "id": 5576,
+    "name": "后勤/总务/话务",
+    "pid": 5500,
+    "py": "HQZWHW|HOUQINZONGWUHUAWU"
+}, {
+    "id": 5577,
+    "name": "文员/打字员/电脑操作员",
+    "pid": 5500,
+    "py": "WYDZYDNCZY|WENYUANDAZIYUANDIANNAOCAOZUOYUAN"
+}, {
+    "id": 5578,
+    "name": "技术文档写作专员",
+    "pid": 5500,
+    "py": "JSWDXZZY|JISHUWENDANGXIEZUOZHUANYUAN"
+}, {
+    "id": 5579,
+    "name": "图书管理员",
+    "pid": 5500,
+    "py": "TSGLY|TUSHUGUANLIYUAN"
+}, {
+    "id": 5580,
+    "name": "情报/合同管理员",
+    "pid": 5500,
+    "py": "QBHTGLY|QINGBAOHETONGGUANLIYUAN"
+}, {
+    "id": 5581,
+    "name": "行政司机",
+    "pid": 5500,
+    "py": "XZSJ|XINGZHENGSIJI"
+}, {
+    "id": 5582,
+    "name": "其他行政/文职/后勤类",
+    "pid": 5500,
+    "py": "QSXZWZHQL|QITAXINGZHENGWENZHIHOUQINLEI"
+}, {
+    "id": 5583,
+    "name": "财务总监/首席税务师CFO",
+    "pid": 5493,
+    "py": "CWZJSXSWSCFO|CAIWUZONGJIANSHOUXISHUIWUSHICFO"
+}, {
+    "id": 5584,
+    "name": "财务经理",
+    "pid": 5493,
+    "py": "CWJL|CAIWUJINGLI"
+}, {
+    "id": 5585,
+    "name": "财务主管/会计主管",
+    "pid": 5493,
+    "py": "CWZGHJZG|CAIWUZHUGUANHUIJIZHUGUAN"
+}, {
+    "id": 5586,
+    "name": "注册会计师",
+    "pid": 5493,
+    "py": "ZCHJS|ZHUCEHUIJISHI"
+}, {
+    "id": 5587,
+    "name": "会计师/会计",
+    "pid": 5493,
+    "py": "HJSHJ|HUIJISHIHUIJI"
+}, {
+    "id": 5588,
+    "name": "注册税务师",
+    "pid": 5493,
+    "py": "ZCSWS|ZHUCESHUIWUSHI"
+}, {
+    "id": 5589,
+    "name": "税务师/税务会计/税务专员",
+    "pid": 5493,
+    "py": "SWSSWHJSWZY|SHUIWUSHISHUIWUHUIJISHUIWUZHUANYUAN"
+}, {
+    "id": 5590,
+    "name": "注册审计师",
+    "pid": 5493,
+    "py": "ZCSJS|ZHUCESHENJISHI"
+}, {
+    "id": 5591,
+    "name": "审计师/专员",
+    "pid": 5493,
+    "py": "SJSZY|SHENJISHIZHUANYUAN"
+}, {
+    "id": 5592,
+    "name": "成本经理/主管",
+    "pid": 5493,
+    "py": "CBJLZG|CHENGBENJINGLIZHUGUAN"
+}, {
+    "id": 5593,
+    "name": "成本会计/专员",
+    "pid": 5493,
+    "py": "CBHJZY|CHENGBENHUIJIZHUANYUAN"
+}, {
+    "id": 5594,
+    "name": "财务分析经理/主管",
+    "pid": 5493,
+    "py": "CWFXJLZG|CAIWUFENXIJINGLIZHUGUAN"
+}, {
+    "id": 5595,
+    "name": "资产评估师/评估员",
+    "pid": 5493,
+    "py": "ZCPGSPGY|ZICHANPINGGUSHIPINGGUYUAN"
+}, {
+    "id": 5596,
+    "name": "财务顾问",
+    "pid": 5493,
+    "py": "CWGW|CAIWUGUWEN"
+}, {
+    "id": 5597,
+    "name": "统计师/统计专员",
+    "pid": 5493,
+    "py": "TJSTJZY|TONGJISHITONGJIZHUANYUAN"
+}, {
+    "id": 5598,
+    "name": "账务",
+    "pid": 5493,
+    "py": "ZW|ZHANGWU"
+}, {
+    "id": 5599,
+    "name": "出纳",
+    "pid": 5493,
+    "py": "CN|CHUNA"
+}, {
+    "id": 5600,
+    "name": "收银/收费员",
+    "pid": 5493,
+    "py": "SYSFY|SHOUYINSHOUFEIYUAN"
+}, {
+    "id": 5601,
+    "name": "财务分析员",
+    "pid": 5493,
+    "py": "CWFXY|CAIWUFENXIYUAN"
+}, {
+    "id": 5602,
+    "name": "其他财务/税务/审计/统计类",
+    "pid": 5493,
+    "py": "QSCWSWSJTJL|QITACAIWUSHUIWUSHENJITONGJILEI"
+}, {
+    "id": 5603,
+    "name": "厂长/副厂长",
+    "pid": 5501,
+    "py": "CCFCC|CHANGCHANGFUCHANGCHANG"
+}, {
+    "id": 5604,
+    "name": "生产经理/车间主任",
+    "pid": 5501,
+    "py": "SCJLCJZR|SHENGCHANJINGLICHEJIANZHUREN"
+}, {
+    "id": 5605,
+    "name": "生产计划/调度",
+    "pid": 5501,
+    "py": "SCJHDD|SHENGCHANJIHUADIAODU"
+}, {
+    "id": 5606,
+    "name": "生产主管/督导/领班/组长",
+    "pid": 5501,
+    "py": "SCZGDDLBZC|SHENGCHANZHUGUANDUDAOLINGBANZUCHANG"
+}, {
+    "id": 5607,
+    "name": "生产文员",
+    "pid": 5501,
+    "py": "SCWY|SHENGCHANWENYUAN"
+}, {
+    "id": 5608,
+    "name": "生产跟单/单证",
+    "pid": 5501,
+    "py": "SCGDDZ|SHENGCHANGENDANDANZHENG"
+}, {
+    "id": 5609,
+    "name": "物料管理（PMC）/生产设备管理",
+    "pid": 5501,
+    "py": "WLGL（PMC）SCSBGL|WULIAOGUANLI（PMC）SHENGCHANSHEBEIGUANLI"
+}, {
+    "id": 5610,
+    "name": "总工程师/副总工程师",
+    "pid": 5501,
+    "py": "ZGCSFZGCS|ZONGGONGCHENGSHIFUZONGGONGCHENGSHI"
+}, {
+    "id": 5611,
+    "name": "生产项目经理/主管",
+    "pid": 5501,
+    "py": "SCXMJLZG|SHENGCHANXIANGMUJINGLIZHUGUAN"
+}, {
+    "id": 5612,
+    "name": "产品工程师/生产工程师（PE）",
+    "pid": 5501,
+    "py": "CPGCSSCGCS（PE）|CHANPINGONGCHENGSHISHENGCHANGONGCHENGSHI（PE）"
+}, {
+    "id": 5613,
+    "name": "工业工程师（IE）",
+    "pid": 5501,
+    "py": "GYGCS（IE）|GONGYEGONGCHENGSHI（IE）"
+}, {
+    "id": 5614,
+    "name": "制程工程师/制造工程师（ME）",
+    "pid": 5501,
+    "py": "ZCGCSZZGCS（ME）|ZHICHENGGONGCHENGSHIZHIZAOGONGCHENGSHI（ME）"
+}, {
+    "id": 5615,
+    "name": "研发经理/主管",
+    "pid": 5501,
+    "py": "YFJLZG|YANFAJINGLIZHUGUAN"
+}, {
+    "id": 5616,
+    "name": "实验室负责人/工程师",
+    "pid": 5501,
+    "py": "SYSFZRGCS|SHIYANSHIFUZERENGONGCHENGSHI"
+}, {
+    "id": 5617,
+    "name": "工人/操作员",
+    "pid": 5501,
+    "py": "GRCZY|GONGRENCAOZUOYUAN"
+}, {
+    "id": 5618,
+    "name": "化验员",
+    "pid": 5501,
+    "py": "HYY|HUAYANYUAN"
+}, {
+    "id": 5619,
+    "name": "技术文档工程师",
+    "pid": 5501,
+    "py": "JSWDGCS|JISHUWENDANGGONGCHENGSHI"
+}, {
+    "id": 5620,
+    "name": "其他生产制造/工厂管理类",
+    "pid": 5501,
+    "py": "QSSCZZGCGLL|QITASHENGCHANZHIZAOGONGCHANGGUANLILEI"
+}, {
+    "id": 5621,
+    "name": "品质/管理经理（QA/QC经理）",
+    "pid": 5502,
+    "py": "PZGLJL（QAQCJL）|PINZHIGUANLIJINGLI（QAQCJINGLI）"
+}, {
+    "id": 5622,
+    "name": "品质/管理主管（QA/QC主管）",
+    "pid": 5502,
+    "py": "PZGLZG（QAQCZG）|PINZHIGUANLIZHUGUAN（QAQCZHUGUAN）"
+}, {
+    "id": 5623,
+    "name": "品质/管理工程师（QA/QC工程师）",
+    "pid": 5502,
+    "py": "PZGLGCS（QAQCGCS）|PINZHIGUANLIGONGCHENGSHI（QAQCGONGCHENGSHI）"
+}, {
+    "id": 5624,
+    "name": "化验员/检测员",
+    "pid": 5502,
+    "py": "HYYJCY|HUAYANYUANJIANCEYUAN"
+}, {
+    "id": 5625,
+    "name": "质检员/测试员",
+    "pid": 5502,
+    "py": "ZJYCSY|ZHIJIANYUANCESHIYUAN"
+}, {
+    "id": 5626,
+    "name": "标准化工程师（ISO等）",
+    "pid": 5502,
+    "py": "BZHGCS（ISOD）|BIAOZHUNHUAGONGCHENGSHI（ISODENG）"
+}, {
+    "id": 5627,
+    "name": "体系/认证工程师/审核员（ISO等）",
+    "pid": 5502,
+    "py": "TXRZGCSSHY（ISOD）|TIXIRENZHENGGONGCHENGSHISHENHEYUAN（ISODENG）"
+}, {
+    "id": 5628,
+    "name": "安全/健康/环境工程师",
+    "pid": 5502,
+    "py": "AQJKHJGCS|ANQUANJIANKANGHUANJINGGONGCHENGSHI"
+}, {
+    "id": 5629,
+    "name": "其他质量保证/品质管理类",
+    "pid": 5502,
+    "py": "QSZLBZPZGLL|QITAZHILIANGBAOZHENGPINZHIGUANLILEI"
+}, {
+    "id": 5630,
+    "name": "采购总监",
+    "pid": 5513,
+    "py": "CGZJ|CAIGOUZONGJIAN"
+}, {
+    "id": 5631,
+    "name": "采购经理/主管",
+    "pid": 5513,
+    "py": "CGJLZG|CAIGOUJINGLIZHUGUAN"
+}, {
+    "id": 5632,
+    "name": "采购专员/助理",
+    "pid": 5513,
+    "py": "CGZYZL|CAIGOUZHUANYUANZHULI"
+}, {
+    "id": 5633,
+    "name": "供应商开发/管理",
+    "pid": 5513,
+    "py": "GYSKFGL|GONGYINGSHANGKAIFAGUANLI"
+}, {
+    "id": 5634,
+    "name": "外贸采购",
+    "pid": 5513,
+    "py": "WMCG|WAIMAOCAIGOU"
+}, {
+    "id": 5635,
+    "name": "材料/设备采购管理",
+    "pid": 5513,
+    "py": "CLSBCGGL|CAILIAOSHEBEICAIGOUGUANLI"
+}, {
+    "id": 5636,
+    "name": "其他采购类",
+    "pid": 5513,
+    "py": "QSCGL|QITACAIGOULEI"
+}, {
+    "id": 5637,
+    "name": "市场/营销总监",
+    "pid": 5488,
+    "py": "SCYXZJ|SHICHANGYINGXIAOZONGJIAN"
+}, {
+    "id": 5638,
+    "name": "市场/营销经理",
+    "pid": 5488,
+    "py": "SCYXJL|SHICHANGYINGXIAOJINGLI"
+}, {
+    "id": 5639,
+    "name": "市场/营销主管",
+    "pid": 5488,
+    "py": "SCYXZG|SHICHANGYINGXIAOZHUGUAN"
+}, {
+    "id": 5640,
+    "name": "市场/营销专员/助理",
+    "pid": 5488,
+    "py": "SCYXZYZL|SHICHANGYINGXIAOZHUANYUANZHULI"
+}, {
+    "id": 5641,
+    "name": "产品/品牌经理",
+    "pid": 5488,
+    "py": "CPPPJL|CHANPINPINPAIJINGLI"
+}, {
+    "id": 5642,
+    "name": "产品/品牌主管",
+    "pid": 5488,
+    "py": "CPPPZG|CHANPINPINPAIZHUGUAN"
+}, {
+    "id": 5643,
+    "name": "产品/品牌专员",
+    "pid": 5488,
+    "py": "CPPPZY|CHANPINPINPAIZHUANYUAN"
+}, {
+    "id": 5644,
+    "name": "市场推广经理",
+    "pid": 5488,
+    "py": "SCTGJL|SHICHANGTUIGUANGJINGLI"
+}, {
+    "id": 5645,
+    "name": "市场推广主管",
+    "pid": 5488,
+    "py": "SCTGZG|SHICHANGTUIGUANGZHUGUAN"
+}, {
+    "id": 5646,
+    "name": "市场推广专员",
+    "pid": 5488,
+    "py": "SCTGZY|SHICHANGTUIGUANGZHUANYUAN"
+}, {
+    "id": 5647,
+    "name": "市场调研/市场分析/情报收集/情报分析",
+    "pid": 5488,
+    "py": "SCDYSCFXQBSJQBFX|SHICHANGDIAOYANSHICHANGFENXIQINGBAOSHOUJIQINGBAOFENXI"
+}, {
+    "id": 5648,
+    "name": "市场/营销策划经理",
+    "pid": 5488,
+    "py": "SCYXCHJL|SHICHANGYINGXIAOCEHUAJINGLI"
+}, {
+    "id": 5649,
+    "name": "市场/营销策划主管",
+    "pid": 5488,
+    "py": "SCYXCHZG|SHICHANGYINGXIAOCEHUAZHUGUAN"
+}, {
+    "id": 5650,
+    "name": "市场/营销策划专员",
+    "pid": 5488,
+    "py": "SCYXCHZY|SHICHANGYINGXIAOCEHUAZHUANYUAN"
+}, {
+    "id": 5651,
+    "name": "促销经理",
+    "pid": 5488,
+    "py": "CXJL|CUXIAOJINGLI"
+}, {
+    "id": 5652,
+    "name": "促销主管/督导",
+    "pid": 5488,
+    "py": "CXZGDD|CUXIAOZHUGUANDUDAO"
+}, {
+    "id": 5653,
+    "name": "促销员",
+    "pid": 5488,
+    "py": "CXY|CUXIAOYUAN"
+}, {
+    "id": 5654,
+    "name": "选址拓展/新店开发",
+    "pid": 5488,
+    "py": "XZTZXDKF|XUANZHITUOZHANXINDIANKAIFA"
+}, {
+    "id": 5655,
+    "name": "网络推广",
+    "pid": 5488,
+    "py": "WLTG|WANGLUOTUIGUANG"
+}, {
+    "id": 5656,
+    "name": "其他市场/营销/策划/推广类",
+    "pid": 5488,
+    "py": "QSSCYXCHTGL|QITASHICHANGYINGXIAOCEHUATUIGUANGLEI"
+}, {
+    "id": 5657,
+    "name": "销售总监",
+    "pid": 5489,
+    "py": "XSZJ|XIAOSHOUZONGJIAN"
+}, {
+    "id": 5658,
+    "name": "销售经理/主任",
+    "pid": 5489,
+    "py": "XSJLZR|XIAOSHOUJINGLIZHUREN"
+}, {
+    "id": 5659,
+    "name": "销售主管",
+    "pid": 5489,
+    "py": "XSZG|XIAOSHOUZHUGUAN"
+}, {
+    "id": 5660,
+    "name": "招商/渠道/分销/拓展经理",
+    "pid": 5489,
+    "py": "ZSQDFXTZJL|ZHAOSHANGQUDAOFENXIAOTUOZHANJINGLI"
+}, {
+    "id": 5661,
+    "name": "招商/渠道/分销/拓展主管",
+    "pid": 5489,
+    "py": "ZSQDFXTZZG|ZHAOSHANGQUDAOFENXIAOTUOZHANZHUGUAN"
+}, {
+    "id": 5662,
+    "name": "大客户销售经理",
+    "pid": 5489,
+    "py": "DKHXSJL|DAKEHUXIAOSHOUJINGLI"
+}, {
+    "id": 5663,
+    "name": "客户经理",
+    "pid": 5489,
+    "py": "KHJL|KEHUJINGLI"
+}, {
+    "id": 5664,
+    "name": "客户主管",
+    "pid": 5489,
+    "py": "KHZG|KEHUZHUGUAN"
+}, {
+    "id": 5665,
+    "name": "区域市场/销售经理/主管",
+    "pid": 5489,
+    "py": "QYSCXSJLZG|QUYUSHICHANGXIAOSHOUJINGLIZHUGUAN"
+}, {
+    "id": 5666,
+    "name": "团购经理/主管",
+    "pid": 5489,
+    "py": "TGJLZG|TUANGOUJINGLIZHUGUAN"
+}, {
+    "id": 5667,
+    "name": "特许加盟/经销商",
+    "pid": 5489,
+    "py": "TXJMJXS|TEXUJIAMENGJINGXIAOSHANG"
+}, {
+    "id": 5668,
+    "name": "其他销售管理类",
+    "pid": 5489,
+    "py": "QSXSGLL|QITAXIAOSHOUGUANLILEI"
+}, {
+    "id": 5669,
+    "name": "销售工程师",
+    "pid": 5490,
+    "py": "XSGCS|XIAOSHOUGONGCHENGSHI"
+}, {
+    "id": 5670,
+    "name": "销售代表",
+    "pid": 5490,
+    "py": "XSDB|XIAOSHOUDAIBIAO"
+}, {
+    "id": 5671,
+    "name": "销售助理",
+    "pid": 5490,
+    "py": "XSZL|XIAOSHOUZHULI"
+}, {
+    "id": 5672,
+    "name": "推销员/业务员",
+    "pid": 5490,
+    "py": "TXYYWY|TUIXIAOYUANYEWUYUAN"
+}, {
+    "id": 5673,
+    "name": "电话销售员",
+    "pid": 5490,
+    "py": "DHXSY|DIANHUAXIAOSHOUYUAN"
+}, {
+    "id": 5674,
+    "name": "网络/在线/微信销售员",
+    "pid": 5490,
+    "py": "WLZXWXXSY|WANGLUOZAIXIANWEIXINXIAOSHOUYUAN"
+}, {
+    "id": 5675,
+    "name": "招商/渠道/分销/拓展专员",
+    "pid": 5490,
+    "py": "ZSQDFXTZZY|ZHAOSHANGQUDAOFENXIAOTUOZHANZHUANYUAN"
+}, {
+    "id": 5676,
+    "name": "大客户销售代表",
+    "pid": 5490,
+    "py": "DKHXSDB|DAKEHUXIAOSHOUDAIBIAO"
+}, {
+    "id": 5677,
+    "name": "客户专员",
+    "pid": 5490,
+    "py": "KHZY|KEHUZHUANYUAN"
+}, {
+    "id": 5678,
+    "name": "区域市场/销售专员",
+    "pid": 5490,
+    "py": "QYSCXSZY|QUYUSHICHANGXIAOSHOUZHUANYUAN"
+}, {
+    "id": 5679,
+    "name": "团购业务员",
+    "pid": 5490,
+    "py": "TGYWY|TUANGOUYEWUYUAN"
+}, {
+    "id": 5680,
+    "name": "特许加盟/经销商",
+    "pid": 5490,
+    "py": "TXJMJXS|TEXUJIAMENGJINGXIAOSHANG"
+}, {
+    "id": 5681,
+    "name": "其他销售业务类",
+    "pid": 5490,
+    "py": "QSXSYWL|QITAXIAOSHOUYEWULEI"
+}, {
+    "id": 5682,
+    "name": "销售行政经理/主管",
+    "pid": 5491,
+    "py": "XSXZJLZG|XIAOSHOUXINGZHENGJINGLIZHUGUAN"
+}, {
+    "id": 5683,
+    "name": "销售行政专员/助理",
+    "pid": 5491,
+    "py": "XSXZZYZL|XIAOSHOUXINGZHENGZHUANYUANZHULI"
+}, {
+    "id": 5684,
+    "name": "商务经理/主管",
+    "pid": 5491,
+    "py": "SWJLZG|SHANGWUJINGLIZHUGUAN"
+}, {
+    "id": 5685,
+    "name": "商务代表/专员/助理",
+    "pid": 5491,
+    "py": "SWDBZYZL|SHANGWUDAIBIAOZHUANYUANZHULI"
+}, {
+    "id": 5686,
+    "name": "销售培训师/讲师",
+    "pid": 5491,
+    "py": "XSPXSJS|XIAOSHOUPEIXUNSHIJIANGSHI"
+}, {
+    "id": 5687,
+    "name": "销售数据分析",
+    "pid": 5491,
+    "py": "XSSJFX|XIAOSHOUSHUJUFENXI"
+}, {
+    "id": 5688,
+    "name": "其他销售行政/商务类",
+    "pid": 5491,
+    "py": "QSXSXZSWL|QITAXIAOSHOUXINGZHENGSHANGWULEI"
+}, {
+    "id": 5689,
+    "name": "客服总监",
+    "pid": 5492,
+    "py": "KFZJ|KEFUZONGJIAN"
+}, {
+    "id": 5690,
+    "name": "客服经理/主管（非技术）",
+    "pid": 5492,
+    "py": "KFJLZG（FJS）|KEFUJINGLIZHUGUAN（FEIJISHU）"
+}, {
+    "id": 5691,
+    "name": "客服专员/助理（非技术）",
+    "pid": 5492,
+    "py": "KFZYZL（FJS）|KEFUZHUANYUANZHULI（FEIJISHU）"
+}, {
+    "id": 5692,
+    "name": "客户关系/公共关系",
+    "pid": 5492,
+    "py": "KHGXGGGX|KEHUGUANXIGONGGONGGUANXI"
+}, {
+    "id": 5693,
+    "name": "客户培训",
+    "pid": 5492,
+    "py": "KHPX|KEHUPEIXUN"
+}, {
+    "id": 5694,
+    "name": "客户投诉受理/监控",
+    "pid": 5492,
+    "py": "KHTSSLJK|KEHUTOUSUSHOULIJIANKONG"
+}, {
+    "id": 5695,
+    "name": "售前支持专员",
+    "pid": 5492,
+    "py": "SQZCZY|SHOUQIANZHICHIZHUANYUAN"
+}, {
+    "id": 5696,
+    "name": "售后服务专员",
+    "pid": 5492,
+    "py": "SHFWZY|SHOUHOUFUWUZHUANYUAN"
+}, {
+    "id": 5697,
+    "name": "技术支持经理/主管",
+    "pid": 5492,
+    "py": "JSZCJLZG|JISHUZHICHIJINGLIZHUGUAN"
+}, {
+    "id": 5698,
+    "name": "技术服务/支持专员",
+    "pid": 5492,
+    "py": "JSFWZCZY|JISHUFUWUZHICHIZHUANYUAN"
+}, {
+    "id": 5699,
+    "name": "客户咨询/服务/热线/呼叫中心服务人员",
+    "pid": 5492,
+    "py": "KHZXFWRXHJZXFWRY|KEHUZIXUNFUWUREXIANHUJIAOZHONGXINFUWURENYUAN"
+}, {
+    "id": 5700,
+    "name": "网络/在线客服",
+    "pid": 5492,
+    "py": "WLZXKF|WANGLUOZAIXIANKEFU"
+}, {
+    "id": 5701,
+    "name": "其他客服/技术支持类",
+    "pid": 5492,
+    "py": "QSKFJSZCL|QITAKEFUJISHUZHICHILEI"
+}, {
+    "id": 5702,
+    "name": "火力发电/供应/管理",
+    "pid": 5503,
+    "py": "HLFDGYGL|HUOLIFADIANGONGYINGGUANLI"
+}, {
+    "id": 5703,
+    "name": "水力发电/供应/管理",
+    "pid": 5503,
+    "py": "SLFDGYGL|SHUILIFADIANGONGYINGGUANLI"
+}, {
+    "id": 5704,
+    "name": "核力发电/供应/管理",
+    "pid": 5503,
+    "py": "HLFDGYGL|HELIFADIANGONGYINGGUANLI"
+}, {
+    "id": 5705,
+    "name": "其他电力生产/供应/管理",
+    "pid": 5503,
+    "py": "QSDLSCGYGL|QITADIANLISHENGCHANGONGYINGGUANLI"
+}, {
+    "id": 5706,
+    "name": "电力维修/电力拖动",
+    "pid": 5503,
+    "py": "DLWXDLTD|DIANLIWEIXIUDIANLITUODONG"
+}, {
+    "id": 5707,
+    "name": "发配电工程/电力管理",
+    "pid": 5503,
+    "py": "FPDGCDLGL|FAPEIDIANGONGCHENGDIANLIGUANLI"
+}, {
+    "id": 5708,
+    "name": "水利/水电工程师",
+    "pid": 5503,
+    "py": "SLSDGCS|SHUILISHUIDIANGONGCHENGSHI"
+}, {
+    "id": 5709,
+    "name": "电气/工业电气化",
+    "pid": 5503,
+    "py": "DQGYDQH|DIANQIGONGYEDIANQIHUA"
+}, {
+    "id": 5710,
+    "name": "石油和天然气开采 ",
+    "pid": 5503,
+    "py": "SYHTRQKC |SHIYOUHETIANRANQIKAICAI "
+}, {
+    "id": 5711,
+    "name": "石油加工、炼焦及核燃料加工 ",
+    "pid": 5503,
+    "py": "SYJG、LJJHRLJG |SHIYOUJIAGONG、LIANJIAOJIHERANLIAOJIAGONG "
+}, {
+    "id": 5712,
+    "name": "内燃机及热能动力",
+    "pid": 5503,
+    "py": "NRJJRNDL|NEIRANJIJIRENENGDONGLI"
+}, {
+    "id": 5713,
+    "name": "地质/地质勘测",
+    "pid": 5503,
+    "py": "DZDZKC|DIZHIDIZHIKANCE"
+}, {
+    "id": 5714,
+    "name": "采矿/选矿",
+    "pid": 5503,
+    "py": "CKXK|CAIKUANGXUANKUANG"
+}, {
+    "id": 5715,
+    "name": "矿山管理/采矿管理",
+    "pid": 5503,
+    "py": "KSGLCKGL|KUANGSHANGUANLICAIKUANGGUANLI"
+}, {
+    "id": 5716,
+    "name": "矿山/采矿安全管理",
+    "pid": 5503,
+    "py": "KSCKAQGL|KUANGSHANCAIKUANGANQUANGUANLI"
+}, {
+    "id": 5717,
+    "name": "金属/有色金属冶炼及加工",
+    "pid": 5503,
+    "py": "JZYSJZYLJJG|JINSHUYOUSEJINSHUYELIANJIJIAGONG"
+}, {
+    "id": 5718,
+    "name": "测量/测绘技术",
+    "pid": 5503,
+    "py": "CLCHJS|CELIANGCEHUIJISHU"
+}, {
+    "id": 5719,
+    "name": "地图制图与印刷",
+    "pid": 5503,
+    "py": "DTZTYYS|DITUZHITUYUYINSHUA"
+}, {
+    "id": 5720,
+    "name": "爆破技术",
+    "pid": 5503,
+    "py": "BPJS|BAOPOJISHU"
+}, {
+    "id": 5721,
+    "name": "其他电力/能源/矿产/测绘类",
+    "pid": 5503,
+    "py": "QSDLNYKCCHL|QITADIANLINENGYUANKUANGCHANCEHUILEI"
+}, {
+    "id": 5722,
+    "name": "工程机械经理/主管",
+    "pid": 5504,
+    "py": "GCJXJLZG|GONGCHENGJIXIEJINGLIZHUGUAN"
+}, {
+    "id": 5723,
+    "name": "机械设备经理/主管",
+    "pid": 5504,
+    "py": "JXSBJLZG|JIXIESHEBEIJINGLIZHUGUAN"
+}, {
+    "id": 5724,
+    "name": "机械设计/制造工程师",
+    "pid": 5504,
+    "py": "JXSJZZGCS|JIXIESHEJIZHIZAOGONGCHENGSHI"
+}, {
+    "id": 5725,
+    "name": "机械/设备经理/主管",
+    "pid": 5504,
+    "py": "JXSBJLZG|JIXIESHEBEIJINGLIZHUGUAN"
+}, {
+    "id": 5726,
+    "name": "机械/设备工程师",
+    "pid": 5504,
+    "py": "JXSBGCS|JIXIESHEBEIGONGCHENGSHI"
+}, {
+    "id": 5727,
+    "name": "机械/设备安装/维修工程师",
+    "pid": 5504,
+    "py": "JXSBAZWXGCS|JIXIESHEBEIANZHUANGWEIXIUGONGCHENGSHI"
+}, {
+    "id": 5728,
+    "name": "机械/设备加工",
+    "pid": 5504,
+    "py": "JXSBJG|JIXIESHEBEIJIAGONG"
+}, {
+    "id": 5729,
+    "name": "机械绘图员",
+    "pid": 5504,
+    "py": "JXHTY|JIXIEHUITUYUAN"
+}, {
+    "id": 5730,
+    "name": "精密机械/仪器/传感器工程师/技术员",
+    "pid": 5504,
+    "py": "JMJXYQCGQGCSJSY|JINGMIJIXIEYIQICHUANGANQIGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5731,
+    "name": "仪表/计量工程师/技术员",
+    "pid": 5504,
+    "py": "YBJLGCSJSY|YIBIAOJILIANGGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5732,
+    "name": "变压/变频工程师/技术员",
+    "pid": 5504,
+    "py": "BYBPGCSJSY|BIANYABIANPINGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5733,
+    "name": "电力工程师/技术员",
+    "pid": 5504,
+    "py": "DLGCSJSY|DIANLIGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5734,
+    "name": "机械工程师/技术员",
+    "pid": 5504,
+    "py": "JXGCSJSY|JIXIEGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5735,
+    "name": "结构工程师/技术员",
+    "pid": 5504,
+    "py": "JGGCSJSY|JIEGOUGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5736,
+    "name": "模具工程师/技术员",
+    "pid": 5504,
+    "py": "MJGCSJSY|MOJUGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5737,
+    "name": "机电工程师/技术员",
+    "pid": 5504,
+    "py": "JDGCSJSY|JIDIANGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5738,
+    "name": "维修工程师/技术员",
+    "pid": 5504,
+    "py": "WXGCSJSY|WEIXIUGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5739,
+    "name": "锅炉工程师/技术员",
+    "pid": 5504,
+    "py": "GLGCSJSY|GUOLUGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5740,
+    "name": "铸造/锻造工程师/技术员",
+    "pid": 5504,
+    "py": "ZZDZGCSJSY|ZHUZAODUANZAOGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5741,
+    "name": "注塑工程师/技术员",
+    "pid": 5504,
+    "py": "ZSGCSJSY|ZHUSUGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5742,
+    "name": "焊接工程师/技术员",
+    "pid": 5504,
+    "py": "HJGCSJSY|HANJIEGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5743,
+    "name": "夹具/刀具工程师/技术员",
+    "pid": 5504,
+    "py": "JJDJGCSJSY|JIAJUDAOJUGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5744,
+    "name": "CNC/数控工程师/技术员",
+    "pid": 5504,
+    "py": "CNCSKGCSJSY|CNCSHUKONGGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5745,
+    "name": "冲压工程师/技术员",
+    "pid": 5504,
+    "py": "CYGCSJSY|CHONGYAGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5746,
+    "name": "制冷/制冷设备工程师/技术员",
+    "pid": 5504,
+    "py": "ZLZLSBGCSJSY|ZHILENGZHILENGSHEBEIGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5747,
+    "name": "注塑/电镀工程师/技术员",
+    "pid": 5504,
+    "py": "ZSDDGCSJSY|ZHUSUDIANDUGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5748,
+    "name": "机电技术员",
+    "pid": 5504,
+    "py": "JDJSY|JIDIANJISHUYUAN"
+}, {
+    "id": 5749,
+    "name": "航空/航天/船舶/汽轮机工程师/技术员",
+    "pid": 5504,
+    "py": "HKHTCBQLJGCSJSY|HANGKONGHANGTIANCHUANBOQILUNJIGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5750,
+    "name": "农用/石化/矿山机械工程师/技术员",
+    "pid": 5504,
+    "py": "NYSHKSJXGCSJSY|NONGYONGSHIHUAKUANGSHANJIXIEGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5751,
+    "name": "核工业工程师/技术员",
+    "pid": 5504,
+    "py": "HGYGCSJSY|HEGONGYEGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5752,
+    "name": "其他机械/机器设备/仪器仪表类",
+    "pid": 5504,
+    "py": "QSJXJQSBYQYBL|QITAJIXIEJIQISHEBEIYIQIYIBIAOLEI"
+}, {
+    "id": 5753,
+    "name": "化工技术应用工程师",
+    "pid": 5515,
+    "py": "HGJSYYGCS|HUAGONGJISHUYINGYONGGONGCHENGSHI"
+}, {
+    "id": 5754,
+    "name": "化工研发工程师",
+    "pid": 5515,
+    "py": "HGYFGCS|HUAGONGYANFAGONGCHENGSHI"
+}, {
+    "id": 5755,
+    "name": "化工实验室研究院/技术员",
+    "pid": 5515,
+    "py": "HGSYSYJYJSY|HUAGONGSHIYANSHIYANJIUYUANJISHUYUAN"
+}, {
+    "id": 5756,
+    "name": "化学分析",
+    "pid": 5515,
+    "py": "HXFX|HUAXUEFENXI"
+}, {
+    "id": 5757,
+    "name": "化学操作",
+    "pid": 5515,
+    "py": "HXCZ|HUAXUECAOZUO"
+}, {
+    "id": 5758,
+    "name": "塑料工程师",
+    "pid": 5515,
+    "py": "SLGCS|SULIAOGONGCHENGSHI"
+}, {
+    "id": 5759,
+    "name": "油漆/化工涂料研发",
+    "pid": 5515,
+    "py": "YQHGTLYF|YOUQIHUAGONGTULIAOYANFA"
+}, {
+    "id": 5760,
+    "name": "化学药剂/农药/化肥研发",
+    "pid": 5515,
+    "py": "HXYJNYHFYF|HUAXUEYAOJINONGYAOHUAFEIYANFA"
+}, {
+    "id": 5761,
+    "name": "玻璃工艺",
+    "pid": 5515,
+    "py": "BLGY|BOLIGONGYI"
+}, {
+    "id": 5762,
+    "name": "水泥工艺",
+    "pid": 5515,
+    "py": "SNGY|SHUINIGONGYI"
+}, {
+    "id": 5763,
+    "name": "化妆品研发",
+    "pid": 5515,
+    "py": "HZPYF|HUAZHUANGPINYANFA"
+}, {
+    "id": 5764,
+    "name": "配色技术员",
+    "pid": 5515,
+    "py": "PSJSY|PEISEJISHUYUAN"
+}, {
+    "id": 5765,
+    "name": "化工项目管理",
+    "pid": 5515,
+    "py": "HGXMGL|HUAGONGXIANGMUGUANLI"
+}, {
+    "id": 5766,
+    "name": "其他化工类",
+    "pid": 5515,
+    "py": "QSHGL|QITAHUAGONGLEI"
+}, {
+    "id": 5767,
+    "name": "生物工程/生物制药",
+    "pid": 5518,
+    "py": "SWGCSWZY|SHENGWUGONGCHENGSHENGWUZHIYAO"
+}, {
+    "id": 5768,
+    "name": "医药技术研发",
+    "pid": 5518,
+    "py": "YYJSYF|YIYAOJISHUYANFA"
+}, {
+    "id": 5769,
+    "name": "医药分析/检验",
+    "pid": 5518,
+    "py": "YYFXJY|YIYAOFENXIJIANYAN"
+}, {
+    "id": 5770,
+    "name": "临床研究员/协调员",
+    "pid": 5518,
+    "py": "LCYJYXDY|LINCHUANGYANJIUYUANXIEDIAOYUAN"
+}, {
+    "id": 5771,
+    "name": "临床数据分析员",
+    "pid": 5518,
+    "py": "LCSJFXY|LINCHUANGSHUJUFENXIYUAN"
+}, {
+    "id": 5772,
+    "name": "药品生产/质量管理",
+    "pid": 5518,
+    "py": "YPSCZLGL|YAOPINSHENGCHANZHILIANGGUANLI"
+}, {
+    "id": 5773,
+    "name": "医药项目管理",
+    "pid": 5518,
+    "py": "YYXMGL|YIYAOXIANGMUGUANLI"
+}, {
+    "id": 5774,
+    "name": "医药项目招投标",
+    "pid": 5518,
+    "py": "YYXMZTB|YIYAOXIANGMUZHAOTOUBIAO"
+}, {
+    "id": 5775,
+    "name": "医药招商",
+    "pid": 5518,
+    "py": "YYZS|YIYAOZHAOSHANG"
+}, {
+    "id": 5776,
+    "name": "药品市场推广",
+    "pid": 5518,
+    "py": "YPSCTG|YAOPINSHICHANGTUIGUANG"
+}, {
+    "id": 5777,
+    "name": "医药销售经理/主管",
+    "pid": 5518,
+    "py": "YYXSJLZG|YIYAOXIAOSHOUJINGLIZHUGUAN"
+}, {
+    "id": 5778,
+    "name": "医药代表",
+    "pid": 5518,
+    "py": "YYDB|YIYAODAIBIAO"
+}, {
+    "id": 5779,
+    "name": "药品注册",
+    "pid": 5518,
+    "py": "YPZC|YAOPINZHUCE"
+}, {
+    "id": 5780,
+    "name": "医疗器械生产/质量管理",
+    "pid": 5518,
+    "py": "YLQXSCZLGL|YILIAOQIXIESHENGCHANZHILIANGGUANLI"
+}, {
+    "id": 5781,
+    "name": "医疗器械维修/保养",
+    "pid": 5518,
+    "py": "YLQXWXBY|YILIAOQIXIEWEIXIUBAOYANG"
+}, {
+    "id": 5782,
+    "name": "医疗器械销售经理/主管",
+    "pid": 5518,
+    "py": "YLQXXSJLZG|YILIAOQIXIEXIAOSHOUJINGLIZHUGUAN"
+}, {
+    "id": 5783,
+    "name": "医疗器械销售代表",
+    "pid": 5518,
+    "py": "YLQXXSDB|YILIAOQIXIEXIAOSHOUDAIBIAO"
+}, {
+    "id": 5784,
+    "name": "医疗器械注册",
+    "pid": 5518,
+    "py": "YLQXZC|YILIAOQIXIEZHUCE"
+}, {
+    "id": 5785,
+    "name": "其他生物/医药/医疗器械类",
+    "pid": 5518,
+    "py": "QSSWYYYLQXL|QITASHENGWUYIYAOYILIAOQIXIELEI"
+}, {
+    "id": 5786,
+    "name": "汽车设计工程师",
+    "pid": 5505,
+    "py": "QCSJGCS|QICHESHEJIGONGCHENGSHI"
+}, {
+    "id": 5787,
+    "name": "车身/造型设计师",
+    "pid": 5505,
+    "py": "CSZXSJS|CHESHENZAOXINGSHEJISHI"
+}, {
+    "id": 5788,
+    "name": "发动机及附件设计师",
+    "pid": 5505,
+    "py": "FDJJFJSJS|FADONGJIJIFUJIANSHEJISHI"
+}, {
+    "id": 5789,
+    "name": "汽车内外饰设计工程师",
+    "pid": 5505,
+    "py": "QCNWSSJGCS|QICHENEIWAISHISHEJIGONGCHENGSHI"
+}, {
+    "id": 5790,
+    "name": "汽车结构工程师",
+    "pid": 5505,
+    "py": "QCJGGCS|QICHEJIEGOUGONGCHENGSHI"
+}, {
+    "id": 5791,
+    "name": "汽车电子工程师",
+    "pid": 5505,
+    "py": "QCDZGCS|QICHEDIANZIGONGCHENGSHI"
+}, {
+    "id": 5792,
+    "name": "底盘及传动系统工程师",
+    "pid": 5505,
+    "py": "DPJCDXTGCS|DIPANJICHUANDONGXITONGGONGCHENGSHI"
+}, {
+    "id": 5793,
+    "name": "汽车零部件工程师",
+    "pid": 5505,
+    "py": "QCLBJGCS|QICHELINGBUJIANGONGCHENGSHI"
+}, {
+    "id": 5794,
+    "name": "汽车焊接/涂装工程师",
+    "pid": 5505,
+    "py": "QCHJTZGCS|QICHEHANJIETUZHUANGGONGCHENGSHI"
+}, {
+    "id": 5795,
+    "name": "汽车总装工程师",
+    "pid": 5505,
+    "py": "QCZZGCS|QICHEZONGZHUANGGONGCHENGSHI"
+}, {
+    "id": 5796,
+    "name": "汽车装配工艺工程师",
+    "pid": 5505,
+    "py": "QCZPGYGCS|QICHEZHUANGPEIGONGYIGONGCHENGSHI"
+}, {
+    "id": 5797,
+    "name": "汽车生产/质量管理",
+    "pid": 5505,
+    "py": "QCSCZLGL|QICHESHENGCHANZHILIANGGUANLI"
+}, {
+    "id": 5798,
+    "name": "汽车安全性能工程师",
+    "pid": 5505,
+    "py": "QCAQXNGCS|QICHEANQUANXINGNENGGONGCHENGSHI"
+}, {
+    "id": 5799,
+    "name": "汽车试验/测试/验车员",
+    "pid": 5505,
+    "py": "QCSYCSYCY|QICHESHIYANCESHIYANCHEYUAN"
+}, {
+    "id": 5800,
+    "name": "汽车工程项目管理",
+    "pid": 5505,
+    "py": "QCGCXMGL|QICHEGONGCHENGXIANGMUGUANLI"
+}, {
+    "id": 5801,
+    "name": "其他汽车制造类",
+    "pid": 5505,
+    "py": "QSQCZZL|QITAQICHEZHIZAOLEI"
+}, {
+    "id": 5802,
+    "name": "4S店展厅经理",
+    "pid": 5506,
+    "py": "4SDZTJL|4SDIANZHANTINGJINGLI"
+}, {
+    "id": 5803,
+    "name": "整车销售/顾问/经纪",
+    "pid": 5506,
+    "py": "ZCXSGWJJ|ZHENGCHEXIAOSHOUGUWENJINGJI"
+}, {
+    "id": 5804,
+    "name": "二手车评估师",
+    "pid": 5506,
+    "py": "ESCPGS|ERSHOUCHEPINGGUSHI"
+}, {
+    "id": 5805,
+    "name": "汽车维修/售后经理/主任",
+    "pid": 5506,
+    "py": "QCWXSHJLZR|QICHEWEIXIUSHOUHOUJINGLIZHUREN"
+}, {
+    "id": 5806,
+    "name": "汽车维修高级技工",
+    "pid": 5506,
+    "py": "QCWXGJJG|QICHEWEIXIUGAOJIJIGONG"
+}, {
+    "id": 5807,
+    "name": "汽车维修顾问/接车员",
+    "pid": 5506,
+    "py": "QCWXGWJCY|QICHEWEIXIUGUWENJIECHEYUAN"
+}, {
+    "id": 5808,
+    "name": "汽车零部件销售",
+    "pid": 5506,
+    "py": "QCLBJXS|QICHELINGBUJIANXIAOSHOU"
+}, {
+    "id": 5809,
+    "name": "汽车装饰/美容",
+    "pid": 5506,
+    "py": "QCZSMR|QICHEZHUANGSHIMEIRONG"
+}, {
+    "id": 5810,
+    "name": "汽车驾驶培训管理",
+    "pid": 5506,
+    "py": "QCJSPXGL|QICHEJIASHIPEIXUNGUANLI"
+}, {
+    "id": 5811,
+    "name": "汽车驾驶培训教师",
+    "pid": 5506,
+    "py": "QCJSPXJS|QICHEJIASHIPEIXUNJIAOSHI"
+}, {
+    "id": 5812,
+    "name": "其他汽车4S/维修/驾培类",
+    "pid": 5506,
+    "py": "QSQC4SWXJPL|QITAQICHE4SWEIXIUJIAPEILEI"
+}, {
+    "id": 5813,
+    "name": "纸浆造纸工艺",
+    "pid": 5516,
+    "py": "ZJZZGY|ZHIJIANGZAOZHIGONGYI"
+}, {
+    "id": 5814,
+    "name": "食品加工/酿酒/制糖工艺",
+    "pid": 5516,
+    "py": "SPJGNJZTGY|SHIPINJIAGONGNIANGJIUZHITANGGONGYI"
+}, {
+    "id": 5815,
+    "name": "饮料/烟草制造工艺",
+    "pid": 5516,
+    "py": "YLYCZZGY|YINLIAOYANCAOZHIZAOGONGYI"
+}, {
+    "id": 5816,
+    "name": "茶叶/茶制品工艺",
+    "pid": 5516,
+    "py": "CYCZPGY|CHAYECHAZHIPINGONGYI"
+}, {
+    "id": 5817,
+    "name": "工艺制品",
+    "pid": 5516,
+    "py": "GYZP|GONGYIZHIPIN"
+}, {
+    "id": 5818,
+    "name": "金银首饰加工工艺",
+    "pid": 5516,
+    "py": "JYSSJGGY|JINYINSHOUSHIJIAGONGGONGYI"
+}, {
+    "id": 5819,
+    "name": "其他轻工/食品/工艺品类",
+    "pid": 5516,
+    "py": "QSQGSPGYPL|QITAQINGGONGSHIPINGONGYIPINLEI"
+}, {
+    "id": 5820,
+    "name": "服装/纺织品设计",
+    "pid": 5517,
+    "py": "FZFZPSJ|FUZHUANGFANGZHIPINSHEJI"
+}, {
+    "id": 5821,
+    "name": "面料/辅料开发/采购",
+    "pid": 5517,
+    "py": "MLFLKFCG|MIANLIAOFULIAOKAIFACAIGOU"
+}, {
+    "id": 5822,
+    "name": "服装/纺织/皮革跟单",
+    "pid": 5517,
+    "py": "FZFZPGGD|FUZHUANGFANGZHIPIGEGENDAN"
+}, {
+    "id": 5823,
+    "name": "板房/楦头/底格出格师",
+    "pid": 5517,
+    "py": "BFXTDGCGS|BANFANGZUOTOUDIGECHUGESHI"
+}, {
+    "id": 5824,
+    "name": "织造/染色/定型/印发",
+    "pid": 5517,
+    "py": "ZZRSDXYF|ZHIZAORANSEDINGXINGYINFA"
+}, {
+    "id": 5825,
+    "name": "裁床/放码",
+    "pid": 5517,
+    "py": "CCFM|CAICHUANGFANGMA"
+}, {
+    "id": 5826,
+    "name": "服装打样/制版",
+    "pid": 5517,
+    "py": "FZDYZB|FUZHUANGDAYANGZHIBAN"
+}, {
+    "id": 5827,
+    "name": "纸样师/车板工",
+    "pid": 5517,
+    "py": "ZYSCBG|ZHIYANGSHICHEBANGONG"
+}, {
+    "id": 5828,
+    "name": "剪裁车缝熨烫工",
+    "pid": 5517,
+    "py": "JCCFYTG|JIANCAICHEFENGZUOTANGGONG"
+}, {
+    "id": 5829,
+    "name": "服装/纺织品/皮革销售",
+    "pid": 5517,
+    "py": "FZFZPPGXS|FUZHUANGFANGZHIPINPIGEXIAOSHOU"
+}, {
+    "id": 5830,
+    "name": "服装/纺织品/皮革质量管理 ",
+    "pid": 5517,
+    "py": "FZFZPPGZLGL |FUZHUANGFANGZHIPINPIGEZHILIANGGUANLI "
+}, {
+    "id": 5831,
+    "name": "服装/纺织/皮革项目管理",
+    "pid": 5517,
+    "py": "FZFZPGXMGL|FUZHUANGFANGZHIPIGEXIANGMUGUANLI"
+}, {
+    "id": 5832,
+    "name": "其他服装/纺织/皮革类",
+    "pid": 5517,
+    "py": "QSFZFZPGL|QITAFUZHUANGFANGZHIPIGELEI"
+}, {
+    "id": 5833,
+    "name": "高级硬件工程师",
+    "pid": 5479,
+    "py": "GJYJGCS|GAOJIYINGJIANGONGCHENGSHI"
+}, {
+    "id": 5834,
+    "name": "硬件工程师",
+    "pid": 5479,
+    "py": "YJGCS|YINGJIANGONGCHENGSHI"
+}, {
+    "id": 5835,
+    "name": "硬件测试工程师",
+    "pid": 5479,
+    "py": "YJCSGCS|YINGJIANCESHIGONGCHENGSHI"
+}, {
+    "id": 5836,
+    "name": "嵌入式硬件开发",
+    "pid": 5479,
+    "py": "QRSYJKF|QIANRUSHIYINGJIANKAIFA"
+}, {
+    "id": 5837,
+    "name": "其他计算机硬件开发类",
+    "pid": 5479,
+    "py": "QSJSJYJKFL|QITAJISUANJIYINGJIANKAIFALEI"
+}, {
+    "id": 5838,
+    "name": "软件架构设计师",
+    "pid": 5480,
+    "py": "RJJGSJS|RUANJIANJIAGOUSHEJISHI"
+}, {
+    "id": 5839,
+    "name": "系统分析师/分析员",
+    "pid": 5480,
+    "py": "XTFXSFXY|XITONGFENXISHIFENXIYUAN"
+}, {
+    "id": 5840,
+    "name": "交互设计师/可用性分析",
+    "pid": 5480,
+    "py": "JHSJSKYXFX|JIAOHUSHEJISHIKEYONGXINGFENXI"
+}, {
+    "id": 5841,
+    "name": "高级软件工程师/高级程序员/资深程序员",
+    "pid": 5480,
+    "py": "GJRJGCSGJCXYZSCXY|GAOJIRUANJIANGONGCHENGSHIGAOJICHENGXUYUANZISHENCHENGXUYUAN"
+}, {
+    "id": 5842,
+    "name": "软件工程师/程序员",
+    "pid": 5480,
+    "py": "RJGCSCXY|RUANJIANGONGCHENGSHICHENGXUYUAN"
+}, {
+    "id": 5843,
+    "name": "数据库工程师",
+    "pid": 5480,
+    "py": "SJKGCS|SHUJUKUGONGCHENGSHI"
+}, {
+    "id": 5844,
+    "name": "ERP技术开发与实施",
+    "pid": 5480,
+    "py": "ERPJSKFYSS|ERPJISHUKAIFAYUSHISHI"
+}, {
+    "id": 5845,
+    "name": "软件UI设计师/工程师",
+    "pid": 5480,
+    "py": "RJUISJSGCS|RUANJIANUISHEJISHIGONGCHENGSHI"
+}, {
+    "id": 5846,
+    "name": "软件需求工程师",
+    "pid": 5480,
+    "py": "RJXQGCS|RUANJIANXUQIUGONGCHENGSHI"
+}, {
+    "id": 5847,
+    "name": "其他计算机软件开发类",
+    "pid": 5480,
+    "py": "QSJSJRJKFL|QITAJISUANJIRUANJIANKAIFALEI"
+}, {
+    "id": 5848,
+    "name": "首席技术官CTO/技术总监",
+    "pid": 5481,
+    "py": "SXJSGCTOJSZJ|SHOUXIJISHUGUANCTOJISHUZONGJIAN"
+}, {
+    "id": 5849,
+    "name": "首席信息官CIO/信息总监",
+    "pid": 5481,
+    "py": "SXXXGCIOXXZJ|SHOUXIXINXIGUANCIOXINXIZONGJIAN"
+}, {
+    "id": 5850,
+    "name": "信息技术/研发经理",
+    "pid": 5481,
+    "py": "XXJSYFJL|XINXIJISHUYANFAJINGLI"
+}, {
+    "id": 5851,
+    "name": "信息技术/研发主管",
+    "pid": 5481,
+    "py": "XXJSYFZG|XINXIJISHUYANFAZHUGUAN"
+}, {
+    "id": 5852,
+    "name": "信息技术/研发专员/助理",
+    "pid": 5481,
+    "py": "XXJSYFZYZL|XINXIJISHUYANFAZHUANYUANZHULI"
+}, {
+    "id": 5853,
+    "name": "IT项目总监",
+    "pid": 5481,
+    "py": "ITXMZJ|ITXIANGMUZONGJIAN"
+}, {
+    "id": 5854,
+    "name": "IT项目经理",
+    "pid": 5481,
+    "py": "ITXMJL|ITXIANGMUJINGLI"
+}, {
+    "id": 5855,
+    "name": "IT项目主管",
+    "pid": 5481,
+    "py": "ITXMZG|ITXIANGMUZHUGUAN"
+}, {
+    "id": 5856,
+    "name": "IT项目执行/协调人员",
+    "pid": 5481,
+    "py": "ITXMZXXDRY|ITXIANGMUZHIXINGXIEDIAORENYUAN"
+}, {
+    "id": 5857,
+    "name": "其他IT管理/项目协调类",
+    "pid": 5481,
+    "py": "QSITGLXMXDL|QITAITGUANLIXIANGMUXIEDIAOLEI"
+}, {
+    "id": 5858,
+    "name": "IT质量管理经理/主管",
+    "pid": 5482,
+    "py": "ITZLGLJLZG|ITZHILIANGGUANLIJINGLIZHUGUAN"
+}, {
+    "id": 5859,
+    "name": "IT质量管理工程师 ",
+    "pid": 5482,
+    "py": "ITZLGLGCS |ITZHILIANGGUANLIGONGCHENGSHI "
+}, {
+    "id": 5860,
+    "name": "系统测试",
+    "pid": 5482,
+    "py": "XTCS|XITONGCESHI"
+}, {
+    "id": 5861,
+    "name": "软件测试 ",
+    "pid": 5482,
+    "py": "RJCS |RUANJIANCESHI "
+}, {
+    "id": 5862,
+    "name": "硬件测试",
+    "pid": 5482,
+    "py": "YJCS|YINGJIANCESHI"
+}, {
+    "id": 5863,
+    "name": "测试员",
+    "pid": 5482,
+    "py": "CSY|CESHIYUAN"
+}, {
+    "id": 5864,
+    "name": "配置管理工程师 ",
+    "pid": 5482,
+    "py": "PZGLGCS |PEIZHIGUANLIGONGCHENGSHI "
+}, {
+    "id": 5865,
+    "name": "信息技术标准化工程师",
+    "pid": 5482,
+    "py": "XXJSBZHGCS|XINXIJISHUBIAOZHUNHUAGONGCHENGSHI"
+}, {
+    "id": 5866,
+    "name": "其他IT质量管理/测试/配置管理类",
+    "pid": 5482,
+    "py": "QSITZLGLCSPZGLL|QITAITZHILIANGGUANLICESHIPEIZHIGUANLILEI"
+}, {
+    "id": 5867,
+    "name": "技术支持经理/主管",
+    "pid": 5483,
+    "py": "JSZCJLZG|JISHUZHICHIJINGLIZHUGUAN"
+}, {
+    "id": 5868,
+    "name": "技术支持工程师",
+    "pid": 5483,
+    "py": "JSZCGCS|JISHUZHICHIGONGCHENGSHI"
+}, {
+    "id": 5869,
+    "name": "技术维护经理/主管",
+    "pid": 5483,
+    "py": "JSWHJLZG|JISHUWEIHUJINGLIZHUGUAN"
+}, {
+    "id": 5870,
+    "name": "技术维护工程师",
+    "pid": 5483,
+    "py": "JSWHGCS|JISHUWEIHUGONGCHENGSHI"
+}, {
+    "id": 5871,
+    "name": "系统工程师",
+    "pid": 5483,
+    "py": "XTGCS|XITONGGONGCHENGSHI"
+}, {
+    "id": 5872,
+    "name": "系统管理员",
+    "pid": 5483,
+    "py": "XTGLY|XITONGGUANLIYUAN"
+}, {
+    "id": 5873,
+    "name": "网络工程师",
+    "pid": 5483,
+    "py": "WLGCS|WANGLUOGONGCHENGSHI"
+}, {
+    "id": 5874,
+    "name": "网络管理员 ",
+    "pid": 5483,
+    "py": "WLGLY |WANGLUOGUANLIYUAN "
+}, {
+    "id": 5875,
+    "name": "网络与信息安全工程师",
+    "pid": 5483,
+    "py": "WLYXXAQGCS|WANGLUOYUXINXIANQUANGONGCHENGSHI"
+}, {
+    "id": 5876,
+    "name": "数据库管理员 ",
+    "pid": 5483,
+    "py": "SJKGLY |SHUJUKUGUANLIYUAN "
+}, {
+    "id": 5877,
+    "name": "计算机硬件维护工程师",
+    "pid": 5483,
+    "py": "JSJYJWHGCS|JISUANJIYINGJIANWEIHUGONGCHENGSHI"
+}, {
+    "id": 5878,
+    "name": "IT技术文员/助理",
+    "pid": 5483,
+    "py": "ITJSWYZL|ITJISHUWENYUANZHULI"
+}, {
+    "id": 5879,
+    "name": "IT文档工程师 ",
+    "pid": 5483,
+    "py": "ITWDGCS |ITWENDANGGONGCHENGSHI "
+}, {
+    "id": 5880,
+    "name": "Helpdesk技术支持",
+    "pid": 5483,
+    "py": "HELPDESKJSZC|HELPDESKJISHUZHICHI"
+}, {
+    "id": 5881,
+    "name": "系统集成工程师",
+    "pid": 5483,
+    "py": "XTJCGCS|XITONGJICHENGGONGCHENGSHI"
+}, {
+    "id": 5882,
+    "name": "MRP/ERP实施顾问",
+    "pid": 5483,
+    "py": "MRPERPSSGW|MRPERPSHISHIGUWEN"
+}, {
+    "id": 5883,
+    "name": "其他IT运维/技术支持/系统集成类",
+    "pid": 5483,
+    "py": "QSITYWJSZCXTJCL|QITAITYUNWEIJISHUZHICHIXITONGJICHENGLEI"
+}, {
+    "id": 5884,
+    "name": "互联网软件工程师",
+    "pid": 5484,
+    "py": "HLWRJGCS|HULIANWANGRUANJIANGONGCHENGSHI"
+}, {
+    "id": 5885,
+    "name": "手机软件开发工程师 ",
+    "pid": 5484,
+    "py": "SJRJKFGCS |SHOUJIRUANJIANKAIFAGONGCHENGSHI "
+}, {
+    "id": 5886,
+    "name": "嵌入式软件开发",
+    "pid": 5484,
+    "py": "QRSRJKF|QIANRUSHIRUANJIANKAIFA"
+}, {
+    "id": 5887,
+    "name": "移动互联网开发 ",
+    "pid": 5484,
+    "py": "YDHLWKF |YIDONGHULIANWANGKAIFA "
+}, {
+    "id": 5888,
+    "name": "WEB前端开发",
+    "pid": 5484,
+    "py": "WEBQDKF|WEBQIANDUANKAIFA"
+}, {
+    "id": 5889,
+    "name": "语音/视频/图形开发 ",
+    "pid": 5484,
+    "py": "YYSPTXKF |YUYINSHIPINTUXINGKAIFA "
+}, {
+    "id": 5890,
+    "name": "用户界面（UI）设计师",
+    "pid": 5484,
+    "py": "YHJM（UI）SJS|YONGHUJIEMIAN（UI）SHEJISHI"
+}, {
+    "id": 5891,
+    "name": "用户体验（UE/UX）设计师",
+    "pid": 5484,
+    "py": "YHTY（UEUX）SJS|YONGHUTIYAN（UEUX）SHEJISHI"
+}, {
+    "id": 5892,
+    "name": "网页设计/制作/美工",
+    "pid": 5484,
+    "py": "WYSJZZMG|WANGYESHEJIZHIZUOMEIGONG"
+}, {
+    "id": 5893,
+    "name": "网站架构设计师",
+    "pid": 5484,
+    "py": "WZJGSJS|WANGZHANJIAGOUSHEJISHI"
+}, {
+    "id": 5894,
+    "name": "多媒体/游戏开发工程师",
+    "pid": 5484,
+    "py": "DMTYXKFGCS|DUOMEITIYOUXIKAIFAGONGCHENGSHI"
+}, {
+    "id": 5895,
+    "name": "游戏策划",
+    "pid": 5484,
+    "py": "YXCH|YOUXICEHUA"
+}, {
+    "id": 5896,
+    "name": "游戏界面设计 ",
+    "pid": 5484,
+    "py": "YXJMSJ |YOUXIJIEMIANSHEJI "
+}, {
+    "id": 5897,
+    "name": "其他互联网/移动互联网开发/设计类",
+    "pid": 5484,
+    "py": "QSHLWYDHLWKFSJL|QITAHULIANWANGYIDONGHULIANWANGKAIFASHEJILEI"
+}, {
+    "id": 5898,
+    "name": "网站运营总监",
+    "pid": 5485,
+    "py": "WZYYZJ|WANGZHANYUNYINGZONGJIAN"
+}, {
+    "id": 5899,
+    "name": "网站运营经理",
+    "pid": 5485,
+    "py": "WZYYJL|WANGZHANYUNYINGJINGLI"
+}, {
+    "id": 5900,
+    "name": "网站运营主管",
+    "pid": 5485,
+    "py": "WZYYZG|WANGZHANYUNYINGZHUGUAN"
+}, {
+    "id": 5901,
+    "name": "网站运营专员/助理",
+    "pid": 5485,
+    "py": "WZYYZYZL|WANGZHANYUNYINGZHUANYUANZHULI"
+}, {
+    "id": 5902,
+    "name": "产品经理/主管",
+    "pid": 5485,
+    "py": "CPJLZG|CHANPINJINGLIZHUGUAN"
+}, {
+    "id": 5903,
+    "name": "网站策划/管理专员",
+    "pid": 5485,
+    "py": "WZCHGLZY|WANGZHANCEHUAGUANLIZHUANYUAN"
+}, {
+    "id": 5904,
+    "name": "网站编辑/论坛维护/内容监管",
+    "pid": 5485,
+    "py": "WZBJLTWHNRJG|WANGZHANBIANJILUNTANWEIHUNEIRONGJIANGUAN"
+}, {
+    "id": 5905,
+    "name": "网站优化/SEO",
+    "pid": 5485,
+    "py": "WZYHSEO|WANGZHANYOUHUASEO"
+}, {
+    "id": 5906,
+    "name": "网站推广",
+    "pid": 5485,
+    "py": "WZTG|WANGZHANTUIGUANG"
+}, {
+    "id": 5907,
+    "name": "网站维护工程师",
+    "pid": 5485,
+    "py": "WZWHGCS|WANGZHANWEIHUGONGCHENGSHI"
+}, {
+    "id": 5908,
+    "name": "网站测试工程师",
+    "pid": 5485,
+    "py": "WZCSGCS|WANGZHANCESHIGONGCHENGSHI"
+}, {
+    "id": 5909,
+    "name": "电子商务总监",
+    "pid": 5485,
+    "py": "DZSWZJ|DIANZISHANGWUZONGJIAN"
+}, {
+    "id": 5910,
+    "name": "电子商务经理",
+    "pid": 5485,
+    "py": "DZSWJL|DIANZISHANGWUJINGLI"
+}, {
+    "id": 5911,
+    "name": "电子商务主管",
+    "pid": 5485,
+    "py": "DZSWZG|DIANZISHANGWUZHUGUAN"
+}, {
+    "id": 5912,
+    "name": "电子商务专员/助理",
+    "pid": 5485,
+    "py": "DZSWZYZL|DIANZISHANGWUZHUANYUANZHULI"
+}, {
+    "id": 5913,
+    "name": "网店店长",
+    "pid": 5485,
+    "py": "WDDC|WANGDIANDIANCHANG"
+}, {
+    "id": 5914,
+    "name": "网店客服",
+    "pid": 5485,
+    "py": "WDKF|WANGDIANKEFU"
+}, {
+    "id": 5915,
+    "name": "网店美工",
+    "pid": 5485,
+    "py": "WDMG|WANGDIANMEIGONG"
+}, {
+    "id": 5916,
+    "name": "网店管理员",
+    "pid": 5485,
+    "py": "WDGLY|WANGDIANGUANLIYUAN"
+}, {
+    "id": 5917,
+    "name": "网店模特",
+    "pid": 5485,
+    "py": "WDMT|WANGDIANMOTE"
+}, {
+    "id": 5918,
+    "name": "其他互联网/网络应用/电子商务类",
+    "pid": 5485,
+    "py": "QSHLWWLYYDZSWL（KTJ）|QITAHULIANWANGWANGLUOYINGYONGDIANZISHANGWULEI"
+}, {
+    "id": 5919,
+    "name": "通信技术/电信工程师",
+    "pid": 5486,
+    "py": "TXJSDXGCS|TONGXINJISHUDIANXINGONGCHENGSHI"
+}, {
+    "id": 5920,
+    "name": "有线传输工程师",
+    "pid": 5486,
+    "py": "YXCSGCS|YOUXIANCHUANSHUGONGCHENGSHI"
+}, {
+    "id": 5921,
+    "name": "无线通信工程师",
+    "pid": 5486,
+    "py": "WXTXGCS|WUXIANTONGXINGONGCHENGSHI"
+}, {
+    "id": 5922,
+    "name": "电信交换工程师",
+    "pid": 5486,
+    "py": "DXJHGCS|DIANXINJIAOHUANGONGCHENGSHI"
+}, {
+    "id": 5923,
+    "name": "数据通信工程师",
+    "pid": 5486,
+    "py": "SJTXGCS|SHUJUTONGXINGONGCHENGSHI"
+}, {
+    "id": 5924,
+    "name": "移动通信工程师",
+    "pid": 5486,
+    "py": "YDTXGCS|YIDONGTONGXINGONGCHENGSHI"
+}, {
+    "id": 5925,
+    "name": "电信网络工程师",
+    "pid": 5486,
+    "py": "DXWLGCS|DIANXINWANGLUOGONGCHENGSHI"
+}, {
+    "id": 5926,
+    "name": "增值产品开发工程师",
+    "pid": 5486,
+    "py": "ZZCPKFGCS|ZENGZHICHANPINKAIFAGONGCHENGSHI"
+}, {
+    "id": 5927,
+    "name": "射频工程师",
+    "pid": 5486,
+    "py": "SPGCS|SHEPINGONGCHENGSHI"
+}, {
+    "id": 5928,
+    "name": "通信项目管理",
+    "pid": 5486,
+    "py": "TXXMGL|TONGXINXIANGMUGUANLI"
+}, {
+    "id": 5929,
+    "name": "通信标准化工程师",
+    "pid": 5486,
+    "py": "TXBZHGCS|TONGXINBIAOZHUNHUAGONGCHENGSHI"
+}, {
+    "id": 5930,
+    "name": "手机硬件项目经理",
+    "pid": 5486,
+    "py": "SJYJXMJL|SHOUJIYINGJIANXIANGMUJINGLI"
+}, {
+    "id": 5931,
+    "name": "手机软件项目经理",
+    "pid": 5486,
+    "py": "SJRJXMJL|SHOUJIRUANJIANXIANGMUJINGLI"
+}, {
+    "id": 5932,
+    "name": "手机应用开发工程师",
+    "pid": 5486,
+    "py": "SJYYKFGCS|SHOUJIYINGYONGKAIFAGONGCHENGSHI"
+}, {
+    "id": 5933,
+    "name": "手机结构工程师",
+    "pid": 5486,
+    "py": "SJJGGCS|SHOUJIJIEGOUGONGCHENGSHI"
+}, {
+    "id": 5934,
+    "name": "手机驱动/测试工程师",
+    "pid": 5486,
+    "py": "SJQDCSGCS|SHOUJIQUDONGCESHIGONGCHENGSHI"
+}, {
+    "id": 5935,
+    "name": "手机维修工程师",
+    "pid": 5486,
+    "py": "SJWXGCS|SHOUJIWEIXIUGONGCHENGSHI"
+}, {
+    "id": 5936,
+    "name": "其他手机/通信技术类",
+    "pid": 5486,
+    "py": "QSSJTXJSL|QITASHOUJITONGXINJISHULEI"
+}, {
+    "id": 5937,
+    "name": "电路/版图/布线设计师",
+    "pid": 5487,
+    "py": "DLBTBXSJS|DIANLUBANTUBUXIANSHEJISHI"
+}, {
+    "id": 5938,
+    "name": "IC工程师",
+    "pid": 5487,
+    "py": "ICGCS|ICGONGCHENGSHI"
+}, {
+    "id": 5939,
+    "name": "电子工程师/技术员",
+    "pid": 5487,
+    "py": "DZGCSJSY|DIANZIGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5940,
+    "name": "电气工程师/技术员",
+    "pid": 5487,
+    "py": "DQGCSJSY|DIANQIGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5941,
+    "name": "电器工程师/技术员",
+    "pid": 5487,
+    "py": "DQGCSJSY|DIANQIGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5942,
+    "name": "激光/光电子技术",
+    "pid": 5487,
+    "py": "JGGDZJS|JIGUANGGUANGDIANZIJISHU"
+}, {
+    "id": 5943,
+    "name": "家电/数码产品开发工程师",
+    "pid": 5487,
+    "py": "JDSMCPKFGCS|JIADIANSHUMACHANPINKAIFAGONGCHENGSHI"
+}, {
+    "id": 5944,
+    "name": "电声/音响工程师/技术员",
+    "pid": 5487,
+    "py": "DSYXGCSJSY|DIANSHENGYINXIANGGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5945,
+    "name": "无线电技术工程师/技术员",
+    "pid": 5487,
+    "py": "WXDJSGCSJSY|WUXIANDIANJISHUGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5946,
+    "name": "电子元器件/半导体工程师",
+    "pid": 5487,
+    "py": "DZYQJBDTGCS|DIANZIYUANQIJIANBANDAOTIGONGCHENGSHI"
+}, {
+    "id": 5947,
+    "name": "光源照明工程师",
+    "pid": 5487,
+    "py": "GYZMGCS|GUANGYUANZHAOMINGGONGCHENGSHI"
+}, {
+    "id": 5948,
+    "name": "自动控制工程师/技术员",
+    "pid": 5487,
+    "py": "ZDKZGCSJSY|ZIDONGKONGZHIGONGCHENGSHIJISHUYUAN"
+}, {
+    "id": 5949,
+    "name": "单片机/ARM/CNC/DLC/DSP/FAE工程师",
+    "pid": 5487,
+    "py": "DPJARMCNCDLCDSPFAEGCS|DANPIANJIARMCNCDLCDSPFAEGONGCHENGSHI"
+}, {
+    "id": 5950,
+    "name": "嵌入式开发工程师",
+    "pid": 5487,
+    "py": "QRSKFGCS|QIANRUSHIKAIFAGONGCHENGSHI"
+}, {
+    "id": 5951,
+    "name": "电池/电源开发工程师",
+    "pid": 5487,
+    "py": "DCDYKFGCS|DIANCHIDIANYUANKAIFAGONGCHENGSHI"
+}, {
+    "id": 5952,
+    "name": "电子测试工程师",
+    "pid": 5487,
+    "py": "DZCSGCS|DIANZICESHIGONGCHENGSHI"
+}, {
+    "id": 5953,
+    "name": "智能大厦/综合布线/弱线",
+    "pid": 5487,
+    "py": "ZNDXZHBXRX|ZHINENGDAXIAZONGHEBUXIANRUOXIAN"
+}, {
+    "id": 5954,
+    "name": "电子/电器维修",
+    "pid": 5487,
+    "py": "DZDQWX|DIANZIDIANQIWEIXIU"
+}, {
+    "id": 5955,
+    "name": "安防监控",
+    "pid": 5487,
+    "py": "AFJK|ANFANGJIANKONG"
+}, {
+    "id": 5956,
+    "name": "广播电视工程",
+    "pid": 5487,
+    "py": "GBDSGC|GUANGBODIANSHIGONGCHENG"
+}, {
+    "id": 5957,
+    "name": "其他电子/电器类",
+    "pid": 5487,
+    "py": "QSDZDQL|QITADIANZIDIANQILEI"
+}, {
+    "id": 5958,
+    "name": "钳工/机修工/钣金工",
+    "pid": 5507,
+    "py": "QGJXGBJG|QIANGONGJIXIUGONGZUOJINGONG"
+}, {
+    "id": 5959,
+    "name": "电焊/铆焊/切割工",
+    "pid": 5507,
+    "py": "DHMHQGG|DIANHANMAOHANQIEGEGONG"
+}, {
+    "id": 5960,
+    "name": "车工/磨工/铣工/冲压工/锣工",
+    "pid": 5507,
+    "py": "CGMGXGCYGLG|CHEGONGMOGONGXIGONGCHONGYAGONGLUOGONG"
+}, {
+    "id": 5961,
+    "name": "模具工",
+    "pid": 5507,
+    "py": "MJG|MOJUGONG"
+}, {
+    "id": 5962,
+    "name": "水工/木工/油漆工",
+    "pid": 5507,
+    "py": "SGMGYQG|SHUIGONGMUGONGYOUQIGONG"
+}, {
+    "id": 5963,
+    "name": "叉车/吊车工",
+    "pid": 5507,
+    "py": "CCDCG|CHACHEDIAOCHEGONG"
+}, {
+    "id": 5964,
+    "name": "空调工/电梯工/锅炉工",
+    "pid": 5507,
+    "py": "KDGDTGGLG|KONGDIAOGONGDIANTIGONGGUOLUGONG"
+}, {
+    "id": 5965,
+    "name": "CNC技工/数控车床操作员",
+    "pid": 5507,
+    "py": "CNCJGSKCCCZY|CNCJIGONGSHUKONGCHECHUANGCAOZUOYUAN"
+}, {
+    "id": 5966,
+    "name": "泥水工",
+    "pid": 5507,
+    "py": "NSG|NISHUIGONG"
+}, {
+    "id": 5967,
+    "name": "烤漆技师",
+    "pid": 5507,
+    "py": "KQJS|KAOQIJISHI"
+}, {
+    "id": 5968,
+    "name": "摩托车/电动自行车修理",
+    "pid": 5507,
+    "py": "MTCDDZXCXL|MOTUOCHEDIANDONGZIXINGCHEXIULI"
+}, {
+    "id": 5969,
+    "name": "钩机工",
+    "pid": 5507,
+    "py": "GJG|GOUJIGONG"
+}, {
+    "id": 5970,
+    "name": "电工",
+    "pid": 5507,
+    "py": "DG|DIANGONG"
+}, {
+    "id": 5971,
+    "name": "组装工/包装工",
+    "pid": 5507,
+    "py": "ZZGBZG|ZUZHUANGGONGBAOZHUANGGONG"
+}, {
+    "id": 5972,
+    "name": "普工/杂工",
+    "pid": 5507,
+    "py": "PGZG|PUGONGZAGONG"
+}, {
+    "id": 5973,
+    "name": "其他技工类",
+    "pid": 5507,
+    "py": "QSJGL|QITAJIGONGLEI"
+}, {
+    "id": 5974,
+    "name": "高级建筑工程师/总工",
+    "pid": 5508,
+    "py": "GJJZGCSZG|GAOJIJIANZHUGONGCHENGSHIZONGGONG"
+}, {
+    "id": 5975,
+    "name": "建筑工程师/注册建筑师",
+    "pid": 5508,
+    "py": "JZGCSZCJZS|JIANZHUGONGCHENGSHIZHUCEJIANZHUSHI"
+}, {
+    "id": 5976,
+    "name": "土木/土建工程师",
+    "pid": 5508,
+    "py": "TMTJGCS|TUMUTUJIANGONGCHENGSHI"
+}, {
+    "id": 5977,
+    "name": "路桥/港口/航道/隧道工程师",
+    "pid": 5508,
+    "py": "LQGKHDSDGCS|LUQIAOGANGKOUHANGDAOSUIDAOGONGCHENGSHI"
+}, {
+    "id": 5978,
+    "name": "基础/地下/岩土工程师",
+    "pid": 5508,
+    "py": "JCDXYTGCS|JICHUDIXIAYANTUGONGCHENGSHI"
+}, {
+    "id": 5979,
+    "name": "电气/照明工程师",
+    "pid": 5508,
+    "py": "DQZMGCS|DIANQIZHAOMINGGONGCHENGSHI"
+}, {
+    "id": 5980,
+    "name": "给排水/水电工程师",
+    "pid": 5508,
+    "py": "GPSSDGCS|GEIPAISHUISHUIDIANGONGCHENGSHI"
+}, {
+    "id": 5981,
+    "name": "幕墙工程师",
+    "pid": 5508,
+    "py": "MQGCS|MUQIANGGONGCHENGSHI"
+}, {
+    "id": 5982,
+    "name": "制冷/暖通/管道工程师",
+    "pid": 5508,
+    "py": "ZLNTGDGCS|ZHILENGNUANTONGGUANDAOGONGCHENGSHI"
+}, {
+    "id": 5983,
+    "name": "工程造价师/预结算/审计",
+    "pid": 5508,
+    "py": "GCZJSYJSSJ|GONGCHENGZAOJIASHIYUJIESUANSHENJI"
+}, {
+    "id": 5984,
+    "name": "工程招投标/报批报建",
+    "pid": 5508,
+    "py": "GCZTBBPBJ|GONGCHENGZHAOTOUBIAOBAOPIBAOJIAN"
+}, {
+    "id": 5985,
+    "name": "工程管理/项目经理/主管",
+    "pid": 5508,
+    "py": "GCGLXMJLZG|GONGCHENGGUANLIXIANGMUJINGLIZHUGUAN"
+}, {
+    "id": 5986,
+    "name": "工程质量管理",
+    "pid": 5508,
+    "py": "GCZLGL|GONGCHENGZHILIANGGUANLI"
+}, {
+    "id": 5987,
+    "name": "工程监理/督导/验收",
+    "pid": 5508,
+    "py": "GCJLDDYS|GONGCHENGJIANLIDUDAOYANSHOU"
+}, {
+    "id": 5988,
+    "name": "施工队长 ",
+    "pid": 5508,
+    "py": "SGDC |SHIGONGDUICHANG "
+}, {
+    "id": 5989,
+    "name": "施工员",
+    "pid": 5508,
+    "py": "SGY|SHIGONGYUAN"
+}, {
+    "id": 5990,
+    "name": "防雷/消防/安防",
+    "pid": 5508,
+    "py": "FLXFAF|FANGLEIXIAOFANGANFANG"
+}, {
+    "id": 5991,
+    "name": "建筑材料与制品",
+    "pid": 5508,
+    "py": "JZCLYZP|JIANZHUCAILIAOYUZHIPIN"
+}, {
+    "id": 5992,
+    "name": "资料员/合同管理员",
+    "pid": 5508,
+    "py": "ZLYHTGLY|ZILIAOYUANHETONGGUANLIYUAN"
+}, {
+    "id": 5993,
+    "name": "城市规划与设计",
+    "pid": 5508,
+    "py": "CSGHYSJ|CHENGSHIGUIHUAYUSHEJI"
+}, {
+    "id": 5994,
+    "name": "建筑工程/结构设计",
+    "pid": 5508,
+    "py": "JZGCJGSJ|JIANZHUGONGCHENGJIEGOUSHEJI"
+}, {
+    "id": 5995,
+    "name": "钢结构设计",
+    "pid": 5508,
+    "py": "GJGSJ|GANGJIEGOUSHEJI"
+}, {
+    "id": 5996,
+    "name": "室内外装潢设计",
+    "pid": 5508,
+    "py": "SNWZHSJ|SHINEIWAIZHUANGZUOSHEJI"
+}, {
+    "id": 5997,
+    "name": "建筑绘图/制图",
+    "pid": 5508,
+    "py": "JZHTZT|JIANZHUHUITUZHITU"
+}, {
+    "id": 5998,
+    "name": "工程测绘/测量",
+    "pid": 5508,
+    "py": "GCCHCL|GONGCHENGCEHUICELIANG"
+}, {
+    "id": 5999,
+    "name": "市政工程师",
+    "pid": 5508,
+    "py": "SZGCS|SHIZHENGGONGCHENGSHI"
+}, {
+    "id": 6000,
+    "name": "建筑施工现场管理",
+    "pid": 5508,
+    "py": "JZSGXCGL|JIANZHUSHIGONGXIANCHANGGUANLI"
+}, {
+    "id": 6001,
+    "name": "建筑工程安全管理 ",
+    "pid": 5508,
+    "py": "JZGCAQGL |JIANZHUGONGCHENGANQUANGUANLI "
+}, {
+    "id": 6002,
+    "name": "智能大厦/布线/弱电/安防 ",
+    "pid": 5508,
+    "py": "ZNDXBXRDAF |ZHINENGDAXIABUXIANRUODIANANFANG "
+}, {
+    "id": 6003,
+    "name": "建筑设计师",
+    "pid": 5508,
+    "py": "JZSJS|JIANZHUSHEJISHI"
+}, {
+    "id": 6004,
+    "name": "园林/景观设计",
+    "pid": 5508,
+    "py": "YLJGSJ|YUANLINJINGGUANSHEJI"
+}, {
+    "id": 6005,
+    "name": "安全员",
+    "pid": 5508,
+    "py": "AQY|ANQUANYUAN"
+}, {
+    "id": 6006,
+    "name": "其他建筑/工程类",
+    "pid": 5508,
+    "py": "QSJZGCL|QITAJIANZHUGONGCHENGLEI"
+}, {
+    "id": 6007,
+    "name": "房地产开发/策划经理/主管",
+    "pid": 5509,
+    "py": "FDCKFCHJLZG|FANGDICHANKAIFACEHUAJINGLIZHUGUAN"
+}, {
+    "id": 6008,
+    "name": "房地产开发/策划专员",
+    "pid": 5509,
+    "py": "FDCKFCHZY|FANGDICHANKAIFACEHUAZHUANYUAN"
+}, {
+    "id": 6009,
+    "name": "商业地产策划/招商/营运",
+    "pid": 5509,
+    "py": "SYDCCHZSYY|SHANGYEDICHANCEHUAZHAOSHANGYINGYUN"
+}, {
+    "id": 6010,
+    "name": "房地产评估",
+    "pid": 5509,
+    "py": "FDCPG|FANGDICHANPINGGU"
+}, {
+    "id": 6011,
+    "name": "房地产中介/交易",
+    "pid": 5509,
+    "py": "FDCZJJY|FANGDICHANZHONGJIEJIAOYI"
+}, {
+    "id": 6012,
+    "name": "土地评估",
+    "pid": 5509,
+    "py": "TDPG|TUDIPINGGU"
+}, {
+    "id": 6013,
+    "name": "工程部经理/主管",
+    "pid": 5509,
+    "py": "GCBJLZG|GONGCHENGBUJINGLIZHUGUAN"
+}, {
+    "id": 6014,
+    "name": "房地产项目招投标",
+    "pid": 5509,
+    "py": "FDCXMZTB|FANGDICHANXIANGMUZHAOTOUBIAO"
+}, {
+    "id": 6015,
+    "name": "房地产项目开发报建",
+    "pid": 5509,
+    "py": "FDCXMKFBJ|FANGDICHANXIANGMUKAIFABAOJIAN"
+}, {
+    "id": 6016,
+    "name": "房地产项目配套工程师",
+    "pid": 5509,
+    "py": "FDCXMPTGCS|FANGDICHANXIANGMUPEITAOGONGCHENGSHI"
+}, {
+    "id": 6017,
+    "name": "房地产项目管理",
+    "pid": 5509,
+    "py": "FDCXMGL|FANGDICHANXIANGMUGUANLI"
+}, {
+    "id": 6018,
+    "name": "房地产销售经理",
+    "pid": 5509,
+    "py": "FDCXSJL|FANGDICHANXIAOSHOUJINGLI"
+}, {
+    "id": 6019,
+    "name": "房地产销售主管",
+    "pid": 5509,
+    "py": "FDCXSZG|FANGDICHANXIAOSHOUZHUGUAN"
+}, {
+    "id": 6020,
+    "name": "房地产销售/置业顾问",
+    "pid": 5509,
+    "py": "FDCXSZYGW|FANGDICHANXIAOSHOUZHIYEGUWEN"
+}, {
+    "id": 6021,
+    "name": "其他房地产开发/经纪/中介类",
+    "pid": 5509,
+    "py": "QSFDCKFJJZJL|QITAFANGDICHANKAIFAJINGJIZHONGJIELEI"
+}, {
+    "id": 6022,
+    "name": "高级物业顾问/物业顾问",
+    "pid": 5510,
+    "py": "GJWYGWWYGW|GAOJIWUYEGUWENWUYEGUWEN"
+}, {
+    "id": 6023,
+    "name": "物业管理经理/主管",
+    "pid": 5510,
+    "py": "WYGLJLZG|WUYEGUANLIJINGLIZHUGUAN"
+}, {
+    "id": 6024,
+    "name": "物业管理专员/助理",
+    "pid": 5510,
+    "py": "WYGLZYZL|WUYEGUANLIZHUANYUANZHULI"
+}, {
+    "id": 6025,
+    "name": "物业招商/租赁/租售",
+    "pid": 5510,
+    "py": "WYZSZLZS|WUYEZHAOSHANGZULINZUSHOU"
+}, {
+    "id": 6026,
+    "name": "物业维修/设施管理",
+    "pid": 5510,
+    "py": "WYWXSSGL|WUYEWEIXIUSHESHIGUANLI"
+}, {
+    "id": 6027,
+    "name": "会所管理",
+    "pid": 5510,
+    "py": "HSGL|HUISUOGUANLI"
+}, {
+    "id": 6028,
+    "name": "保洁员",
+    "pid": 5510,
+    "py": "BJY|BAOJIEYUAN"
+}, {
+    "id": 6029,
+    "name": "其他物业管理类",
+    "pid": 5510,
+    "py": "QSWYGLL|QITAWUYEGUANLILEI"
+}, {
+    "id": 6030,
+    "name": "外贸经理/主管",
+    "pid": 5511,
+    "py": "WMJLZG|WAIMAOJINGLIZHUGUAN"
+}, {
+    "id": 6031,
+    "name": "外贸专员/助理",
+    "pid": 5511,
+    "py": "WMZYZL|WAIMAOZHUANYUANZHULI"
+}, {
+    "id": 6032,
+    "name": "外贸跟单",
+    "pid": 5511,
+    "py": "WMGD|WAIMAOGENDAN"
+}, {
+    "id": 6033,
+    "name": "外贸单证",
+    "pid": 5511,
+    "py": "WMDZ|WAIMAODANZHENG"
+}, {
+    "id": 6034,
+    "name": "内贸跟单",
+    "pid": 5511,
+    "py": "NMGD|NEIMAOGENDAN"
+}, {
+    "id": 6035,
+    "name": "报关/报检",
+    "pid": 5511,
+    "py": "BGBJ|BAOGUANBAOJIAN"
+}, {
+    "id": 6036,
+    "name": "其他贸易/进出口类",
+    "pid": 5511,
+    "py": "QSMYJCKL|QITAMAOYIJINCHUKOULEI"
+}, {
+    "id": 6037,
+    "name": "物流总监",
+    "pid": 5512,
+    "py": "WLZJ|WULIUZONGJIAN"
+}, {
+    "id": 6038,
+    "name": "物流经理",
+    "pid": 5512,
+    "py": "WLJL|WULIUJINGLI"
+}, {
+    "id": 6039,
+    "name": "物流主管",
+    "pid": 5512,
+    "py": "WLZG|WULIUZHUGUAN"
+}, {
+    "id": 6040,
+    "name": "物流专员/助理",
+    "pid": 5512,
+    "py": "WLZYZL|WULIUZHUANYUANZHULI"
+}, {
+    "id": 6041,
+    "name": "供应链总监",
+    "pid": 5512,
+    "py": "GYLZJ|GONGYINGLIANZONGJIAN"
+}, {
+    "id": 6042,
+    "name": "供应链经理",
+    "pid": 5512,
+    "py": "GYLJL|GONGYINGLIANJINGLI"
+}, {
+    "id": 6043,
+    "name": "供应链主管",
+    "pid": 5512,
+    "py": "GYLZG|GONGYINGLIANZHUGUAN"
+}, {
+    "id": 6044,
+    "name": "供应链专员",
+    "pid": 5512,
+    "py": "GYLZY|GONGYINGLIANZHUANYUAN"
+}, {
+    "id": 6045,
+    "name": "货运代理",
+    "pid": 5512,
+    "py": "HYDL|HUOYUNDAILI"
+}, {
+    "id": 6046,
+    "name": "集装箱业务操作",
+    "pid": 5512,
+    "py": "JZXYWCZ|JIZHUANGXIANGYEWUCAOZUO"
+}, {
+    "id": 6047,
+    "name": "船务/空运/陆运操作",
+    "pid": 5512,
+    "py": "CWKYLYCZ|CHUANWUKONGYUNLUYUNCAOZUO"
+}, {
+    "id": 6048,
+    "name": "物料管理",
+    "pid": 5512,
+    "py": "WLGL|WULIAOGUANLI"
+}, {
+    "id": 6049,
+    "name": "仓库经理/主管",
+    "pid": 5512,
+    "py": "CKJLZG|CANGKUJINGLIZHUGUAN"
+}, {
+    "id": 6050,
+    "name": "仓库管理员",
+    "pid": 5512,
+    "py": "CKGLY|CANGKUGUANLIYUAN"
+}, {
+    "id": 6051,
+    "name": "调度员/理货员",
+    "pid": 5512,
+    "py": "DDYLHY|DIAODUYUANLIHUOYUAN"
+}, {
+    "id": 6052,
+    "name": "运输经理/主管/专员",
+    "pid": 5512,
+    "py": "YSJLZGZY|YUNSHUJINGLIZHUGUANZHUANYUAN"
+}, {
+    "id": 6053,
+    "name": "快递员/配送员",
+    "pid": 5512,
+    "py": "KDYPSY|KUAIDIYUANPEISONGYUAN"
+}, {
+    "id": 6054,
+    "name": "押运员",
+    "pid": 5512,
+    "py": "YYY|YAYUNYUAN"
+}, {
+    "id": 6055,
+    "name": "海关事务管理",
+    "pid": 5512,
+    "py": "HGSWGL|HAIGUANSHIWUGUANLI"
+}, {
+    "id": 6056,
+    "name": "报关员/单证员",
+    "pid": 5512,
+    "py": "BGYDZY|BAOGUANYUANDANZHENGYUAN"
+}, {
+    "id": 6057,
+    "name": "其他物流/仓储/运输类",
+    "pid": 5512,
+    "py": "QSWLCCYSL|QITAWULIUCANGCHUYUNSHULEI"
+}, {
+    "id": 6058,
+    "name": "飞机机长/副机长",
+    "pid": 5514,
+    "py": "FJJCFJC|FEIJIJICHANGFUJICHANG"
+}, {
+    "id": 6059,
+    "name": "空乘人员",
+    "pid": 5514,
+    "py": "KCRY|KONGCHENGRENYUAN"
+}, {
+    "id": 6060,
+    "name": "地勤人员",
+    "pid": 5514,
+    "py": "DQRY|DIQINRENYUAN"
+}, {
+    "id": 6061,
+    "name": "火车/列车车长",
+    "pid": 5514,
+    "py": "HCLCCC|HUOCHELIECHECHECHANG"
+}, {
+    "id": 6062,
+    "name": "火车/列车司机",
+    "pid": 5514,
+    "py": "HCLCSJ|HUOCHELIECHESIJI"
+}, {
+    "id": 6063,
+    "name": "乘务员",
+    "pid": 5514,
+    "py": "CWY|CHENGWUYUAN"
+}, {
+    "id": 6064,
+    "name": "船长/副船长",
+    "pid": 5514,
+    "py": "CCFCC|CHUANCHANGFUCHUANCHANG"
+}, {
+    "id": 6065,
+    "name": "船员/水手",
+    "pid": 5514,
+    "py": "CYSS|CHUANYUANSHUISHOU"
+}, {
+    "id": 6066,
+    "name": "公路货车司机",
+    "pid": 5514,
+    "py": "GLHCSJ|GONGLUHUOCHESIJI"
+}, {
+    "id": 6067,
+    "name": "公路客车司机",
+    "pid": 5514,
+    "py": "GLKCSJ|GONGLUKECHESIJI"
+}, {
+    "id": 6068,
+    "name": "其他交通运输服务类",
+    "pid": 5514,
+    "py": "QSJTYSFWL|QITAJIAOTONGYUNSHUFUWULEI"
+}, {
+    "id": 6069,
+    "name": "证券总监/部门经理",
+    "pid": 5494,
+    "py": "ZQZJBMJL|ZHENGQUANZONGJIANBUMENJINGLI"
+}, {
+    "id": 6070,
+    "name": "证券/期货/投资客户总监",
+    "pid": 5494,
+    "py": "ZQQHTZKHZJ|ZHENGQUANQIHUOTOUZIKEHUZONGJIAN"
+}, {
+    "id": 6071,
+    "name": "证券/期货/投资客户经理 ",
+    "pid": 5494,
+    "py": "ZQQHTZKHJL |ZHENGQUANQIHUOTOUZIKEHUJINGLI "
+}, {
+    "id": 6072,
+    "name": "证券/期货/投资客户主管",
+    "pid": 5494,
+    "py": "ZQQHTZKHZG|ZHENGQUANQIHUOTOUZIKEHUZHUGUAN"
+}, {
+    "id": 6073,
+    "name": "证券/期货/投资客户代表 ",
+    "pid": 5494,
+    "py": "ZQQHTZKHDB |ZHENGQUANQIHUOTOUZIKEHUDAIBIAO "
+}, {
+    "id": 6074,
+    "name": "证券/期货/黄金/外汇经纪人",
+    "pid": 5494,
+    "py": "ZQQHHJWHJJR|ZHENGQUANQIHUOHUANGJINWAIHUIJINGJIREN"
+}, {
+    "id": 6075,
+    "name": "证券/期货分析师",
+    "pid": 5494,
+    "py": "ZQQHFXS|ZHENGQUANQIHUOFENXISHI"
+}, {
+    "id": 6076,
+    "name": "股票/期货操盘手",
+    "pid": 5494,
+    "py": "GPQHCPS|GUPIAOQIHUOCAOPANSHOU"
+}, {
+    "id": 6077,
+    "name": "金融/经济研究员",
+    "pid": 5494,
+    "py": "JRJJYJY|JINRONGJINGJIYANJIUYUAN"
+}, {
+    "id": 6078,
+    "name": "投资顾问/基金经理",
+    "pid": 5494,
+    "py": "TZGWJJJL|TOUZIGUWENJIJINJINGLI"
+}, {
+    "id": 6079,
+    "name": "投资/理财顾问",
+    "pid": 5494,
+    "py": "TZLCGW|TOUZILICAIGUWEN"
+}, {
+    "id": 6080,
+    "name": "融资总监 ",
+    "pid": 5494,
+    "py": "RZZJ |RONGZIZONGJIAN "
+}, {
+    "id": 6081,
+    "name": "融资经理/融资主管",
+    "pid": 5494,
+    "py": "RZJLRZZG|RONGZIJINGLIRONGZIZHUGUAN"
+}, {
+    "id": 6082,
+    "name": "融资专员",
+    "pid": 5494,
+    "py": "RZZY|RONGZIZHUANYUAN"
+}, {
+    "id": 6083,
+    "name": "拍卖师/典当师",
+    "pid": 5494,
+    "py": "PMSDDS|PAIMAISHIDIANDANGSHI"
+}, {
+    "id": 6084,
+    "name": "注册投资/金融分析师",
+    "pid": 5494,
+    "py": "ZCTZJRFXS|ZHUCETOUZIJINRONGFENXISHI"
+}, {
+    "id": 6085,
+    "name": "投资银行业务",
+    "pid": 5494,
+    "py": "TZYXYW|TOUZIYINXINGYEWU"
+}, {
+    "id": 6086,
+    "name": "投资银行财务分析",
+    "pid": 5494,
+    "py": "TZYXCWFX|TOUZIYINXINGCAIWUFENXI"
+}, {
+    "id": 6087,
+    "name": "金融产品经理",
+    "pid": 5494,
+    "py": "JRCPJL|JINRONGCHANPINJINGLI"
+}, {
+    "id": 6088,
+    "name": "风险管理/控制/稽查",
+    "pid": 5494,
+    "py": "FXGLKZJC|FENGXIANGUANLIKONGZHIJICHA"
+}, {
+    "id": 6089,
+    "name": "储备经理人 ",
+    "pid": 5494,
+    "py": "CBJLR |CHUBEIJINGLIREN "
+}, {
+    "id": 6090,
+    "name": "证券/期货/投资项目管理",
+    "pid": 5494,
+    "py": "ZQQHTZXMGL|ZHENGQUANQIHUOTOUZIXIANGMUGUANLI"
+}, {
+    "id": 6091,
+    "name": "其它证券/期货/投资管理/服务类",
+    "pid": 5494,
+    "py": "QSZQQHTZGLFWL|QITAZHENGQUANQIHUOTOUZIGUANLIFUWULEI"
+}, {
+    "id": 6092,
+    "name": "银行行长/副行长",
+    "pid": 5495,
+    "py": "YXXCFXC|YINXINGXINGCHANGFUXINGCHANG"
+}, {
+    "id": 6093,
+    "name": "银行营业部主任",
+    "pid": 5495,
+    "py": "YXYYBZR|YINXINGYINGYEBUZHUREN"
+}, {
+    "id": 6094,
+    "name": "银行客户经理/主管",
+    "pid": 5495,
+    "py": "YXKHJLZG|YINXINGKEHUJINGLIZHUGUAN"
+}, {
+    "id": 6095,
+    "name": "银行客户专员/代表",
+    "pid": 5495,
+    "py": "YXKHZYDB|YINXINGKEHUZHUANYUANDAIBIAO"
+}, {
+    "id": 6096,
+    "name": "银行大堂经理",
+    "pid": 5495,
+    "py": "YXDTJL|YINXINGDATANGJINGLI"
+}, {
+    "id": 6097,
+    "name": "金融资产评估/风险控制",
+    "pid": 5495,
+    "py": "JRZCPGFXKZ|JINRONGZICHANPINGGUFENGXIANKONGZHI"
+}, {
+    "id": 6098,
+    "name": "信贷管理/信用调查/稽核分析",
+    "pid": 5495,
+    "py": "XDGLXYDCJHFX|XINDAIGUANLIXINYONGDIAOCHAJIHEFENXI"
+}, {
+    "id": 6099,
+    "name": "进出口/信用证结算",
+    "pid": 5495,
+    "py": "JCKXYZJS|JINCHUKOUXINYONGZHENGJIESUAN"
+}, {
+    "id": 6100,
+    "name": "外汇交易",
+    "pid": 5495,
+    "py": "WHJY|WAIHUIJIAOYI"
+}, {
+    "id": 6101,
+    "name": "预结算/清算人员",
+    "pid": 5495,
+    "py": "YJSQSRY|YUJIESUANQINGSUANRENYUAN"
+}, {
+    "id": 6102,
+    "name": "银行柜员",
+    "pid": 5495,
+    "py": "YXGY|YINXINGGUIYUAN"
+}, {
+    "id": 6103,
+    "name": "银行卡、电子银行业务推广人员",
+    "pid": 5495,
+    "py": "YXK、DZYXYWTGRY|YINXINGKA、DIANZIYINXINGYEWUTUIGUANGRENYUAN"
+}, {
+    "id": 6104,
+    "name": "综合业务经理/主管",
+    "pid": 5495,
+    "py": "ZHYWJLZG|ZONGHEYEWUJINGLIZHUGUAN"
+}, {
+    "id": 6105,
+    "name": "综合业务专员",
+    "pid": 5495,
+    "py": "ZHYWZY|ZONGHEYEWUZHUANYUAN"
+}, {
+    "id": 6106,
+    "name": "个人业务经理/主管",
+    "pid": 5495,
+    "py": "GRYWJLZG|GERENYEWUJINGLIZHUGUAN"
+}, {
+    "id": 6107,
+    "name": "个人业务客户经理",
+    "pid": 5495,
+    "py": "GRYWKHJL|GERENYEWUKEHUJINGLI"
+}, {
+    "id": 6108,
+    "name": "公司业务经理/主管",
+    "pid": 5495,
+    "py": "GSYWJLZG|GONGSIYEWUJINGLIZHUGUAN"
+}, {
+    "id": 6109,
+    "name": "公司业务客户经理",
+    "pid": 5495,
+    "py": "GSYWKHJL|GONGSIYEWUKEHUJINGLI"
+}, {
+    "id": 6110,
+    "name": "其他银行类",
+    "pid": 5495,
+    "py": "QSYXL|QITAYINXINGLEI"
+}, {
+    "id": 6111,
+    "name": "保险精算师",
+    "pid": 5496,
+    "py": "BXJSS|BAOXIANJINGSUANSHI"
+}, {
+    "id": 6112,
+    "name": "保险产品开发/项目策划",
+    "pid": 5496,
+    "py": "BXCPKFXMCH|BAOXIANCHANPINKAIFAXIANGMUCEHUA"
+}, {
+    "id": 6113,
+    "name": "保险业务经理/主管",
+    "pid": 5496,
+    "py": "BXYWJLZG|BAOXIANYEWUJINGLIZHUGUAN"
+}, {
+    "id": 6114,
+    "name": "保险代理/经纪人/客户经理",
+    "pid": 5496,
+    "py": "BXDLJJRKHJL|BAOXIANDAILIJINGJIRENKEHUJINGLI"
+}, {
+    "id": 6115,
+    "name": "理财顾问/财务规划师",
+    "pid": 5496,
+    "py": "LCGWCWGHS|LICAIGUWENCAIWUGUIHUASHI"
+}, {
+    "id": 6116,
+    "name": "保险核保/理赔服务",
+    "pid": 5496,
+    "py": "BXHBLPFW|BAOXIANHEBAOLIPEIFUWU"
+}, {
+    "id": 6117,
+    "name": "客户服务/续期管理",
+    "pid": 5496,
+    "py": "KHFWXQGL|KEHUFUWUXUQIGUANLI"
+}, {
+    "id": 6118,
+    "name": "保险培训师",
+    "pid": 5496,
+    "py": "BXPXS|BAOXIANPEIXUNSHI"
+}, {
+    "id": 6119,
+    "name": "保险内勤",
+    "pid": 5496,
+    "py": "BXNQ|BAOXIANNEIQIN"
+}, {
+    "id": 6120,
+    "name": "契约管理",
+    "pid": 5496,
+    "py": "QYGL|QIYUEGUANLI"
+}, {
+    "id": 6121,
+    "name": "储备经理人 ",
+    "pid": 5496,
+    "py": "CBJLR |CHUBEIJINGLIREN "
+}, {
+    "id": 6122,
+    "name": "汽车定损/车险理赔 ",
+    "pid": 5496,
+    "py": "QCDSCXLP |QICHEDINGSUNCHEXIANLIPEI "
+}, {
+    "id": 6123,
+    "name": "保险业务管理",
+    "pid": 5496,
+    "py": "BXYWGL|BAOXIANYEWUGUANLI"
+}, {
+    "id": 6124,
+    "name": "其他保险类",
+    "pid": 5496,
+    "py": "QSBXL|QITABAOXIANLEI"
+}, {
+    "id": 6125,
+    "name": "信托服务",
+    "pid": 5497,
+    "py": "XTFW|XINTUOFUWU"
+}, {
+    "id": 6126,
+    "name": "担保业务 ",
+    "pid": 5497,
+    "py": "DBYW |DANBAOYEWU "
+}, {
+    "id": 6127,
+    "name": "拍卖师",
+    "pid": 5497,
+    "py": "PMS|PAIMAISHI"
+}, {
+    "id": 6128,
+    "name": "典当业务 ",
+    "pid": 5497,
+    "py": "DDYW |DIANDANGYEWU "
+}, {
+    "id": 6129,
+    "name": "珠宝/收藏品鉴定",
+    "pid": 5497,
+    "py": "ZBSCPJD|ZHUBAOSHOUCANGPINJIANDING"
+}, {
+    "id": 6130,
+    "name": "其他信托/担保/拍卖/典当类",
+    "pid": 5497,
+    "py": "QSXTDBPMDDL|QITAXINTUODANBAOPAIMAIDIANDANGLEI"
+}, {
+    "id": 6131,
+    "name": "艺术/设计总监 ",
+    "pid": 5524,
+    "py": "YSSJZJ |YISHUSHEJIZONGJIAN "
+}, {
+    "id": 6132,
+    "name": "艺术/设计管理人员",
+    "pid": 5524,
+    "py": "YSSJGLRY|YISHUSHEJIGUANLIRENYUAN"
+}, {
+    "id": 6133,
+    "name": "绘画/原画师",
+    "pid": 5524,
+    "py": "HHYHS|HUIHUAYUANHUASHI"
+}, {
+    "id": 6134,
+    "name": "CAD设计/制图",
+    "pid": 5524,
+    "py": "CADSJZT|CADSHEJIZHITU"
+}, {
+    "id": 6135,
+    "name": "Flash设计/开发 ",
+    "pid": 5524,
+    "py": "FLASHSJKF |FLASHSHEJIKAIFA "
+}, {
+    "id": 6136,
+    "name": "美术编辑/美术设计 ",
+    "pid": 5524,
+    "py": "MSBJMSSJ |MEISHUBIANJIMEISHUSHEJI "
+}, {
+    "id": 6137,
+    "name": "店面/展览/展示/陈列设计",
+    "pid": 5524,
+    "py": "DMZLZSCLSJ|DIANMIANZHANLANZHANSHICHENLIESHEJI"
+}, {
+    "id": 6138,
+    "name": "平面设计",
+    "pid": 5524,
+    "py": "PMSJ|PINGMIANSHEJI"
+}, {
+    "id": 6139,
+    "name": "游戏与动漫设计",
+    "pid": 5524,
+    "py": "YXYDMSJ|YOUXIYUDONGMANSHEJI"
+}, {
+    "id": 6140,
+    "name": "动画/3D设计",
+    "pid": 5524,
+    "py": "DH3DSJ|DONGHUA3DSHEJI"
+}, {
+    "id": 6141,
+    "name": "室内设计",
+    "pid": 5524,
+    "py": "SNSJ|SHINEISHEJI"
+}, {
+    "id": 6142,
+    "name": "展台/店面设计",
+    "pid": 5524,
+    "py": "ZTDMSJ|ZHANTAIDIANMIANSHEJI"
+}, {
+    "id": 6143,
+    "name": "包装设计",
+    "pid": 5524,
+    "py": "BZSJ|BAOZHUANGSHEJI"
+}, {
+    "id": 6144,
+    "name": "服装设计",
+    "pid": 5524,
+    "py": "FZSJ|FUZHUANGSHEJI"
+}, {
+    "id": 6145,
+    "name": "家具/家居用品设计",
+    "pid": 5524,
+    "py": "JJJJYPSJ|JIAJUJIAJUYONGPINSHEJI"
+}, {
+    "id": 6146,
+    "name": "珠宝/饰品设计",
+    "pid": 5524,
+    "py": "ZBSPSJ|ZHUBAOSHIPINSHEJI"
+}, {
+    "id": 6147,
+    "name": "形象设计",
+    "pid": 5524,
+    "py": "XXSJ|XINGXIANGSHEJI"
+}, {
+    "id": 6148,
+    "name": "工业设计/产品外观设计",
+    "pid": 5524,
+    "py": "GYSJCPWGSJ|GONGYESHEJICHANPINWAIGUANSHEJI"
+}, {
+    "id": 6149,
+    "name": "园艺设计",
+    "pid": 5524,
+    "py": "YYSJ|YUANYISHEJI"
+}, {
+    "id": 6150,
+    "name": "玩具/工艺品设计",
+    "pid": 5524,
+    "py": "WJGYPSJ|WANJUGONGYIPINSHEJI"
+}, {
+    "id": 6151,
+    "name": "多媒体设计与开发",
+    "pid": 5524,
+    "py": "DMTSJYKF|DUOMEITISHEJIYUKAIFA"
+}, {
+    "id": 6152,
+    "name": "造型/雕塑设计",
+    "pid": 5524,
+    "py": "ZXDSSJ|ZAOXINGDIAOSUSHEJI"
+}, {
+    "id": 6153,
+    "name": "特效设计",
+    "pid": 5524,
+    "py": "TXSJ|TEXIAOSHEJI"
+}, {
+    "id": 6154,
+    "name": "视觉设计 ",
+    "pid": 5524,
+    "py": "SJSJ |SHIJUESHEJI "
+}, {
+    "id": 6155,
+    "name": "其他艺术/设计类",
+    "pid": 5524,
+    "py": "QSYSSJL|QITAYISHUSHEJILEI"
+}, {
+    "id": 6156,
+    "name": "广告创意总监",
+    "pid": 5520,
+    "py": "GGCYZJ|GUANGGAOCHUANGYIZONGJIAN"
+}, {
+    "id": 6157,
+    "name": "广告创意经理/主管/专员",
+    "pid": 5520,
+    "py": "GGCYJLZGZY|GUANGGAOCHUANGYIJINGLIZHUGUANZHUANYUAN"
+}, {
+    "id": 6158,
+    "name": "广告客户总监/经理",
+    "pid": 5520,
+    "py": "GGKHZJJL|GUANGGAOKEHUZONGJIANJINGLI"
+}, {
+    "id": 6159,
+    "name": "广告客户主管/专员",
+    "pid": 5520,
+    "py": "GGKHZGZY|GUANGGAOKEHUZHUGUANZHUANYUAN"
+}, {
+    "id": 6160,
+    "name": "广告制作",
+    "pid": 5520,
+    "py": "GGZZ|GUANGGAOZHIZUO"
+}, {
+    "id": 6161,
+    "name": "广告设计师/美术指导",
+    "pid": 5520,
+    "py": "GGSJSMSZD|GUANGGAOSHEJISHIMEISHUZHIDAO"
+}, {
+    "id": 6162,
+    "name": "广告文案策划",
+    "pid": 5520,
+    "py": "GGWACH|GUANGGAOWENANCEHUA"
+}, {
+    "id": 6163,
+    "name": "其他广告类",
+    "pid": 5520,
+    "py": "QSGGL|QITAGUANGGAOLEI"
+}, {
+    "id": 6164,
+    "name": "活动/会议/会展策划",
+    "pid": 5525,
+    "py": "HDHYHZCH|HUODONGHUIYIHUIZHANCEHUA"
+}, {
+    "id": 6165,
+    "name": "会展/会务经理",
+    "pid": 5525,
+    "py": "HZHWJL|HUIZHANHUIWUJINGLI"
+}, {
+    "id": 6166,
+    "name": "会展/会务主管/专员",
+    "pid": 5525,
+    "py": "HZHWZGZY|HUIZHANHUIWUZHUGUANZHUANYUAN"
+}, {
+    "id": 6167,
+    "name": "公关/活动经理",
+    "pid": 5525,
+    "py": "GGHDJL|GONGGUANHUODONGJINGLI"
+}, {
+    "id": 6168,
+    "name": "公关/活动主管/专员",
+    "pid": 5525,
+    "py": "GGHDZGZY|GONGGUANHUODONGZHUGUANZHUANYUAN"
+}, {
+    "id": 6169,
+    "name": "其他会展/公关/活动类",
+    "pid": 5525,
+    "py": "QSHZGGHDL|QITAHUIZHANGONGGUANHUODONGLEI"
+}, {
+    "id": 6170,
+    "name": "影视策划/制作人员",
+    "pid": 5523,
+    "py": "YSCHZZRY|YINGSHICEHUAZHIZUORENYUAN"
+}, {
+    "id": 6171,
+    "name": "导演/编导",
+    "pid": 5523,
+    "py": "DYBD|DAOYANBIANDAO"
+}, {
+    "id": 6172,
+    "name": "艺术指导/设计总监",
+    "pid": 5523,
+    "py": "YSZDSJZJ|YISHUZHIDAOSHEJIZONGJIAN"
+}, {
+    "id": 6173,
+    "name": "经纪人/星探",
+    "pid": 5523,
+    "py": "JJRXT|JINGJIRENXINGTAN"
+}, {
+    "id": 6174,
+    "name": "演员/模特/礼仪/主持人",
+    "pid": 5523,
+    "py": "YYMTLYZCR|YANYUANMOTELIYIZHUCHIREN"
+}, {
+    "id": 6175,
+    "name": "摄影师/灯光师/摄像师",
+    "pid": 5523,
+    "py": "SYSDGSSXS|SHEYINGSHIDENGGUANGSHISHEXIANGSHI"
+}, {
+    "id": 6176,
+    "name": "制作/剪辑/合成/冲印",
+    "pid": 5523,
+    "py": "ZZJJHCCY|ZHIZUOJIANJIHECHENGCHONGYIN"
+}, {
+    "id": 6177,
+    "name": "化妆师/造型师",
+    "pid": 5523,
+    "py": "HZSZXS|HUAZHUANGSHIZAOXINGSHI"
+}, {
+    "id": 6178,
+    "name": "剧务",
+    "pid": 5523,
+    "py": "JW|JUWU"
+}, {
+    "id": 6179,
+    "name": "播音/配音/DJ",
+    "pid": 5523,
+    "py": "BYPYDJ|BOYINPEIYINDJ"
+}, {
+    "id": 6180,
+    "name": "其他影视类",
+    "pid": 5523,
+    "py": "QSYSL|QITAYINGSHILEI"
+}, {
+    "id": 6181,
+    "name": "总编/副总编",
+    "pid": 5521,
+    "py": "ZBFZB|ZONGBIANFUZONGBIAN"
+}, {
+    "id": 6182,
+    "name": "编辑/作家/独立撰稿人",
+    "pid": 5521,
+    "py": "BJZJDLZGR|BIANJIZUOJIADULIZHUANGAOREN"
+}, {
+    "id": 6183,
+    "name": "记者/新闻采编",
+    "pid": 5521,
+    "py": "JZXWCB|JIZHEXINWENCAIBIAN"
+}, {
+    "id": 6184,
+    "name": "美术编辑",
+    "pid": 5521,
+    "py": "MSBJ|MEISHUBIANJI"
+}, {
+    "id": 6185,
+    "name": "其他文字媒体/写作类",
+    "pid": 5521,
+    "py": "QSWZMTXZL|QITAWENZIMEITIXIEZUOLEI"
+}, {
+    "id": 6186,
+    "name": "排版设计",
+    "pid": 5522,
+    "py": "PBSJ|PAIBANSHEJI"
+}, {
+    "id": 6187,
+    "name": "校对/录入",
+    "pid": 5522,
+    "py": "XDLR|XIAODUILURU"
+}, {
+    "id": 6188,
+    "name": "出版/发行",
+    "pid": 5522,
+    "py": "CBFX|CHUBANFAXING"
+}, {
+    "id": 6189,
+    "name": "印刷操作工",
+    "pid": 5522,
+    "py": "YSCZG|YINSHUACAOZUOGONG"
+}, {
+    "id": 6190,
+    "name": "电分/排版/菲林输出",
+    "pid": 5522,
+    "py": "DFPBFLSC|DIANFENPAIBANFEILINSHUCHU"
+}, {
+    "id": 6191,
+    "name": "打版/调墨",
+    "pid": 5522,
+    "py": "DBDM|DABANDIAOMO"
+}, {
+    "id": 6192,
+    "name": "装订/晒版",
+    "pid": 5522,
+    "py": "ZDSB|ZHUANGDINGSHAIBAN"
+}, {
+    "id": 6193,
+    "name": "机长",
+    "pid": 5522,
+    "py": "JC|JICHANG"
+}, {
+    "id": 6194,
+    "name": "其他包装/印刷类",
+    "pid": 5522,
+    "py": "QSBZYSL|QITABAOZHUANGYINSHUALEI"
+}, {
+    "id": 6195,
+    "name": "商场/卖场经理",
+    "pid": 5531,
+    "py": "SCMCJL|SHANGCHANGMAICHANGJINGLI"
+}, {
+    "id": 6196,
+    "name": "店长/店面管理员",
+    "pid": 5531,
+    "py": "DCDMGLY|DIANCHANGDIANMIANGUANLIYUAN"
+}, {
+    "id": 6197,
+    "name": "商场/卖场管理员",
+    "pid": 5531,
+    "py": "SCMCGLY|SHANGCHANGMAICHANGGUANLIYUAN"
+}, {
+    "id": 6198,
+    "name": "店员/营业员/促销员/导购员",
+    "pid": 5531,
+    "py": "DYYYYCXYDGY|DIANYUANYINGYEYUANCUXIAOYUANDAOGOUYUAN"
+}, {
+    "id": 6199,
+    "name": "开票员/收银员",
+    "pid": 5531,
+    "py": "KPYSYY|KAIPIAOYUANSHOUYINYUAN"
+}, {
+    "id": 6200,
+    "name": "生鲜/食品加工",
+    "pid": 5531,
+    "py": "SXSPJG|SHENGXIANSHIPINJIAGONG"
+}, {
+    "id": 6201,
+    "name": "理货员/陈列员/防损员",
+    "pid": 5531,
+    "py": "LHYCLYFSY|LIHUOYUANCHENLIEYUANFANGSUNYUAN"
+}, {
+    "id": 6202,
+    "name": "接待/咨询员",
+    "pid": 5531,
+    "py": "JDZXY|JIEDAIZIXUNYUAN"
+}, {
+    "id": 6203,
+    "name": "熟食加工",
+    "pid": 5531,
+    "py": "SSJG|SHUSHIJIAGONG"
+}, {
+    "id": 6204,
+    "name": "品类经理",
+    "pid": 5531,
+    "py": "PLJL|PINLEIJINGLI"
+}, {
+    "id": 6205,
+    "name": "安防主管",
+    "pid": 5531,
+    "py": "AFZG|ANFANGZHUGUAN"
+}, {
+    "id": 6206,
+    "name": "品牌/连锁招商管理",
+    "pid": 5531,
+    "py": "PPLSZSGL|PINPAILIANSUOZHAOSHANGGUANLI"
+}, {
+    "id": 6207,
+    "name": "奢侈品业务",
+    "pid": 5531,
+    "py": "SCPYW|SHECHIPINYEWU"
+}, {
+    "id": 6208,
+    "name": "其他百货/连锁/超市/零售类",
+    "pid": 5531,
+    "py": "QSBHLSCSLSL|QITABAIHUOLIANSUOCHAOSHILINGSHOULEI"
+}, {
+    "id": 6209,
+    "name": "餐饮/娱乐管理",
+    "pid": 5532,
+    "py": "CYYLGL|CANYINYULEGUANLI"
+}, {
+    "id": 6210,
+    "name": "餐饮/娱乐领班",
+    "pid": 5532,
+    "py": "CYYLLB|CANYINYULELINGBAN"
+}, {
+    "id": 6211,
+    "name": "餐饮/娱乐服务生",
+    "pid": 5532,
+    "py": "CYYLFWS|CANYINYULEFUWUSHENG"
+}, {
+    "id": 6212,
+    "name": "前台/礼仪/迎宾/司仪",
+    "pid": 5532,
+    "py": "QTLYYBSY|QIANTAILIYIYINGBINSIYI"
+}, {
+    "id": 6213,
+    "name": "行政主厨/厨师长",
+    "pid": 5532,
+    "py": "XZZCCSC|XINGZHENGZHUCHUCHUSHICHANG"
+}, {
+    "id": 6214,
+    "name": "厨师",
+    "pid": 5532,
+    "py": "CS|CHUSHI"
+}, {
+    "id": 6215,
+    "name": "厨师助理/学徒",
+    "pid": 5532,
+    "py": "CSZLXT|CHUSHIZHULIXUETU"
+}, {
+    "id": 6216,
+    "name": "面点师",
+    "pid": 5532,
+    "py": "MDS|MIANDIANSHI"
+}, {
+    "id": 6217,
+    "name": "调酒师/茶艺师",
+    "pid": 5532,
+    "py": "DJSCYS|DIAOJIUSHICHAYISHI"
+}, {
+    "id": 6218,
+    "name": "咖啡师",
+    "pid": 5532,
+    "py": "JFS|KAFEISHI"
+}, {
+    "id": 6219,
+    "name": "传菜主管/传菜员",
+    "pid": 5532,
+    "py": "CCZGCCY|CHUANCAIZHUGUANCHUANCAIYUAN"
+}, {
+    "id": 6220,
+    "name": "配菜/打荷",
+    "pid": 5532,
+    "py": "PCDH|PEICAIDAHE"
+}, {
+    "id": 6221,
+    "name": "送餐员",
+    "pid": 5532,
+    "py": "SCY|SONGCANYUAN"
+}, {
+    "id": 6222,
+    "name": "洗碗工",
+    "pid": 5532,
+    "py": "XWG|XIWANGONG"
+}, {
+    "id": 6223,
+    "name": "收银员",
+    "pid": 5532,
+    "py": "SYY|SHOUYINYUAN"
+}, {
+    "id": 6224,
+    "name": "其他餐饮/娱乐类",
+    "pid": 5532,
+    "py": "QSCYYLL|QITACANYINYULELEI"
+}, {
+    "id": 6225,
+    "name": "酒店/宾馆经理",
+    "pid": 5533,
+    "py": "JDBGJL|JIUDIANBINGUANJINGLI"
+}, {
+    "id": 6226,
+    "name": "酒店/宾馆营销",
+    "pid": 5533,
+    "py": "JDBGYX|JIUDIANBINGUANYINGXIAO"
+}, {
+    "id": 6227,
+    "name": "大堂经理/楼面经理",
+    "pid": 5533,
+    "py": "DTJLLMJL|DATANGJINGLILOUMIANJINGLI"
+}, {
+    "id": 6228,
+    "name": "宴会管理员",
+    "pid": 5533,
+    "py": "YHGLY|YANHUIGUANLIYUAN"
+}, {
+    "id": 6229,
+    "name": "客房服务/楼面服务/行李员",
+    "pid": 5533,
+    "py": "KFFWLMFWXLY|KEFANGFUWULOUMIANFUWUXINGLIYUAN"
+}, {
+    "id": 6230,
+    "name": "前厅接待",
+    "pid": 5533,
+    "py": "QTJD|QIANTINGJIEDAI"
+}, {
+    "id": 6231,
+    "name": "商务中心/订票/订房",
+    "pid": 5533,
+    "py": "SWZXDPDF|SHANGWUZHONGXINDINGPIAODINGFANG"
+}, {
+    "id": 6232,
+    "name": "清洁服务人员",
+    "pid": 5533,
+    "py": "QJFWRY|QINGJIEFUWURENYUAN"
+}, {
+    "id": 6233,
+    "name": "导游/旅行顾问",
+    "pid": 5533,
+    "py": "DYLXGW|DAOYOULVXINGGUWEN"
+}, {
+    "id": 6234,
+    "name": "旅游管理",
+    "pid": 5533,
+    "py": "LYGL|LVYOUGUANLI"
+}, {
+    "id": 6235,
+    "name": "旅游计调",
+    "pid": 5533,
+    "py": "LYJD|LVYOUJIDIAO"
+}, {
+    "id": 6236,
+    "name": "其他酒店/旅游类",
+    "pid": 5533,
+    "py": "QSJDLYL|QITAJIUDIANLVYOULEI"
+}, {
+    "id": 6237,
+    "name": "美容顾问",
+    "pid": 5534,
+    "py": "MRGW|MEIRONGGUWEN"
+}, {
+    "id": 6238,
+    "name": "美容师/化妆师",
+    "pid": 5534,
+    "py": "MRSHZS|MEIRONGSHIHUAZHUANGSHI"
+}, {
+    "id": 6239,
+    "name": "美容助理/见习美容师",
+    "pid": 5534,
+    "py": "MRZLJXMRS|MEIRONGZHULIJIANXIMEIRONGSHI"
+}, {
+    "id": 6240,
+    "name": "发型师",
+    "pid": 5534,
+    "py": "FXS|FAXINGSHI"
+}, {
+    "id": 6241,
+    "name": "发型助理/学徒",
+    "pid": 5534,
+    "py": "FXZLXT|FAXINGZHULIXUETU"
+}, {
+    "id": 6242,
+    "name": "美甲师",
+    "pid": 5534,
+    "py": "MJS|MEIJIASHI"
+}, {
+    "id": 6243,
+    "name": "按摩/足疗师",
+    "pid": 5534,
+    "py": "AMZLS|ANMOZULIAOSHI"
+}, {
+    "id": 6244,
+    "name": "健身顾问/教练",
+    "pid": 5534,
+    "py": "JSGWJL|JIANSHENGUWENJIAOLIAN"
+}, {
+    "id": 6245,
+    "name": "瑜伽/舞蹈老师",
+    "pid": 5534,
+    "py": "YGWDLS|ZUOZUOWUDAOLAOSHI"
+}, {
+    "id": 6246,
+    "name": "宠物护理/美容",
+    "pid": 5534,
+    "py": "CWHLMR|CHONGWUHULIMEIRONG"
+}, {
+    "id": 6247,
+    "name": "其他美容/保健类",
+    "pid": 5534,
+    "py": "QSMRBJL|QITAMEIRONGBAOJIANLEI"
+}, {
+    "id": 6248,
+    "name": "保安人员/保镖",
+    "pid": 5536,
+    "py": "BARYBB|BAOANRENYUANBAOZUO"
+}, {
+    "id": 6249,
+    "name": "搬运工",
+    "pid": 5536,
+    "py": "BYG|BANYUNGONG"
+}, {
+    "id": 6250,
+    "name": "清洁工",
+    "pid": 5536,
+    "py": "QJG|QINGJIEGONG"
+}, {
+    "id": 6251,
+    "name": "家政服务/保姆",
+    "pid": 5536,
+    "py": "JZFWBM|JIAZHENGFUWUBAOMU"
+}, {
+    "id": 6252,
+    "name": "月嫂",
+    "pid": 5536,
+    "py": "YS|YUESAO"
+}, {
+    "id": 6253,
+    "name": "育婴师/保育员",
+    "pid": 5536,
+    "py": "YYSBYY|YUYINGSHIBAOYUYUAN"
+}, {
+    "id": 6254,
+    "name": "其他保安/家政服务类",
+    "pid": 5536,
+    "py": "QSBAJZFWL|QITABAOANJIAZHENGFUWULEI"
+}, {
+    "id": 6255,
+    "name": "英语翻译",
+    "pid": 5530,
+    "py": "YYFY|YINGYUFANYI"
+}, {
+    "id": 6256,
+    "name": "日语翻译",
+    "pid": 5530,
+    "py": "RYFY|RIYUFANYI"
+}, {
+    "id": 6257,
+    "name": "德语翻译",
+    "pid": 5530,
+    "py": "DYFY|DEYUFANYI"
+}, {
+    "id": 6258,
+    "name": "法语翻译",
+    "pid": 5530,
+    "py": "FYFY|FAYUFANYI"
+}, {
+    "id": 6259,
+    "name": "俄语翻译",
+    "pid": 5530,
+    "py": "DYFY|EYUFANYI"
+}, {
+    "id": 6260,
+    "name": "意大利语翻译",
+    "pid": 5530,
+    "py": "YDLYFY|YIDALIYUFANYI"
+}, {
+    "id": 6261,
+    "name": "西班牙语翻译",
+    "pid": 5530,
+    "py": "WBYYFY|XIBANYAYUFANYI"
+}, {
+    "id": 6262,
+    "name": "葡萄牙语翻译",
+    "pid": 5530,
+    "py": "PTYYFY|PUTAOYAYUFANYI"
+}, {
+    "id": 6263,
+    "name": "阿拉伯语翻译",
+    "pid": 5530,
+    "py": "LBYFY|ALABOYUFANYI"
+}, {
+    "id": 6264,
+    "name": "朝鲜语翻译",
+    "pid": 5530,
+    "py": "CXYFY|CHAOXIANYUFANYI"
+}, {
+    "id": 6265,
+    "name": "韩语翻译",
+    "pid": 5530,
+    "py": "HYFY|HANYUFANYI"
+}, {
+    "id": 6266,
+    "name": "泰语翻译",
+    "pid": 5530,
+    "py": "TYFY|TAIYUFANYI"
+}, {
+    "id": 6267,
+    "name": "马来语翻译",
+    "pid": 5530,
+    "py": "MLYFY|MALAIYUFANYI"
+}, {
+    "id": 6268,
+    "name": "越南语翻译",
+    "pid": 5530,
+    "py": "YNYFY|YUENANYUFANYI"
+}, {
+    "id": 6269,
+    "name": "泰国语翻译",
+    "pid": 5530,
+    "py": "TGYFY|TAIGUOYUFANYI"
+}, {
+    "id": 6270,
+    "name": "老挝语翻译",
+    "pid": 5530,
+    "py": "LWYFY|LAOWOYUFANYI"
+}, {
+    "id": 6271,
+    "name": "缅甸语翻译",
+    "pid": 5530,
+    "py": "MDYFY|MIANDIANYUFANYI"
+}, {
+    "id": 6272,
+    "name": "文莱语翻译",
+    "pid": 5530,
+    "py": "WLYFY|WENLAIYUFANYI"
+}, {
+    "id": 6273,
+    "name": "柬埔寨语翻译",
+    "pid": 5530,
+    "py": "JPZYFY|JIANPUZHAIYUFANYI"
+}, {
+    "id": 6274,
+    "name": "印尼语翻译",
+    "pid": 5530,
+    "py": "YNYFY|YINNIYUFANYI"
+}, {
+    "id": 6275,
+    "name": "其他语种翻译类",
+    "pid": 5530,
+    "py": "QSYZFYL|QITAYUZHONGFANYILEI"
+}, {
+    "id": 6276,
+    "name": "律师",
+    "pid": 5527,
+    "py": "LS|LVSHI"
+}, {
+    "id": 6277,
+    "name": "法律顾问",
+    "pid": 5527,
+    "py": "FLGW|FALVGUWEN"
+}, {
+    "id": 6278,
+    "name": "律师/法务助理/专员",
+    "pid": 5527,
+    "py": "LSFWZLZY|LVSHIFAWUZHULIZHUANYUAN"
+}, {
+    "id": 6279,
+    "name": "知识产权/专利顾问/专员",
+    "pid": 5527,
+    "py": "ZSCQZLGWZY|ZHISHICHANQUANZHUANLIGUWENZHUANYUAN"
+}, {
+    "id": 6280,
+    "name": "书记员",
+    "pid": 5527,
+    "py": "SJY|SHUJIYUAN"
+}, {
+    "id": 6281,
+    "name": "合规经理/主管",
+    "pid": 5527,
+    "py": "HGJLZG|HEGUIJINGLIZHUGUAN"
+}, {
+    "id": 6282,
+    "name": "合规专员",
+    "pid": 5527,
+    "py": "HGZY|HEGUIZHUANYUAN"
+}, {
+    "id": 6283,
+    "name": "其他法律/法务类",
+    "pid": 5527,
+    "py": "QSFLFWL|QITAFALVFAWULEI"
+}, {
+    "id": 6284,
+    "name": "首席咨询师",
+    "pid": 5526,
+    "py": "SXZXS|SHOUXIZIXUNSHI"
+}, {
+    "id": 6285,
+    "name": "咨询师/咨询员",
+    "pid": 5526,
+    "py": "ZXSZXY|ZIXUNSHIZIXUNYUAN"
+}, {
+    "id": 6286,
+    "name": "专业情报信息分析员",
+    "pid": 5526,
+    "py": "ZYQBXXFXY|ZHUANYEQINGBAOXINXIFENXIYUAN"
+}, {
+    "id": 6287,
+    "name": "专业市场调查员",
+    "pid": 5526,
+    "py": "ZYSCDCY|ZHUANYESHICHANGDIAOCHAYUAN"
+}, {
+    "id": 6288,
+    "name": "专业顾问",
+    "pid": 5526,
+    "py": "ZYGW|ZHUANYEGUWEN"
+}, {
+    "id": 6289,
+    "name": "职业猎头/人才中介",
+    "pid": 5526,
+    "py": "ZYLTRCZJ|ZHIYELIETOURENCAIZHONGJIE"
+}, {
+    "id": 6290,
+    "name": "婚姻服务",
+    "pid": 5526,
+    "py": "HYFW|HUNYINFUWU"
+}, {
+    "id": 6291,
+    "name": "专业培训师",
+    "pid": 5526,
+    "py": "ZYPXS|ZHUANYEPEIXUNSHI"
+}, {
+    "id": 6292,
+    "name": "拍卖师/拍卖员",
+    "pid": 5526,
+    "py": "PMSPMY|PAIMAISHIPAIMAIYUAN"
+}, {
+    "id": 6293,
+    "name": "其他咨询/顾问/中介类",
+    "pid": 5526,
+    "py": "QSZXGWZJL|QITAZIXUNGUWENZHONGJIELEI"
+}, {
+    "id": 6294,
+    "name": "培训督导",
+    "pid": 5529,
+    "py": "PXDD|PEIXUNDUDAO"
+}, {
+    "id": 6295,
+    "name": "培训讲师",
+    "pid": 5529,
+    "py": "PXJS|PEIXUNJIANGSHI"
+}, {
+    "id": 6296,
+    "name": "培训策划",
+    "pid": 5529,
+    "py": "PXCH|PEIXUNCEHUA"
+}, {
+    "id": 6297,
+    "name": "培训助理",
+    "pid": 5529,
+    "py": "PXZL|PEIXUNZHULI"
+}, {
+    "id": 6298,
+    "name": "培训产品开发",
+    "pid": 5529,
+    "py": "PXCPKF|PEIXUNCHANPINKAIFA"
+}, {
+    "id": 6299,
+    "name": "培训课程顾问",
+    "pid": 5529,
+    "py": "PXKCGW|PEIXUNKECHENGGUWEN"
+}, {
+    "id": 6300,
+    "name": "其他培训类",
+    "pid": 5529,
+    "py": "QSPXL|QITAPEIXUNLEI"
+}, {
+    "id": 6301,
+    "name": "医院院长/副院长",
+    "pid": 5519,
+    "py": "YYYCFYC|YIYUANYUANCHANGFUYUANCHANG"
+}, {
+    "id": 6302,
+    "name": "诊所/门诊/医院管理人员",
+    "pid": 5519,
+    "py": "ZSMZYYGLRY|ZHENSUOMENZHENYIYUANGUANLIRENYUAN"
+}, {
+    "id": 6303,
+    "name": "内科医生",
+    "pid": 5519,
+    "py": "NKYS|NEIKEYISHENG"
+}, {
+    "id": 6304,
+    "name": "外科医生",
+    "pid": 5519,
+    "py": "WKYS|WAIKEYISHENG"
+}, {
+    "id": 6305,
+    "name": "男科医生",
+    "pid": 5519,
+    "py": "NKYS|NANKEYISHENG"
+}, {
+    "id": 6306,
+    "name": "牙科医生",
+    "pid": 5519,
+    "py": "YKYS|YAKEYISHENG"
+}, {
+    "id": 6307,
+    "name": "麻醉医生",
+    "pid": 5519,
+    "py": "MZYS|MAZUIYISHENG"
+}, {
+    "id": 6308,
+    "name": "骨科医生",
+    "pid": 5519,
+    "py": "GKYS|GUKEYISHENG"
+}, {
+    "id": 6309,
+    "name": "放射科医生",
+    "pid": 5519,
+    "py": "FSKYS|FANGSHEKEYISHENG"
+}, {
+    "id": 6310,
+    "name": "脑科医生",
+    "pid": 5519,
+    "py": "NKYS|NAOKEYISHENG"
+}, {
+    "id": 6311,
+    "name": "口腔科医生",
+    "pid": 5519,
+    "py": "KQKYS|KOUQIANGKEYISHENG"
+}, {
+    "id": 6312,
+    "name": "五官科医生",
+    "pid": 5519,
+    "py": "WGKYS|WUGUANKEYISHENG"
+}, {
+    "id": 6313,
+    "name": "皮肤科医生",
+    "pid": 5519,
+    "py": "PFKYS|PIFUKEYISHENG"
+}, {
+    "id": 6314,
+    "name": "中医医生",
+    "pid": 5519,
+    "py": "ZYYS|ZHONGYIYISHENG"
+}, {
+    "id": 6315,
+    "name": "妇幼保健",
+    "pid": 5519,
+    "py": "FYBJ|FUYOUBAOJIAN"
+}, {
+    "id": 6316,
+    "name": "心理医生",
+    "pid": 5519,
+    "py": "XLYS|XINLIYISHENG"
+}, {
+    "id": 6317,
+    "name": "营养师",
+    "pid": 5519,
+    "py": "YYS|YINGYANGSHI"
+}, {
+    "id": 6318,
+    "name": "药库主任/药剂师",
+    "pid": 5519,
+    "py": "YKZRYJS|YAOKUZHURENYAOJISHI"
+}, {
+    "id": 6319,
+    "name": "理疗/针灸/推拿",
+    "pid": 5519,
+    "py": "LLZJTN|LILIAOZHENJIUTUINA"
+}, {
+    "id": 6320,
+    "name": "美容整形师",
+    "pid": 5519,
+    "py": "MRZXS|MEIRONGZHENGXINGSHI"
+}, {
+    "id": 6321,
+    "name": "医药学检验",
+    "pid": 5519,
+    "py": "YYXJY|YIYAOXUEJIANYAN"
+}, {
+    "id": 6322,
+    "name": "护理主任/护士长",
+    "pid": 5519,
+    "py": "HLZRHSC|HULIZHURENHUSHICHANG"
+}, {
+    "id": 6323,
+    "name": "护士/护理人员",
+    "pid": 5519,
+    "py": "HSHLRY|HUSHIHULIRENYUAN"
+}, {
+    "id": 6324,
+    "name": "兽医/宠物医生",
+    "pid": 5519,
+    "py": "SYCWYS|SHOUYICHONGWUYISHENG"
+}, {
+    "id": 6325,
+    "name": "公共卫生/疾病控制",
+    "pid": 5519,
+    "py": "GGWSJBKZ|GONGGONGWEISHENGJIBINGKONGZHI"
+}, {
+    "id": 6326,
+    "name": "医学影像",
+    "pid": 5519,
+    "py": "YXYX|YIXUEYINGXIANG"
+}, {
+    "id": 6327,
+    "name": "其他医院/医疗/护理类",
+    "pid": 5519,
+    "py": "QSYYYLHLL|QITAYIYUANYILIAOHULILEI"
+}, {
+    "id": 6328,
+    "name": "院校校长/副校长",
+    "pid": 5528,
+    "py": "YXXCFXC|YUANXIAOXIAOCHANGFUXIAOCHANG"
+}, {
+    "id": 6329,
+    "name": "大学教授",
+    "pid": 5528,
+    "py": "DXJS|DAXUEJIAOSHOU"
+}, {
+    "id": 6330,
+    "name": "大学讲师/助教",
+    "pid": 5528,
+    "py": "DXJSZJ|DAXUEJIANGSHIZHUJIAO"
+}, {
+    "id": 6331,
+    "name": "中小学语文/历史/地理/生物教师",
+    "pid": 5528,
+    "py": "ZXXYWLSDLSWJS|ZHONGXIAOXUEYUWENLISHIDILISHENGWUJIAOSHI"
+}, {
+    "id": 6332,
+    "name": "中小学数学/物理/化学教师",
+    "pid": 5528,
+    "py": "ZXXSXWLHXJS|ZHONGXIAOXUESHUXUEWULIHUAXUEJIAOSHI"
+}, {
+    "id": 6333,
+    "name": "外语教师",
+    "pid": 5528,
+    "py": "WYJS|WAIYUJIAOSHI"
+}, {
+    "id": 6334,
+    "name": "体育/音乐/美术教师",
+    "pid": 5528,
+    "py": "TYYLMSJS|TIYUYINLEMEISHUJIAOSHI"
+}, {
+    "id": 6335,
+    "name": "学前教育教师",
+    "pid": 5528,
+    "py": "XQJYJS|XUEQIANJIAOYUJIAOSHI"
+}, {
+    "id": 6336,
+    "name": "计算机教师",
+    "pid": 5528,
+    "py": "JSJJS|JISUANJIJIAOSHI"
+}, {
+    "id": 6337,
+    "name": "院校教务管理人员",
+    "pid": 5528,
+    "py": "YXJWGLRY|YUANXIAOJIAOWUGUANLIRENYUAN"
+}, {
+    "id": 6338,
+    "name": "招生/就业服务人员",
+    "pid": 5528,
+    "py": "ZSJYFWRY|ZHAOSHENGJIUYEFUWURENYUAN"
+}, {
+    "id": 6339,
+    "name": "职业教育/职业培训教师",
+    "pid": 5528,
+    "py": "ZYJYZYPXJS|ZHIYEJIAOYUZHIYEPEIXUNJIAOSHI"
+}, {
+    "id": 6340,
+    "name": "家教教师",
+    "pid": 5528,
+    "py": "JJJS|JIAJIAOJIAOSHI"
+}, {
+    "id": 6341,
+    "name": "自然科学研究员",
+    "pid": 5528,
+    "py": "ZRKXYJY|ZIRANKEXUEYANJIUYUAN"
+}, {
+    "id": 6342,
+    "name": "工程和技术研究员",
+    "pid": 5528,
+    "py": "GCHJSYJY|GONGCHENGHEJISHUYANJIUYUAN"
+}, {
+    "id": 6343,
+    "name": "农业科学研究员",
+    "pid": 5528,
+    "py": "NYKXYJY|NONGYEKEXUEYANJIUYUAN"
+}, {
+    "id": 6344,
+    "name": "医学研究员",
+    "pid": 5528,
+    "py": "YXYJY|YIXUEYANJIUYUAN"
+}, {
+    "id": 6345,
+    "name": "社会人文科学研究员",
+    "pid": 5528,
+    "py": "SHRWKXYJY|SHEHUIRENWENKEXUEYANJIUYUAN"
+}, {
+    "id": 6346,
+    "name": "其他文教/科研类",
+    "pid": 5528,
+    "py": "QSWJKYL|QITAWENJIAOKEYANLEI"
+}, {
+    "id": 6347,
+    "name": "环保工程师",
+    "pid": 5535,
+    "py": "HBGCS|HUANBAOGONGCHENGSHI"
+}, {
+    "id": 6348,
+    "name": "水处理工程师",
+    "pid": 5535,
+    "py": "SCLGCS|SHUICHULIGONGCHENGSHI"
+}, {
+    "id": 6349,
+    "name": "环境影响评价工程师",
+    "pid": 5535,
+    "py": "HJYXPJGCS|HUANJINGYINGXIANGPINGJIAGONGCHENGSHI"
+}, {
+    "id": 6350,
+    "name": "环保检测",
+    "pid": 5535,
+    "py": "HBJC|HUANBAOJIANCE"
+}, {
+    "id": 6351,
+    "name": "水质检测员",
+    "pid": 5535,
+    "py": "SZJCY|SHUIZHIJIANCEYUAN"
+}, {
+    "id": 6352,
+    "name": "固废工程师",
+    "pid": 5535,
+    "py": "GFGCS|GUFEIGONGCHENGSHI"
+}, {
+    "id": 6353,
+    "name": "废气处理工程师",
+    "pid": 5535,
+    "py": "FQCLGCS|FEIQICHULIGONGCHENGSHI"
+}, {
+    "id": 6354,
+    "name": "生态治理/规划",
+    "pid": 5535,
+    "py": "STZLGH|SHENGTAIZHILIGUIHUA"
+}, {
+    "id": 6355,
+    "name": "园林工程/园艺技术",
+    "pid": 5535,
+    "py": "YLGCYYJS|YUANLINGONGCHENGYUANYIJISHU"
+}, {
+    "id": 6356,
+    "name": "绿化工程",
+    "pid": 5535,
+    "py": "LHGC|LVHUAGONGCHENG"
+}, {
+    "id": 6357,
+    "name": "治污/排污/减污",
+    "pid": 5535,
+    "py": "ZWPWJW|ZHIWUPAIWUJIANWU"
+}, {
+    "id": 6358,
+    "name": "其他环境保护类",
+    "pid": 5535,
+    "py": "QSHJBHL|QITAHUANJINGBAOHULEI"
+}, {
+    "id": 6359,
+    "name": "在校学生",
+    "pid": 5538,
+    "py": "ZXXS|ZAIXIAOXUESHENG"
+}, {
+    "id": 6360,
+    "name": "实习生/培训生/兼职",
+    "pid": 5538,
+    "py": "SXSPXSJZ|SHIXISHENGPEIXUNSHENGJIANZHI"
+}, {
+    "id": 6361,
+    "name": "军人",
+    "pid": 5538,
+    "py": "JR|JUNREN"
+}, {
+    "id": 6362,
+    "name": "公务员",
+    "pid": 5538,
+    "py": "GWY|GONGWUYUAN"
+}, {
+    "id": 6363,
+    "name": "储备干部",
+    "pid": 5538,
+    "py": "CBGB|CHUBEIGANBU"
+}, {
+    "id": 6364,
+    "name": "其他类",
+    "pid": 5538,
+    "py": "QSL|QITALEI"
+}, {
+    "id": 6365,
+    "name": "人事信息系统管理员",
+    "pid": 5499,
+    "py": "RSXXJTGLY|RENSHIXINXIJITONGGUANLIYUAN"
+}, {
+    "id": 6367,
+    "name": "党工团干事",
+    "pid": 5500,
+    "py": "DGTGS|DANGGONGTUANGANSHI"
+}, {
+    "id": 6368,
+    "name": "财务助理",
+    "pid": 5493,
+    "py": "CWZL|CAIWUZHULI"
+}, {
+    "id": 6369,
+    "name": "资金专员",
+    "pid": 5493,
+    "py": "ZJZY|ZIJINZHUANYUAN"
+}, {
+    "id": 6370,
+    "name": "固定资产会计",
+    "pid": 5493,
+    "py": "GDZCHJ|GUDINGZICHANHUIJI"
+}, {
+    "id": 6371,
+    "name": "包装工程师",
+    "pid": 5501,
+    "py": "BZGCS|BAOZHUANGGONGCHENGSHI"
+}, {
+    "id": 6372,
+    "name": "买手",
+    "pid": 5513,
+    "py": "MS|MAISHOU"
+}, {
+    "id": 6373,
+    "name": "供应链管理",
+    "pid": 5513,
+    "py": "GYLGL|GONGYINGLIANGUANLI"
+}, {
+    "id": 6374,
+    "name": "新媒体营销",
+    "pid": 5488,
+    "py": "XMTYX|XINMEITIYINGXIAO"
+}, {
+    "id": 6375,
+    "name": "销售项目经理",
+    "pid": 5489,
+    "py": "XSXMJL|XIAOSHOUXIANGMUJINGLI"
+}, {
+    "id": 6376,
+    "name": "空调/热能工程师",
+    "pid": 5503,
+    "py": "KDRNGCS|KONGDIAORENENGGONGCHENGSHI"
+}, {
+    "id": 6377,
+    "name": "电力系统研发工程师",
+    "pid": 5503,
+    "py": "DLJTYFGCS|DIANLIJITONGYANFAGONGCHENGSHI"
+}, {
+    "id": 6378,
+    "name": "控制保护研发工程师",
+    "pid": 5503,
+    "py": "KZBHYFGCS|KONGZHIBAOHUYANFAGONGCHENGSHI"
+}, {
+    "id": 6379,
+    "name": "橡胶工程师",
+    "pid": 5515,
+    "py": "XJGCS|XIANGJIAOGONGCHENGSHI"
+}, {
+    "id": 6380,
+    "name": "医药学术推广",
+    "pid": 5518,
+    "py": "YYXSTA|YIYAOXUESHUTUIAN"
+}, {
+    "id": 6381,
+    "name": "算法工程师",
+    "pid": 5480,
+    "py": "SFGCS|SUANFAGONGCHENGSHI"
+}, {
+    "id": 6382,
+    "name": "大数据开发工程师",
+    "pid": 5480,
+    "py": "DSJKFGCS|DASHUJUKAIFAGONGCHENGSHI"
+}, {
+    "id": 6383,
+    "name": "大数据项目经理",
+    "pid": 5481,
+    "py": "DSJXMJL|DASHUJUXIANGMUJINGLI"
+}, {
+    "id": 6384,
+    "name": "脚本开发工程师",
+    "pid": 5484,
+    "py": "JBKFGCS|JIAOBENKAIFAGONGCHENGSHI"
+}, {
+    "id": 6385,
+    "name": "网店管理员",
+    "pid": 5485,
+    "py": "WDGLY|WANGDIANGUANLIYUAN"
+}, {
+    "id": 6386,
+    "name": "数据运营",
+    "pid": 5485,
+    "py": "SJYY|SHUJUYUNYING"
+}, {
+    "id": 6387,
+    "name": "互联网数据分析师",
+    "pid": 5485,
+    "py": "HLWSJFXS|HULIANWANGSHUJUFENXISHI"
+}, {
+    "id": 6388,
+    "name": "新媒体运营",
+    "pid": 5485,
+    "py": "XMTYY|XINMEITIYUNYING"
+}, {
+    "id": 6389,
+    "name": "网络主播",
+    "pid": 5485,
+    "py": "WLZB|WANGLAOZHUBO"
+}, {
+    "id": 6390,
+    "name": "网站信息安全工程师",
+    "pid": 5485,
+    "py": "WZXXAQGCS|WANGZHANXINXIANQUANGONGCHENGSHI"
+}, {
+    "id": 6391,
+    "name": "通信电源工程师",
+    "pid": 5486,
+    "py": "TXDYGCS|TONGXINDIANYUANGONGCHENGSHI"
+}, {
+    "id": 6392,
+    "name": "学徒工",
+    "pid": 5507,
+    "py": "XTG|XUETUGONG"
+}, {
+    "id": 6393,
+    "name": "绿化工",
+    "pid": 5510,
+    "py": "LHG|LUHUAGONG"
+}, {
+    "id": 6394,
+    "name": "停车管理员",
+    "pid": 5510,
+    "py": "TCGLY|TINGCHEGUANLIYUAN"
+}, {
+    "id": 6395,
+    "name": "营运网约车司机",
+    "pid": 5514,
+    "py": "YYWYCSJ|YINGYUNWANGYAOCHESIJI"
+}, {
+    "id": 6396,
+    "name": "出租车司机",
+    "pid": 5514,
+    "py": "CZCSJ|CHUZUCHESIJI"
+}, {
+    "id": 6397,
+    "name": "代驾",
+    "pid": 5514,
+    "py": "DJ|DAIJIA"
+}, {
+    "id": 6398,
+    "name": "金融数据分析师",
+    "pid": 5494,
+    "py": "JRSJFXS|JINRONGSHUJUFENXISHI"
+}, {
+    "id": 6399,
+    "name": "信审核查",
+    "pid": 5495,
+    "py": "XSHC|XINSHENHECHA"
+}, {
+    "id": 6400,
+    "name": "改妆师",
+    "pid": 5524,
+    "py": "GZS|GAIZHUANGSHI"
+}, {
+    "id": 6401,
+    "name": "广告项目经理/主管",
+    "pid": 5520,
+    "py": "AGXMJLZG|ANGAOXIANGMUJINGLIZHUGUAN"
+}, {
+    "id": 6402,
+    "name": "合规顾问",
+    "pid": 5527,
+    "py": "GGGW|GEGUIGUWEN"
+}, {
+    "id": 6403,
+    "name": "司法鉴定",
+    "pid": 5527,
+    "py": "SFJD|SIFAJIANDING"
+}, {
+    "id": 6404,
+    "name": "康复理疗",
+    "pid": 5519,
+    "py": "KFLL|KANGFULILIAO"
+}, {
+    "id": 6405,
+    "name": "课程顾问",
+    "pid": 5528,
+    "py": "KCGW|KECHENGGUWEN"
+}];
+
+
+/* 
+输入一层目录的id
+返回一个json文件，包含全部需要爬取的页面
+
+*/
+
+// [[返回二级目录的id : 二级目录的名称],]
+function showPosTypeLevel2(id) {
+    var level_2 = [];
+    var firstId = 0;
+    //var html = [];
+    //html.push('<div id="posTypeLevel2_' + id + '" class="pos-type-level2-box"><ul class="level2">');
+    for (var i = 0; i < _position.length; i++) {
+        var l2_array = [];
+        if (_position[i].pid == id) {
+            //html.push('<li onmouseover="showPosTypeLevel3(' + _position[i].id + ',' + id + ')">');
+            //html.push('<a href="//s.gxrc.com' + dsHOST + '/sJob?schType=1&expend=1&PosType=' + _position[i].id + '" target="_blank" class="a">');
+            //html.push(_position[i].name);
+            //console.log(_position[i].name);
+            //console.log(_position[i].id);
+            l2_array = [_position[i].id , _position[i].name]; // [返回二级目录的id : 二级目录的名称]
+            level_2.push(l2_array); // 把值写入数组
+            //html.push('</a><i class="jt"></i>');
+            //html.push('</li>');
+            //if (firstId == 0) {
+            //    firstId = _position[i].id;
+            //}
+        }
+    }
+    return level_2;
+    //html.push('</ul>');
+    //html.push('<div id="posTypeLevel3Box' + id + '" class="level3"><ul class="clearfix" id="posTypeLevel3_' + firstId + '">');
+    //var index = 0;
+    /*
+    for (var i = 0; i < _position.length; i++) {
+        if (_position[i].pid == firstId) {
+            //html.push('<li>');
+            //html.push('<a href="//s.gxrc.com' + dsHOST + '/sJob?schType=1&expend=1&PosType=' + _position[i].id + '" title="' + _position[i].name + '" target="_blank" class="a">');
+            //html.push(_position[i].name);
+            console.log(_position[i].name);
+            //html.push('</a>');
+            //html.push('</li>');
+            //index++;
+        }
+    }*/
+
+}
+
+function showPosTypeLevel3(id, pId) {
+    //$("#posTypeLevel3Box" + pId + " ul").hide();
+
+    //if ($("#posTypeLevel3_" + id).length == 0) {
+        var html = [];
+        //html.push('<ul class="clearfix" id="posTypeLevel3_' + id + '">');
+        var index = 0;
+        var level_3 = [];
+        for (var i = 0; i < _position.length; i++) {
+            var l3_array = [];
+            if (_position[i].pid == id) {
+                //html.push('<li>');
+                //html.push('<a href="//s.gxrc.com' + dsHOST + '/sJob?schType=1&expend=1&PosType=' + _position[i].id + '" title="' + _position[i].name + '" target="_blank" class="a">');
+                //html.push(_position[i].name);
+                //console.log(_position[i].name);
+                url = 'https://s.gxrc.com/gl/sJob?schType=1&expend=1&PosType=' + _position[i].id; //目标url
+                l3_array = [_position[i].name , url]; // [职位名称 : 此职位的url]
+                level_3.push(l3_array);
+                //html.push('</a>');
+                //html.push('</li>');
+                //index++;
+            }
+        }
+        return level_3;
+        //html.push("</ul>");
+        //$("#posTypeLevel3Box" + pId).append(html.join(""));
+    //}
+    //$("#posTypeLevel3_" + id).show();
+}
+
+// 返回 [['一级选项','二级选项','三级职位名称','此职位名称的URL']]
+function group(){
+    // 一级目录 id
+    var parent_directory_id = [
+        [5467, '计算机/互联网/通信电子'],
+        [5468, '市场营销/销售/客服/技术支持'],
+        [5469, '财务/金融/银行/保险/信托'],
+        [5470, '高级管理/人力资源/行政'],
+        [5471, '生产/工艺/能源/机械/技工'],
+        [5472, '建筑/房地产/物业'],
+        [5473, '贸易/物流/采购'],
+        [5474, '化工/生物/制药/医疗/护理'],
+        [5475, '广告/媒体/艺术/会展'],
+        [5476, '咨询/法律/教育/培训/翻译'],
+        [5477, '服务业'],
+        [5478, '环保/家政/农林渔牧类/其他']
+    ];
+    var result = [];
+    for(var i = 0; i < parent_directory_id.length; i++) {
+        var group_level_2 = showPosTypeLevel2(parent_directory_id[i][0]); //返回 [[二级目录的id : 二级目录的名称]]
+        for(var i2=0;i2 < group_level_2.length;i2++){
+            var group_level_3 = showPosTypeLevel3(group_level_2[i2][0]); //返回 [[职位名称 : 此职位的url]]
+            for(var i3=0;i3<group_level_3.length;i3++){
+                var r = [];
+                r = [parent_directory_id[i][1] , group_level_2[i2][1] , group_level_3[i3][0] , group_level_3[i3][1]]; // ['一级选项','二级选项','三级职位名称','此职位名称的URL']
+                result.push(r);
+            }
+        }
+    }
+    return result;
+}
+
+group();
+//showPosTypeLevel3(5479,5467);

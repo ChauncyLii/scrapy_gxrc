@@ -1,0 +1,629 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>业务内勤主管职位信息_广西旺砖投资有限公司 - 广西人才网</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit" />
+    <meta name="Keywords" content="业务内勤主管招聘信息,广西旺砖投资有限公司招聘,广西人才网" />
+    <meta name="description" content="广西旺砖投资有限公司 招聘业务内勤主管,业务内勤主管招聘信息简介,内容包括：工资待遇,职位描述,工作地点,岗位职责，工作内容_广西人才网" />
+    <link href="//maze.gxrc.com/gxrcsite/css/global.css" rel="stylesheet" />
+    <script type="text/javascript" src="//maze.gxrc.com/Js/jQuery/jquery.last.min.js"></script>
+    <script type="text/javascript" src="//maze.gxrc.com/Js/siteJs/layer/layer.js"></script>
+    <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=S8sAXjn9Td1YCKMietFY6wB5&s=1"></script>
+    <script type="text/javascript" src="//maze.gxrc.com/Js/siteJs/BaiduZoom.min.js"></script>
+    <link rel="stylesheet" href="//maze.gxrc.com/iconfont/iconfont.css"/>
+    <link href="/Content/Css/common.css?v=2" rel="stylesheet" />
+    <link href="/Content/Css/company.css?v=6" rel="stylesheet" />
+    
+    <script>
+        if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|Mobile)/i)) && navigator.userAgent.toLowerCase().indexOf("ipad") < 0 && navigator.userAgent.toLowerCase().indexOf("ipd") < 0) {
+            var url = location.href;
+            var str = /(\w+):\/\/([^/:]+)([^# ]*)/;
+            var ary = url.match(str);
+            var id = ary[3].substr(11);
+            var str2 = /([^.]+)/g;
+            var host = ary[2].match(str2);
+            var domain = host[0];
+            var rcw = host[1];
+            var ds = '';
+
+            if (domain == 'home'&&rcw == 'tgxrc') {
+                    ds = '2';
+            } else {
+                if (domain == 'www') {
+                    ds = '';
+                } else {
+                    ds = domain;
+                }
+            }
+            location.replace("//m" + ds + "."+rcw+".com/jobDetail/" + id);
+        }
+    </script>
+
+</head>
+<body>
+    <div id="page" class="page">
+        <link href="/Content/Css/topbar.css?v=2020" rel="stylesheet" />
+<div id="topbar" class="topbar topbarCompany">
+    <div class="w1200 clearfix">
+        <div class="state-wrap fl">
+    <div class="logo-small"><a href="/" target="_blank"><img src="//image.gxrc.com/gxrcsite/2013/logo_s.png" title="广西人才网" alt="广西人才网"></a></div>
+    <div class="login-state clearfix"><span class="hello fl">您好，</span><a href="" id="a_loginInfo" class="a user-name fl">测试</a> <a href="javascript:loginOut();" class="a login-out fl">退出</a></div>
+
+    <div class="app-down"><a href="//image.gxrc.com/gxrcsite/zt/MobileApp/index.htm?ds=www" target="_blank" class="a"><i class="iconfont icon-phone4"></i>手机版</a></div>
+</div>
+            
+<div class="search-wrap fr">
+    <form action="//s.gxrc.com/sJob" id="formSearch" method="get" target="_blank" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+        <div class="search-box clearfix">
+            <div class="search-type" id="searchType">
+                <h2>职位<i class="iconfont icon-arrowDown5"></i></h2>
+                <ul class="none">
+                    <li data-schtype="1"><a href="javascript:;">职位</a></li>
+                    <li data-schtype="2"><a href="javascript:;">公司</a></li>
+                </ul>
+            </div>
+            <input id="txt_Keyword" name="keyword" autocomplete="off" type="text" class="search-keyword" value="" placeholder="请输入职位或公司名称" />
+            <button type="submit" value="" id="searchBtn" class="search-btn"><!--[if lte IE 8]>搜索<![endif]--><i class="iconfont icon-search"></i></button>
+            <input type="hidden" id="hid_schType" name="schType" value="1" />
+            <div id="promptBox" class="prompt-box"></div>
+        </div>
+    </form>
+</div>
+<div class="quick-menu fr">
+            <ul>
+                <li class="menu my">
+                    <div class="title">
+                        <a href="//my.gxrc.com/" target="_blank" class="a">人才登录</a><i class="iconfont icon-arrowDown5"></i>
+                    </div>
+                    <div class="menu-popup">
+                        <ul>
+                            <li class="reg"><a href="//my.gxrc.com/reg" target="_blank" class="orange">人才注册</a></li>
+                            <li><a href="//my.gxrc.com/Resume/EnterpriseView" target="_blank" class="a">谁看过我</a></li>
+                            <li><a href="//my.gxrc.com/Apply/Index/0" target="_blank" class="a">求职记录</a></li>
+                            <li><a href="//my.gxrc.com/Msg/MsgList" target="_blank" class="a">人事来信</a></li>
+                            <li><a href="//my.gxrc.com/Resume" target="_blank" class="a">简历列表</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<script src="/Content/Js/header.js"></script>
+<link rel="stylesheet" type="text/css" href="//maze.gxrc.com/js/siteJs/jquery.autocomplete.css" />
+<script type="text/javascript" src="//maze.gxrc.com/js/siteJs/jquery.autocomplete.min.js"></script>
+<script src="/Content/Js/autoCompleteHead.js"></script>
+        <div id="content" class="content">
+            
+
+<div id="jobDetail" class="job-detail">
+    <div id="header" class="header">
+        <div class="w1200 clearfix">
+            <div class="base-info fl">
+                <div class="pos-wrap clearfix">
+                    <h1 title="业务内勤主管">业务内勤主管</h1>
+                    <div class="pos-state-wrap">
+                                                                                            </div>
+                    <div class="salary">
+                        8001-10000
+                    </div>
+                </div>
+                
+                <p class="detail">广西壮族自治区/南宁市/青秀区<span class="vl">|</span>学历本科<span class="vl">|</span>经验5年<span class="vl">|</span>招聘1人</p>
+            </div>
+            <div class="btn-wrap fr">
+                    <a href="/favPosition/33b270429d1e4e788cd69b7a972b686e" class="btn btn-blue-border btn-collection"><i class="iconfont icon-star1"></i>收藏职位</a>
+
+            <a href="javascript:;" class="btn btn-blue btn-apply" onclick="applyPosition()">立即申请</a>
+
+                    <a id="zhiliaoBtn" class="btn btn-orange btn-zhiliao" href="javascript:;" >聊一聊</a>
+                    <div class="zhiliao-box" id="zhiliaoBox" >
+                        <div class="wz">新增直聊功能，求职者可与企业进行在线沟通，招聘求职更高效。扫描二维码下载广西人才网App立即体验。</div><img src="//image.gxrc.com/gxrcsite/global/app_code.png">
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="main-wrap bg-gray3">
+        <div class="main-content w1200 clearfix bg-white">
+            <div class="main-left fl">
+                <div class="pos-details one-column">
+                    <div class="title-blue"><i class="border"></i>职位描述</div>
+                    <div class="pos-details-con con">
+                        <pre id="examineSensitiveWordsContent" style="display:none;">一、岗位职责：
+1、带领团队依据公司的标准操作流程和指示，负责相关单据的制作、跟踪及管理，归档处理团队流程和标准。
+2、收集和整理各种单证，完成送货单、订单、提单核对等对单据的各项处理，并进行基础数据的问题；协助参与收付款，投标，结算，手工账等工作。
+3、提出持续改进建议以优化流程，提高工作效率和质量。执行公司操作和管理的标准工作；
+4、草拟及审核合同，合同的结算，应收付款款及票据的处理，跟踪业务动态，及时处理出现的问题；
+5、确保团队工作效率和质量满足服务协议。
+6、完成与业务员、跟单员以及客户、货代各方面的协调工作。
+7、完成领导交办其他工作任务。
+
+二、任职资格：
+1、5年以上大宗贸易工作经验或贸易单证员经验。
+2、本科及以上学历，精通Word、Excel、具备较强的分析能力，沟通能力、善于运输、商检等有关部门紧密协作。
+3、要善于学习更新知识，不断专研业务，掌握一些贸易地区政策、抗压能力强。
+4、做事客观、严谨负责、踏实敬业、热爱单证工作，具有团队精神。
+5、能灵活的处理客户的需求
+
+三、工作休息时间：
+1、周一到周五 9：00-17：30。
+2、享受国家和自治区法定节假日、年休假。
+3、享受公司年度旅游、员工活动日等。
+
+四、薪资福利：
+1、薪资：每月固定工资+月度绩效+餐补+年终奖，综合年入12+。
+2、社保：按照国家规定缴纳社保五险。
+3、补贴：话费补贴。
+
+条件不符的勿投。
+
+诚挚欢迎有志者前来应聘，应聘请将个人简历及相关材料通过广西人才网或电子邮件投递。</pre>
+
+                    </div>
+                        <div class="welfare-con con">
+                            <ul class="clearfix">
+                                <li> 周末双休</li><li>五险</li><li>带薪年假</li><li>年终奖金</li><li>绩效奖金</li><li>节日福利</li><li>餐饮补贴</li><li>交通补贴</li><li>差旅费补贴</li><li>员工旅游 </li>
+
+
+                            </ul>
+
+                        </div>
+
+                </div>
+
+
+                <div class="working-place one-column" id="workingPlace">
+                    <div class="title-blue"><i class="border"></i>工作地点</div>
+                    <div class="working-place-con con">
+                        <!--定位地图 begin-->
+                        <div class="company-map">
+                            <div class="mapbox" id="dituContent" style="width:830px; height: 400px; border: 1px solid #ccc; overflow: hidden; background: #efeeea; color: #000; text-align: left;"></div>
+                            <input id="mapboxHiddenLongitude" type="hidden" value="108.345365" />
+                            <input id="mapboxHiddenLatitude" type="hidden" value="22.807554" />
+                        </div>
+                        <script type="text/javascript">
+                            var comTitle = '广西旺砖投资有限公司';
+                            var comDes = "广西南宁市青秀区教育路东巷";
+                            var comLongitude = $("#mapboxHiddenLongitude").val();
+                            var comLatitude = $("#mapboxHiddenLatitude").val();
+                            $("#dituContent").baiduZoom({ title: comTitle, des: comDes, longitude: comLongitude, latitude: comLatitude });
+                            if (comLongitude != 0 || comLatitude != 0) {
+                                $("#workingPlace").show();
+                            }
+                        </script>
+                        <!--定位地图 end-->
+                    </div>
+                </div>
+
+                <div class="contact-info one-column">
+                    <div class="title-blue"><i class="border"></i>其它要求</div>
+                    <div class="contact-info-con con">
+                        <p class="requirements">
+                            <span class="w1">工作性质：<label>全职</label></span>
+                            <span class="w2" title="">专业要求：<label></label></span>
+                            <span class="w3">语言/程度：<label> &nbsp; </label></span>
+                        </p>
+                        <p class="requirements">
+                            <span class="w1">职称要求：<label>无</label></span>
+                            
+                              <span class="w3">更新时间：<label>2022-04-04</label></span>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="pos-details one-column">
+                    <div class="title-blue"><i class="border"></i>公司介绍</div>
+                    <div class="pos-details-con con">
+                        <pre id="examineSensitiveWordsContent2" style="display:none;">      广西旺砖投资有限公司于2010年2月成立，主要从事焦炭、焦粉、焦煤等大宗商品贸易，年均销售超10亿元。总部设在广西南宁市青秀区，目前已在防城港、柳州、北海、百色、云南曲靖、香港设立了办事处，各项产品销售量均领先行业水平。公司秉承“服务优良、客户满意、产品一流”的经营方针，积极开拓渠道，强化服务意识，提升竞争实力。经过多年的经营发展，公司与国内主要钢铁厂、焦化厂等大型实体企业建立了稳健的战略供应关系，同时与国内外多家知名供应商建立了长期的合作关系。目前主要客户为广西柳钢四厂（柳州、防城港、玉林、来宾）、贵钢、北海新材料、阳春新钢铁、昆钢等大型钢厂，在西南、华南地区行业内具有极强的竞争力。
+      公司凭借资源优势及区位优势，现已成为中国西南、华南地区知名大宗商品贸易商，并致力于为客户持续提供超值的产品和优质的服务，不断强化公司在产业链的核心竞争力。
+      广西旺砖投资有限公司是一个充满生机和蓬勃发展的企业，在业务快速稳定增长的同时，积极加强企业文化建设，注重员工自我实现价值，现已拥有一支专业、年青、务实、高效的经营队伍。目前公司业务加速扩张，现招贤纳士，扩充团队，待遇从优。
+      企业精神：诚信、务实、创新
+      经营理念：稳中求胜、质效为先
+      发展目标：组织系统化、决策科学化、管理规范化、工作程序化、效率标准化。</pre>
+
+                    </div>
+                </div>
+
+                <div class="contact-info one-column">
+                    <div class="title-blue"><i class="border"></i>联系方式</div>
+                    <div class="contact-info-con con">
+                        <p>联系人：<label></label></p>
+                        <p>联系电话：<label id="entPhone"></label><button type="button" class="btn" id="checkEntContact">查看</button></p>
+                        
+                        <p>电子邮箱：<label id="entEmail">2876***********</label></p>
+                        <p>联系地址：<label>广西南宁市青秀区教育路东巷</label></p>
+                    </div>
+                </div>
+                    <div class="pos-recommend one-column">
+                        <div class="title-blue"><i class="border"></i>职位推荐</div>
+                        <div class="pos-recommend-con con">
+                            <ul class="clearfix">
+                                    <li>
+                                        <h3>
+                                            <a href="/jobDetail/1b8c8857ae0c4e5787c2849608b56e93" target="_blank" title="预算员（尼日利亚）" class="a pos-name">预算员（尼日利亚）</a>
+                                                                                                                                                                                <span class="salary">10001-15000</span>
+                                        </h3>
+                                        <p><a href="/Company/8816a722-2c09-4568-b79b-0e5a8986b839" target="_blank" title="广西风雨林科技有限公司" class="a ent-name">广西风雨林科技有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="/jobDetail/33b270429d1e4e788cd69b7a972b686e" target="_blank" title="业务内勤主管" class="a pos-name">业务内勤主管</a>
+                                                                                                                                                                                <span class="salary">8001-10000</span>
+                                        </h3>
+                                        <p><a href="/Company/a97b02ba-6d5a-4c81-b9d9-df8f32c4cb45" target="_blank" title="广西旺砖投资有限公司" class="a ent-name">广西旺砖投资有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="/jobDetail/b77d15a22c20405e8808469a3905e308" target="_blank" title="结算主管" class="a pos-name">结算主管</a>
+                                                                                                                                                                                <span class="salary">6001-8000</span>
+                                        </h3>
+                                        <p><a href="/Company/4c4dd334-cae1-4e8a-918c-8ee4abbb8d99" target="_blank" title="南宁杉杉奥特莱斯商业广场有限公司" class="a ent-name">南宁杉杉奥特莱斯商业广场有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="/jobDetail/e34d36263a444edba9fd76abab0fe0dc" target="_blank" title="结算收银员" class="a pos-name">结算收银员</a>
+                                                                                                                                                                                <span class="salary">3001-4000</span>
+                                        </h3>
+                                        <p><a href="/Company/3e98dddf-2dd9-460d-bba2-98cf96525179" target="_blank" title="南宁市天下行丰田汽车销售服务有限公司" class="a ent-name">南宁市天下行丰田汽车销售服务有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="/jobDetail/aa8a3a42d4854fc38fa8993b0235c415" target="_blank" title="统计结算员" class="a pos-name">统计结算员</a>
+                                                                                                                                                                                <span class="salary">2001-3000</span>
+                                        </h3>
+                                        <p><a href="/Company/a50e109b-31c2-4bdd-948c-17a4507057d1" target="_blank" title="广西通程物流有限公司" class="a ent-name">广西通程物流有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="/jobDetail/636fa76779fe4364947ff2e2b3eb61c4" target="_blank" title="信用卡逾期帐户管理专员" class="a pos-name">信用卡逾期帐户管理专员</a>
+                                                                                            <span class="pos-state bys">毕</span>
+                                                                                                                                    <span class="salary">5001-6000</span>
+                                        </h3>
+                                        <p><a href="/Company/341cbea5-9f27-4ce4-8128-a61c9f4795d2" target="_blank" title="广西恒运信息咨询有限公司" class="a ent-name">广西恒运信息咨询有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="/jobDetail/d114a3ed40ea44e3be72b7f9bd248465" target="_blank" title="结算员" class="a pos-name">结算员</a>
+                                                                                                                                                                                <span class="salary">2001-3000</span>
+                                        </h3>
+                                        <p><a href="/Company/3c8cc052-a41a-4c78-aca4-c9e1f85d072c" target="_blank" title="广西恒安汽车销售服务有限公司" class="a ent-name">广西恒安汽车销售服务有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="/jobDetail/3fb4fa330f9b48e9af06bf8785dff66c" target="_blank" title="银行信用卡清算人员" class="a pos-name">银行信用卡清算人员</a>
+                                                                                                                                                                                <span class="salary">6001-8000</span>
+                                        </h3>
+                                        <p><a href="/Company/ed640c9b-bdc2-4be3-b77a-1620cf366def" target="_blank" title="广东浩传管理服务有限公司南宁分公司" class="a ent-name">广东浩传管理服务有限公司南宁分公司</a></p>
+                                    </li>
+
+
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="//s.gxrc.com/sJob?schType=1&posType=6101" class="btn btn-blue-border btn-check-more" target="_blank">查看更多职位</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+            <div class="main-right fr">
+                <div class="ent-wrap clearfix">
+                    <div class="ent-logo">
+                        <a id="entHead" href="/Company/a97b02ba-6d5a-4c81-b9d9-df8f32c4cb45" target="_blank" class="ent-head"><img src="//image.gxrc.com/gxrcsite/vip/headpic_ents_default.png" /></a>
+                    </div>
+                    <div class="ent-name">
+                        <a href="/Company/a97b02ba-6d5a-4c81-b9d9-df8f32c4cb45" target="_blank" class="a">广西旺砖投资有限公司</a>
+                    </div>
+                </div>
+                <div id="entDetails" class="ent-details">
+                    <p><span><i class="iconfont icon-building7"></i></span><span>民营企业</span></p>
+                    <p><span><i class="iconfont icon-people7"></i></span><span>51-100人</span></p>
+                    <p><span><i class="iconfont icon-detailed3"></i></span><span>贸易/进出口</span></p>
+                    <p><span><i class="iconfont icon-position4"></i></span><span class="address">广西南宁市青秀区教育路东巷</span></p>
+                </div>
+                <div class="btn-wrap">
+                    <a href="/Company/a97b02ba-6d5a-4c81-b9d9-df8f32c4cb45" class="btn btn-blue-border btn-check-all">查看该公司所有职位</a>
+                </div>
+                    <div class="interesting">
+                        <div class="title-blue"><i class="border"></i>看过该职位的人还看了</div>
+                        <div class="interesting-con">
+                            <ul>
+                                    <li>
+                                        <h3><a href="/jobDetail/3d551f2d564d47da8d750c300414eebe" target="_blank" title="市场营销岗（央企校招）" class="a">市场营销岗（央企校招）</a></h3>
+                                        <p class="salary">10001-15000</p>
+                                        <p><a href="/Company/350e0c90-fec7-4ec4-9648-b90a256d7427" target="_blank" title="广西中建西部建设有限公司" class="a ent-name">广西中建西部建设有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3><a href="/jobDetail/6f0ac15bda81468980ec5ab3f12e0fc8" target="_blank" title="安装成本结算" class="a">安装成本结算</a></h3>
+                                        <p class="salary">10001-15000</p>
+                                        <p><a href="/Company/d0b9c76b-829b-477c-8ad7-59c3f6bc8794" target="_blank" title="广西彰泰房地产开发有限公司" class="a ent-name">广西彰泰房地产开发有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3><a href="/jobDetail/1b392419a02e4091b1f96116b6ca65d9" target="_blank" title="统计专员" class="a">统计专员</a></h3>
+                                        <p class="salary">4001-5000</p>
+                                        <p><a href="/Company/5aa62125-f25a-4714-a517-03424327630e" target="_blank" title="广西佳年投资集团有限公司" class="a ent-name">广西佳年投资集团有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3><a href="/jobDetail/e1cbbc4bd8924854810232b93a7f5bf3" target="_blank" title="统计专员" class="a">统计专员</a></h3>
+                                        <p class="salary">3001-4000</p>
+                                        <p><a href="/Company/778f8dbf-056d-4b27-ad85-979c6f477775" target="_blank" title="广西仙茱制药有限公司" class="a ent-name">广西仙茱制药有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3><a href="/jobDetail/1b8c8857ae0c4e5787c2849608b56e93" target="_blank" title="预算员（尼日利亚）" class="a">预算员（尼日利亚）</a></h3>
+                                        <p class="salary">10001-15000</p>
+                                        <p><a href="/Company/8816a722-2c09-4568-b79b-0e5a8986b839" target="_blank" title="广西风雨林科技有限公司" class="a ent-name">广西风雨林科技有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3><a href="/jobDetail/c103005f5b2a46c78d32d823a4bb58e3" target="_blank" title="预算员" class="a">预算员</a></h3>
+                                        <p class="salary">6001-8000</p>
+                                        <p><a href="/Company/e512966e-b395-40be-8f3f-318b47ea9df7" target="_blank" title="广西鹏宁建筑劳务有限公司" class="a ent-name">广西鹏宁建筑劳务有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3><a href="/jobDetail/636fa76779fe4364947ff2e2b3eb61c4" target="_blank" title="信用卡逾期帐户管理专员" class="a">信用卡逾期帐户管理专员</a></h3>
+                                        <p class="salary">5001-6000</p>
+                                        <p><a href="/Company/341cbea5-9f27-4ce4-8128-a61c9f4795d2" target="_blank" title="广西恒运信息咨询有限公司" class="a ent-name">广西恒运信息咨询有限公司</a></p>
+                                    </li>
+                                    <li>
+                                        <h3><a href="/jobDetail/b56f13f309fb490ebdfd6add66a6ed01" target="_blank" title="结算员" class="a">结算员</a></h3>
+                                        <p class="salary">4001-5000</p>
+                                        <p><a href="/Company/4340a5b6-c517-49b1-80d4-1c766c7ea8ba" target="_blank" title="南宁中达桂之宝汽车销售服务有限公司" class="a ent-name">南宁中达桂之宝汽车销售服务有限公司</a></p>
+                                    </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+        <div class="reminder w1200 clearfix" id="reminder">
+            <i class="iconfont icon-warn2"></i>
+            <p>提示：若用人单位存在发布虚假招聘广告，以招聘为名的培训、招生，许诺推荐其他工作机会，提供培训贷款，或者以其他任何名义向求职者收取财物（如支付体检费、服装费、押金、办卡费、培训费等），以及扣押或以保管为名索要身份证、毕业证及其他证件的，都属于违法行为。请您提高警惕并注意保护个人信息！如遇涉密信息或情报收集活动，请及时拨打国家安全机关举报热线12339进行举报。<a href="//my.gxrc.com/Qa?t=1&enterpriseID=1481979&positionGuid=33b270429d1e4e788cd69b7a972b686e" class="jb a" target="_blank">立即举报</a></p>
+            <a href="javascript:;" class="close">×</a>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+        
+        <link href="/Content/Css/footer.css?v=1.2" rel="stylesheet" />
+
+    <div id="footer" class="footer bg-white">
+        <div class="copyright w1200">
+    <p>企业服务热线、服务监督热线：<span class="phone">400-0771-056</span></p>
+    <p>广西人才网（<a href="http://www.gxrc.com/" class="a">www.gxrc.com</a>）— 中国广西人才市场主办</p>
+    <p>本网站之所有招聘信息、作品、版权均归广西智汇佳人力资源有限公司所有，未经书面授权不得转载。</p>
+    <p class="beian">
+        <span><a href="https://beian.miit.gov.cn/" target="_blank">工信部备案号：桂ICP备16010643号-2</a></span>
+        <span><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45010302000262"><img src="//maze.gxrc.com/image/global/gonganbeianhao.png">桂公网安备：45010302000262号</a></span>
+        <span><a target="_blank" href="//share.gxrc.com/HtmlView/2021/licence.html#rlzyxkz">人力资源服务许可证：450000000012号</a></span>
+        <span>
+            <a target="_blank" href="//share.gxrc.com/HtmlView/2021/licence.html#2020zzdxykz">
+                增值电信业务经营许可证：桂B-20170051
+            </a>
+        </span>
+
+    </p>
+    <p class="beian">
+        <span><a target="_blank" href="//share.gxrc.com/HtmlView/2021/licence.html#yyzz">营业执照</a></span>
+        <span>
+            <a target="_blank" href="//share.gxrc.com/HtmlView/2021/licence.html#rlzy">
+                人力资源服务机构备案证书
+            </a>
+        </span>
+    </p>
+<p class="beian">
+<span>广西人才网APP</span><span>版本：6.3.1</span><span><a target="_blank" href="https://app.gxrc.com/privacy.html">隐私政策</a></span><span><a target="_blank" href="https://app.gxrc.com/HtmlView/quanxian.html">权限详情</a></span><span>开发者：广西智汇佳人力资源有限公司</span>
+</p>
+</div>
+<div class="security-wrap w1200">
+    <a target="_blank" href="https://v.yunaq.com/certificate?domain=www.gxrc.com&amp;from=label&amp;code=90020"><img src="//image.gxrc.com/gxrcsite/global/shiMingRenZheng.png" height="42" class="rz" /></a>
+    <a href="//si.trustutn.org/info?sn=279191022038819847846&amp;certType=1" target="_blank" class="shiming"><img src="//image.gxrc.com/gxrcsite/global/pinPaiGuanWang.jpg" alt="品牌官网" title="品牌官网" class="rz" /></a>
+    <a href="https://www.12377.cn/" target="_blank" class="jubao"><img src="//image.gxrc.com/gxrcsite/global/youHaiJuBao.gif" alt="有害信息举报" class="rz" /></a>
+    <a href="http://www.gxjubao.org.cn/" target="_blank" class="jubao"><img src="//image.gxrc.com/gxrcsite/global/weiFaBuLiangJuBao.gif" alt="违法和不良信息举报" class="rz" /></a>
+    <a href="http://www.nnjbpy.org.cn/" target="_blank" class="jubao"><img src="//image.gxrc.com/gxrcsite/global/piyao.png" alt="辟谣平台" class="rz" /></a>
+</div>
+<div class="site-nav">
+    <div class="w1200">
+        <a href="//image.gxrc.com/gxrcsite/zt/MobileApp/index.htm" target="_blank">手机版</a><span class="vl">│</span><a href="//www.gxrc.com/About/RenCaiShiChang" target="_blank">中国广西人才市场</a><span class="vl">│</span><a href="//www.gxrc.com/About/RenCaiWang" target="_blank">广西人才网</a><span class="vl">│</span><a href="//www.gxrc.com/About/Index" target="_blank">企业服务</a><span class="vl">│</span><a href="//www.gxrc.com/About/JobSeekerService" target="_blank">人才服务</a><span class="vl">│</span><a href="//www.gxrc.com/About/Legal" target="_blank">法律声明</a><span class="vl">│</span><a href="//www.gxrc.com/About/Bank" target="_blank" class="bank">银行账户</a><span class="vl">│</span><a href="//www.gxrc.com/About/SiteMap" target="_blank">网站导航</a><span class="vl">│</span><a href="//my.gxrc.com/Qa" target="_blank">用户意见</a><span class="vl">│</span><a href="//www.gxrc.com/About/FriendsLink" target="_blank">友情链接</a>
+    </div>
+</div>
+  
+    
+    </div>
+
+    </div>
+   
+    
+    <script src="//maze.gxrc.com/js/siteJs/mgc.js?v=2020"></script>
+    <script>
+        //检查敏感词汇
+        var kws = mgWords;
+        var o_content = document.getElementById("examineSensitiveWordsContent");
+        var o_content2 = document.getElementById("examineSensitiveWordsContent2");
+        var conhtml = o_content.innerHTML;
+        var conhtml2 = o_content2.innerHTML;
+
+        for (var i = 0; i < kws.length; i++) {
+            if (kws[i] != "") {
+                if (location.href.indexOf('96564e1610b140709bf59808a9c98f8b') > -1) {
+                    if (kws[i] === '邓小平' || kws[i] === '习近平' || kws[i] === '三个代表') {
+                        continue;
+                    }
+                }
+                var reg2 = new RegExp('(?![<>&][^<>&;]*)(' + kws[i] + ')(?![^<>&;]*[;>])', "gi");
+                conhtml = conhtml.replace(reg2, "*");
+                conhtml2 = conhtml2.replace(reg2, "*");
+            }
+        }
+        o_content.innerHTML = conhtml;
+        o_content.style.display = "block";
+        o_content2.innerHTML = conhtml2;
+        o_content2.style.display = "block";
+        //end 检查敏感词汇
+        function applyPosition() {//申请职位
+            $.ajax({
+                type: "POST",
+                url: "/UserService/LoginInfo?GetData=true",
+                dataType: "JSON",
+                success: function (data) {
+                    $("#Login_No").hide();
+                    $("#login_jobseekerInfo").hide();
+                    $("#login_enterpriseInfo").hide();
+                    if (data.IsLogin && data.UserType > 0) {
+                        layer.open({
+                            type: 2,
+                            shade: 0.3,
+                            shadeClose: true,
+                            fix: false,
+                            title: "职位申请",
+                            area: ['600px', '450px'],
+                            content: '/Home/ResumeSelection?PostionGuid=' + '33b270429d1e4e788cd69b7a972b686e',
+                            close: function (index) {
+                                layer.close(index);
+                            }
+                        });
+                    }
+                    else {
+                        window.location.href = "//my.gxrc.com/login?returnUrl=" + encodeURI(window.location.href);
+                    }
+                }
+            });
+
+        }
+        function deliveryResults() {//申请结果
+            layer.open({
+                type: 2,
+                shade: 0.3,
+                offset: ["100px", ""],
+                shadeClose: true,
+                fix: false,
+                title: "职位申请",
+                area: ['722px', '726px'],
+                content: '/Home/JobDelivery',
+                close: function (index) {
+                    layer.close(index);
+                }
+            });
+        }
+
+        $(function () {
+            //头部漂浮
+            $(window).scroll(function () {
+                var $header = $("#header");
+                var top = $(window).scrollTop();
+                if (top < 50) {
+                    $header.removeClass("header-float");
+                } else {
+                    $header.addClass("header-float");
+                }
+            });
+
+            //关闭温馨提示
+            $('#reminder .close').click(function () {
+                $("#reminder").hide();
+            });
+
+            var chatBusiTemp = 'True';
+
+            if (chatBusiTemp == "True") {
+                //直聊
+                var zhiliaoBtn = document.getElementById('zhiliaoBtn');
+
+                zhiliaoBtn.onmouseover = function (target) {
+                    var zhiliaoBox = document.getElementById('zhiliaoBox');
+                    zhiliaoBox.style.top = (target.offsetTop + 20) + 'px';
+                    zhiliaoBox.style.left = target.offsetLeft + 'px';
+                    zhiliaoBox.style.display = 'block';
+                }
+
+                zhiliaoBtn.onmouseout = function () {
+                    var zhiliaoBox = document.getElementById('zhiliaoBox');
+                    zhiliaoBox.style.display = 'none';
+                }
+            }
+
+        });
+
+        //查看企业联系方式
+        document.getElementById('checkEntContact').onclick = function () {
+            var phone = document.getElementById('entPhone');
+            var email = document.getElementById('entEmail');
+
+            if (phone.innerHTML.indexOf('<img') < 0) {
+                this.innerHTML='请稍后...';
+
+                var url = document.getElementById('entHead').href;
+                var str = /(\w+):\/\/([^/:]+)([^# ]*)/;
+                var ary = url.match(str);
+                var id = ary[3].substr(9);
+
+                $.ajax({
+                    url: "/getentcontacts/" + id,
+                    success: function (data) {
+                        var btn = document.getElementById('checkEntContact');
+                        if (data.code == 0) {
+                            layer.confirm('您还未登录，登录后可查看。', {
+                              btn: ['立即登录','取消'] //按钮
+                            }, function(){
+                              window.location.href = "//my.gxrc.com/login?returnUrl=" + encodeURI(window.location.href);
+                            }, function(){
+                                    layer.closeAll();
+                                    btn.innerHTML='查看';
+                            });
+                            document.querySelector('.layui-layer-close').onclick = function () {
+                                document.getElementById('checkEntContact').innerHTML='查看';
+                            };
+                        } else if (data.code == 1) {
+                            var html = '<img src="/home/Phone/' + data.tel + '" />';
+                            phone.innerHTML = html;
+                            email.innerHTML = data.email;
+                            btn.style.display = 'none';
+                        } else {
+                            alert('企业不存在');
+                        }
+                    }
+                });
+            }
+        };
+    </script>
+
+    <link href="/Content/Css/rightFloat.css" rel="stylesheet" />
+<style>
+    .right-float .gototop .smalla{border-top:1px solid #d2d2d2;}
+</style>
+<div id="rightFloat" class="right-float">
+    <div class="lattice gototop" id="gototop">
+        <a href="javascript:;" class="smalla">
+            <!--[if lte IE 8]>顶部<![endif]--><span class="iconfont icon-toTop1"></span>
+        </a>
+    </div>
+</div>
+<script src="/Content/Js/rightFloat.js"></script>
+    
+
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280292347'%3E%3C/span%3E%3Cscript src='https://w.cnzz.com/q_stat.php%3Fid%3D1280292347' type='text/javascript'%3E%3C/script%3E"));</script>
+        <!--广西人才网·主站 统计代码-->
+        <script type="text/javascript">
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cdiv id='cnzz_stat_icon_1000001540'%3E%3C/div%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/q_stat.php%3Fid%3D1000001540' type='text/javascript'%3E%3C/script%3E"));
+
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?8b5e38a6a547f78d5f305bf6658222cd";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+
+</body>
+</html>
